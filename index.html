@@ -215,6 +215,187 @@
     color: white;
   }
 
+  /* --- Toggle PDF Button --- */
+  .btn-toggle-pdf {
+    background: #f1f5f9;
+    border: 1px solid #cbd5e1;
+    color: #475569;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 6px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .btn-toggle-pdf:hover {
+    background: #e2e8f0;
+    color: #1e293b;
+    border-color: #94a3b8;
+  }
+  .pdf-visible .btn-toggle-pdf {
+    background: #e0f2fe;
+    border-color: #bae6fd;
+    color: #0369a1;
+  }
+  .pdf-visible .btn-toggle-pdf:hover {
+    background: #bae6fd;
+    color: #0369a1;
+  }
+
+  /* --- Split-Screen App Layout --- */
+  body {
+    transition: background 0.3s ease;
+  }
+  .app-layout {
+    width: 100%;
+    margin: 0 auto;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .app-layout:not(.pdf-visible) .pdf-container {
+    display: none !important;
+  }
+  .app-layout:not(.pdf-visible) .container {
+    max-width: 700px;
+    width: 100%;
+  }
+
+  /* --- PDF Panel Layout --- */
+  .pdf-container {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+  }
+  .pdf-header {
+    background: #f8f9fa;
+    padding: 14px 20px;
+    border-bottom: 1px solid #e2e8f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .pdf-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #2c3e50;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .pdf-status-text {
+    font-size: 11px;
+    font-weight: 600;
+    color: #0284c7;
+    background: #e0f2fe;
+    padding: 3px 10px;
+    border-radius: 12px;
+  }
+  .pdf-iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: #f1f5f9;
+  }
+
+  /* --- Explanation Panel --- */
+  .explanation-box {
+    margin-top: 20px;
+    background: #fffbeb;
+    border: 1px solid #fde68a;
+    border-left: 4px solid #f59e0b;
+    border-radius: 12px;
+    padding: 16px 20px;
+    animation: fadeIn 0.3s ease-out;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(4px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .explanation-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #b45309;
+    margin-bottom: 4px;
+  }
+  .explanation-loc {
+    font-size: 11px;
+    font-weight: 700;
+    color: #d97706;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+  }
+  .explanation-text {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #78350f;
+    font-style: italic;
+  }
+
+  /* --- Desktop Split-Screen Responsive Layout --- */
+  @media (min-width: 1024px) {
+    .app-layout.pdf-visible {
+      flex-direction: row;
+      gap: 24px;
+      max-width: 1400px;
+      width: 100%;
+      height: calc(100vh - 40px);
+      align-items: stretch;
+      justify-content: center;
+    }
+    .app-layout.pdf-visible .quiz-container {
+      flex: 1;
+      max-width: 600px;
+      height: 100%;
+      overflow-y: auto;
+      scrollbar-width: thin;
+      scrollbar-color: #cbd5e1 transparent;
+      border-radius: 20px;
+    }
+    .app-layout.pdf-visible .quiz-container::-webkit-scrollbar {
+      width: 6px;
+    }
+    .app-layout.pdf-visible .quiz-container::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    .app-layout.pdf-visible .quiz-container::-webkit-scrollbar-thumb {
+      background-color: #cbd5e1;
+      border-radius: 3px;
+    }
+    .app-layout.pdf-visible .pdf-container {
+      flex: 1.4;
+      height: 100%;
+      display: flex;
+    }
+  }
+
+  /* --- Mobile/Tablet Stacked Layout --- */
+  @media (max-width: 1023px) {
+    .app-layout.pdf-visible {
+      gap: 20px;
+      width: 100%;
+    }
+    .app-layout.pdf-visible .quiz-container {
+      width: 100%;
+      max-width: 100%;
+    }
+    .app-layout.pdf-visible .pdf-container {
+      width: 100%;
+      height: 600px;
+      display: flex;
+    }
+  }
+
   .hidden { display: none !important; }
   @media (max-width: 600px) {
     .container { padding: 24px; }
@@ -226,14 +407,18 @@
 </style>
 </head>
 <body>
-<div class="container">
-  <div class="badge">&#127466;&#127480; CCSE</div>
-  <h1>Preguntas CCSE</h1>
+<div class="app-layout" id="app-layout">
+  <div class="container quiz-container">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+      <div class="badge" style="margin-bottom: 0;">&#127466;&#127480; CCSE</div>
+      <button id="pdf-toggle-btn" class="btn-toggle-pdf" onclick="togglePdfView()">📖 Mostrar Manual</button>
+    </div>
+    <h1>Preguntas CCSE</h1>
   <p class="subtitle">Conocimientos Constitucionales y Socioculturales de Espa&ntilde;a</p>
 
   <div class="mode-tabs">
     <button class="mode-tab active" id="tab-practice" onclick="setMode('practice')">&#128214; Practicar</button>
-    <button class="mode-tab" id="tab-test" onclick="setMode('test')">&#128221; Test</button>
+    <button class="mode-tab" id="tab-test" onclick="setMode('test')">&#128221; Examen</button>
   </div>
 
   <div id="loading" class="loading">
@@ -270,7 +455,15 @@
     <div class="options" id="p-options"></div>
     <div class="result-box" id="p-result"></div>
 
+    <!-- Explanation Panel (initially hidden) -->
+    <div id="p-explanation-box" class="explanation-box hidden">
+      <div class="explanation-title">💡 Explicación del Manual</div>
+      <div class="explanation-loc" id="p-explanation-loc"></div>
+      <div class="explanation-text" id="p-explanation-text"></div>
+    </div>
+
     <div class="actions">
+      <button id="p-help-btn" class="btn btn-warning hidden" onclick="pShowHelp()">💡 Ayúdame</button>
       <button class="btn btn-primary" onclick="pNext()">Siguiente &rarr;</button>
     </div>
     <div class="stats-bar">
@@ -283,7 +476,7 @@
   <div id="test-start" class="hidden">
     <div id="ts-before">
       <p style="text-align:center;color:#2c3e50;font-size:15px;line-height:1.6;margin-bottom:20px;">
-        El test consta de <strong>25 preguntas</strong> repartidas as&iacute;:<br>
+        El examen consta de <strong>25 preguntas</strong> repartidas as&iacute;:<br>
         <strong>10</strong> de pol&iacute;tica (1xxx) &middot;
         <strong>3</strong> de derechos (2xxx) &middot;
         <strong>2</strong> de geograf&iacute;a (3xxx) &middot;
@@ -291,7 +484,7 @@
         <strong>7</strong> de pr&aacute;ctica (5xxx)
       </p>
       <div style="text-align:center;">
-        <button class="btn btn-primary" style="max-width:250px;width:100%;" onclick="generateTestPreview()">Generar test</button>
+        <button class="btn btn-primary" style="max-width:250px;width:100%;" onclick="generateTestPreview()">Generar examen</button>
       </div>
     </div>
     <div id="ts-after" class="hidden">
@@ -301,7 +494,7 @@
       <div id="ts-preview" style="background:#f8f9fa;border-radius:10px;padding:16px;margin-bottom:18px;font-size:13px;max-height:240px;overflow-y:auto;line-height:1.8;">
       </div>
       <div style="text-align:center;">
-        <button class="btn btn-primary" style="max-width:250px;width:100%;" onclick="startTest()">Comenzar test &rarr;</button>
+        <button class="btn btn-primary" style="max-width:250px;width:100%;" onclick="startTest()">Comenzar examen &rarr;</button>
       </div>
     </div>
   </div>
@@ -309,7 +502,7 @@
   <!-- TEST MODE: ACTIVE TEST -->
   <div id="test-active" class="hidden">
     <div class="progress-text">
-      Test: pregunta <span id="t-current-num">1</span> de <span id="t-total-num">25</span>
+      Examen: pregunta <span id="t-current-num">1</span> de <span id="t-total-num">25</span>
       &nbsp;&nbsp;|&nbsp;&nbsp; <span id="t-progress-bar" style="display:inline-block;width:100px;height:8px;background:#eee;border-radius:4px;vertical-align:middle;overflow:hidden;">
         <span id="t-progress-fill" style="display:block;height:100%;width:0%;background:#27ae60;border-radius:4px;transition:width 0.3s;"></span>
       </span>
@@ -337,7 +530,7 @@
       <div class="results-actions">
         <button class="btn btn-primary" onclick="setMode('practice')">&#128214; Seguir practicando</button>
         <button class="btn btn-warning" id="r-review-btn" onclick="showReview()">&#128203; Revisar fallos (<span id="r-review-count">0</span>)</button>
-        <button class="btn btn-secondary" onclick="setMode('test')">&#128221; Nuevo test</button>
+        <button class="btn btn-secondary" onclick="setMode('test')">&#128221; Nuevo examen</button>
       </div>
     </div>
     <div class="review-section hidden" id="review-section">
@@ -350,7 +543,22 @@
   </div>
 </div>
 
+  <div class="pdf-container" id="pdf-container">
+    <div class="pdf-header">
+      <div class="pdf-title">
+        <span>📖</span> Manual de Estudio CCSE 2026
+      </div>
+      <div>
+        <span class="pdf-status-text" id="pdf-status-text">Manual cerrado</span>
+      </div>
+    </div>
+    <iframe id="pdf-frame" class="pdf-iframe" src="about:blank"></iframe>
+  </div>
+</div>
+
 <script>
+let explanationsData = {};
+let pdfLoaded = false;
 let answerLocked = false;
 
 const CORRECT_ANSWERS = {
@@ -403,9 +611,21 @@ function show(id) {
 
 async function loadQuestions() {
   try {
-    const resp = await fetch('allqs.json');
-    if (!resp.ok) throw new Error('HTTP ' + resp.status);
-    questions = await resp.json();
+    const [qsResp, expResp] = await Promise.all([
+      fetch('allqs.json'),
+      fetch('explanatory_study_text.json').catch(e => {
+        console.warn("Could not load explanations:", e);
+        return null;
+      })
+    ]);
+
+    if (!qsResp.ok) throw new Error('HTTP ' + qsResp.status);
+    questions = await qsResp.json();
+
+    if (expResp && expResp.ok) {
+      explanationsData = await expResp.json();
+    }
+
     document.getElementById('loading').style.display = 'none';
     document.getElementById('tab-practice').classList.add('active');
     show('practice-mode');
@@ -416,6 +636,12 @@ async function loadQuestions() {
     setProgressionMode('next');
     pIndex = 0;
     pRender(questions[pIndex]);
+
+    // Restore PDF visibility preference
+    const savedPdfVisible = localStorage.getItem('ccse_pdf_visible');
+    if (savedPdfVisible === 'true') {
+      togglePdfView(true);
+    }
   } catch (err) {
     document.getElementById('loading').innerHTML =
       '<p style="color:#e74c3c;">Error: ' + err.message + '</p>' +
@@ -489,6 +715,21 @@ function pRender(q) {
   answerLocked = false;
   document.getElementById('p-result').className = 'result-box';
   document.getElementById('p-result').style.display = 'none';
+
+  // Hide explanation panel for the new question
+  const explanationBox = document.getElementById('p-explanation-box');
+  if (explanationBox) explanationBox.classList.add('hidden');
+  
+  // Show/Hide Help button based on whether explanations exist for this question
+  const helpBtn = document.getElementById('p-help-btn');
+  if (helpBtn) {
+    if (explanationsData && explanationsData[q.id]) {
+      helpBtn.classList.remove('hidden');
+    } else {
+      helpBtn.classList.add('hidden');
+    }
+  }
+
   document.getElementById('p-q-id').textContent = 'ID: ' + q.id;
   document.getElementById('p-q-text').textContent = q.question;
   document.getElementById('p-current-num').textContent = pIndex + 1;
@@ -741,6 +982,110 @@ function showReview() {
   } else {
     section.classList.add('hidden');
   }
+}
+
+// ---- PDF VIEW AND HELP ME EXPLANATION NAVIGATION ----
+
+function extractPageNumber(locationStr) {
+  if (!locationStr) return 1;
+  const match = locationStr.match(/Page\s+(\d+)/i);
+  if (match) {
+    return parseInt(match[1], 10);
+  }
+  return 1;
+}
+
+function extractSearchPhrase(text) {
+  if (!text) return "";
+  // Clean up bracketed ellipses and quotes
+  let cleanText = text.replace(/\[\.\.\.\]/g, " ").replace(/[.,\/#!$%\^&\*;:{}=\-_`~()""““”]/g, "");
+  const words = cleanText.split(/\s+/).filter(w => w.length > 0);
+  // Take first 4 words to ensure a unique but matching search snippet
+  const phrase = words.slice(0, 4).join(" ");
+  return phrase;
+}
+
+function loadPdfInIframe(page, searchPhrase) {
+  const iframe = document.getElementById('pdf-frame');
+  if (!iframe) return;
+  
+  let url = 'pdfjs/web/viewer.html';
+  let hash = '?file=../../manual-ccse-2026-def.pdf';
+  if (page) {
+    hash += '#page=' + page;
+    if (searchPhrase) {
+      hash += '&search=' + encodeURIComponent(searchPhrase);
+      hash += '&phrase=true';
+    }
+  }
+  
+  // To force native PDF viewers to reload and navigate to the new hash,
+  // we reset the iframe src to about:blank if it has already been loaded once.
+  if (pdfLoaded) {
+    iframe.src = 'about:blank';
+    setTimeout(function() {
+      iframe.src = url + hash;
+    }, 50);
+  } else {
+    iframe.src = url + hash;
+    pdfLoaded = true;
+  }
+  
+  const statusText = document.getElementById('pdf-status-text');
+  if (statusText) {
+    statusText.textContent = page ? 'Página ' + page : 'Inicio';
+  }
+}
+
+function togglePdfView(forceShow) {
+  const layout = document.getElementById('app-layout');
+  const btn = document.getElementById('pdf-toggle-btn');
+  if (!layout) return;
+  
+  let show = !layout.classList.contains('pdf-visible');
+  if (typeof forceShow === 'boolean') {
+    show = forceShow;
+  }
+  
+  if (show) {
+    layout.classList.add('pdf-visible');
+    if (btn) btn.textContent = '📖 Ocultar Manual';
+    localStorage.setItem('ccse_pdf_visible', 'true');
+    if (!pdfLoaded) {
+      loadPdfInIframe(1);
+    }
+  } else {
+    layout.classList.remove('pdf-visible');
+    if (btn) btn.textContent = '📖 Mostrar Manual';
+    localStorage.setItem('ccse_pdf_visible', 'false');
+  }
+}
+
+function pShowHelp() {
+  const q = questions[pIndex];
+  if (!q) return;
+  
+  const expInfo = explanationsData[q.id];
+  if (!expInfo || !expInfo.explanations || expInfo.explanations.length === 0) return;
+  
+  const exp = expInfo.explanations[0];
+  
+  const box = document.getElementById('p-explanation-box');
+  const locEl = document.getElementById('p-explanation-loc');
+  const textEl = document.getElementById('p-explanation-text');
+  
+  if (box && locEl && textEl) {
+    locEl.textContent = exp.location;
+    textEl.textContent = exp.text;
+    box.classList.remove('hidden');
+    box.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
+  
+  const page = extractPageNumber(exp.location);
+  const searchPhrase = extractSearchPhrase(exp.text);
+  
+  togglePdfView(true);
+  loadPdfInIframe(page, searchPhrase);
 }
 
 document.addEventListener('DOMContentLoaded', loadQuestions);

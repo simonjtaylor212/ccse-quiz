@@ -14,7 +14,10 @@ class Handler(http.server.SimpleHTTPRequestHandler):
 
     def log_message(self, format, *args):
         # Clean, minimal logging
-        print(f"[{self.log_date_time_string()}] {args[0]} {args[1]} {args[2]}")
+        try:
+            print(f"[{self.log_date_time_string()}] {format % args}")
+        except Exception:
+            super().log_message(format, *args)
 
 if __name__ == "__main__":
     os.chdir(DIRECTORY)

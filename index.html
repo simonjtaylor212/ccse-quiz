@@ -143,6 +143,78 @@
   .review-item .r-answer.wrong { color: #dc3545; }
   .review-item .r-answer.right { color: #28a745; }
 
+  .practice-controls {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 20px;
+    background: #f8f9fa;
+    border-radius: 14px;
+    padding: 16px;
+    border: 1px solid #e2e8f0;
+    flex-wrap: wrap;
+  }
+  .control-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    flex: 1;
+    min-width: 180px;
+  }
+  .control-label {
+    font-size: 12px;
+    font-weight: 700;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .select-q {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: 2px solid #e2e8f0;
+    font-size: 14px;
+    font-weight: 500;
+    color: #334155;
+    background-color: white;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.2s ease;
+  }
+  .select-q:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.15);
+  }
+  .toggle-group {
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 2px solid #e2e8f0;
+    background: white;
+  }
+  .toggle-btn {
+    flex: 1;
+    padding: 10px 14px;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    background: white;
+    color: #64748b;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-align: center;
+  }
+  .toggle-btn:not(:last-child) {
+    border-right: 2px solid #e2e8f0;
+  }
+  .toggle-btn:hover:not(.active) {
+    background: #f1f5f9;
+    color: #334155;
+  }
+  .toggle-btn.active {
+    background: #3498db;
+    color: white;
+  }
+
   .hidden { display: none !important; }
   @media (max-width: 600px) {
     .container { padding: 24px; }
@@ -173,6 +245,23 @@
   <div id="practice-mode" class="hidden">
     <div class="progress-text">Pregunta <span id="p-current-num">1</span> de <span id="p-total-num">251</span></div>
 
+    <!-- Practice Mode Controls -->
+    <div class="practice-controls">
+      <div class="control-group">
+        <label class="control-label" for="p-select-question">Ir a la pregunta:</label>
+        <select id="p-select-question" class="select-q" onchange="pSelectQuestionChanged()">
+          <!-- Populated dynamically -->
+        </select>
+      </div>
+      <div class="control-group">
+        <span class="control-label">Siguiente pregunta:</span>
+        <div class="toggle-group">
+          <button id="p-mode-next" class="toggle-btn active" onclick="setProgressionMode('next')">Secuencial</button>
+          <button id="p-mode-random" class="toggle-btn" onclick="setProgressionMode('random')">Aleatoria</button>
+        </div>
+      </div>
+    </div>
+
     <div class="question-card">
       <div class="question-number" id="p-q-id">ID: &mdash;</div>
       <div class="question-text" id="p-q-text">Cargando&hellip;</div>
@@ -183,7 +272,6 @@
 
     <div class="actions">
       <button class="btn btn-primary" onclick="pNext()">Siguiente &rarr;</button>
-      <button class="btn btn-secondary" onclick="pRandom()">&#127922; Aleatoria</button>
     </div>
     <div class="stats-bar">
       <span id="p-stat-total">Total: 251</span>
@@ -297,6 +385,7 @@ const CORRECT_ANSWERS = {
 
 let questions = [];
 let pIndex = 0;
+let pProgressionMode = 'next';
 
 // Test state
 let testQuestions = [];
@@ -322,7 +411,11 @@ async function loadQuestions() {
     show('practice-mode');
     document.getElementById('p-total-num').textContent = questions.length;
     document.getElementById('p-stat-total').textContent = 'Total: ' + questions.length;
-    pRandom();
+    
+    populateQuestionSelect();
+    setProgressionMode('next');
+    pIndex = 0;
+    pRender(questions[pIndex]);
   } catch (err) {
     document.getElementById('loading').innerHTML =
       '<p style="color:#e74c3c;">Error: ' + err.message + '</p>' +
@@ -365,6 +458,33 @@ function setMode(mode) {
 }
 
 // ---- PRACTICE MODE ----
+function populateQuestionSelect() {
+  const select = document.getElementById('p-select-question');
+  if (!select) return;
+  select.innerHTML = '';
+  questions.forEach(function(q, idx) {
+    const opt = document.createElement('option');
+    opt.value = idx;
+    const textSnippet = q.question.length > 55 ? q.question.substring(0, 52) + '...' : q.question;
+    opt.textContent = q.id + ' - ' + textSnippet;
+    select.appendChild(opt);
+  });
+}
+
+function pSelectQuestionChanged() {
+  const select = document.getElementById('p-select-question');
+  const idx = parseInt(select.value, 10);
+  if (isNaN(idx) || idx < 0 || idx >= questions.length) return;
+  pIndex = idx;
+  pRender(questions[pIndex]);
+}
+
+function setProgressionMode(mode) {
+  pProgressionMode = mode;
+  document.getElementById('p-mode-next').classList.toggle('active', mode === 'next');
+  document.getElementById('p-mode-random').classList.toggle('active', mode === 'random');
+}
+
 function pRender(q) {
   answerLocked = false;
   document.getElementById('p-result').className = 'result-box';
@@ -373,6 +493,11 @@ function pRender(q) {
   document.getElementById('p-q-text').textContent = q.question;
   document.getElementById('p-current-num').textContent = pIndex + 1;
   document.getElementById('p-stat-current').textContent = 'Actual: ' + q.id;
+
+  const select = document.getElementById('p-select-question');
+  if (select) {
+    select.value = pIndex;
+  }
 
   const container = document.getElementById('p-options');
   container.innerHTML = '';
@@ -415,7 +540,12 @@ function pSelect(selected, q) {
 }
 
 function pNext() {
-  pRandom();
+  if (pProgressionMode === 'random') {
+    pRandom();
+  } else {
+    pIndex = (pIndex + 1) % questions.length;
+    pRender(questions[pIndex]);
+  }
 }
 
 function pRandom() {

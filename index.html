@@ -517,8 +517,16 @@
     <div class="options" id="t-options"></div>
     <div class="result-box" id="t-result"></div>
 
+    <!-- Explanation Panel (initially hidden) -->
+    <div id="t-explanation-box" class="explanation-box hidden">
+      <div class="explanation-title">💡 Explicación del Manual</div>
+      <div class="explanation-loc" id="t-explanation-loc"></div>
+      <div class="explanation-text" id="t-explanation-text"></div>
+    </div>
+
     <div class="actions" id="t-next-wrapper" style="display:none;">
-      <button class="btn btn-primary" onclick="tNext()">Siguiente &rarr;</button>
+      <button id="t-help-btn" class="btn btn-warning hidden" onclick="tShowHelp()">💡 Ayúdame</button>
+      <button id="t-next-btn" class="btn btn-primary" onclick="tNext()">Siguiente &rarr;</button>
     </div>
   </div>
 
@@ -672,6 +680,12 @@ function setMode(mode) {
     document.getElementById('t-result').className = 'result-box';
     document.getElementById('t-result').style.display = 'none';
     document.getElementById('t-next-wrapper').style.display = 'none';
+
+    // Hide explanation box and help button on render
+    const explanationBox = document.getElementById('t-explanation-box');
+    if (explanationBox) explanationBox.classList.add('hidden');
+    const helpBtn = document.getElementById('t-help-btn');
+    if (helpBtn) helpBtn.classList.add('hidden');
     document.getElementById('t-progress-fill').style.width = '0%';
     document.getElementById('t-score').textContent = 'Aciertos: 0 / 0';
     // Reset preview screen
@@ -870,6 +884,12 @@ function tRender() {
   document.getElementById('t-result').style.display = 'none';
   document.getElementById('t-next-wrapper').style.display = 'none';
 
+  // Hide explanation box and help button on render
+  const explanationBox = document.getElementById('t-explanation-box');
+  if (explanationBox) explanationBox.classList.add('hidden');
+  const helpBtn = document.getElementById('t-help-btn');
+  if (helpBtn) helpBtn.classList.add('hidden');
+
   const q = testQuestions[testIndex];
   document.getElementById('t-q-id').textContent = 'ID: ' + q.id;
   document.getElementById('t-q-text').textContent = q.question;
@@ -925,12 +945,23 @@ function tSelect(selected) {
 
   document.getElementById('t-score').textContent = 'Aciertos: ' + testScore + ' / ' + testAnswered;
 
+  // Show Help button if explanations exist
+  const helpBtn = document.getElementById('t-help-btn');
+  if (helpBtn) {
+    if (explanationsData && explanationsData[q.id]) {
+      helpBtn.classList.remove('hidden');
+    } else {
+      helpBtn.classList.add('hidden');
+    }
+  }
+
   if (testIndex < testQuestions.length - 1) {
     document.getElementById('t-next-wrapper').style.display = 'flex';
+    document.getElementById('t-next-btn').textContent = 'Siguiente \u2192';
   } else {
     // End of test
     document.getElementById('t-next-wrapper').style.display = 'flex';
-    document.querySelector('#t-next-wrapper .btn').textContent = 'Ver resultados';
+    document.getElementById('t-next-btn').textContent = 'Ver resultados';
   }
 }
 
@@ -1059,6 +1090,33 @@ function togglePdfView(forceShow) {
     if (btn) btn.textContent = '📖 Mostrar Manual';
     localStorage.setItem('ccse_pdf_visible', 'false');
   }
+}
+
+function tShowHelp() {
+  const q = testQuestions[testIndex];
+  if (!q) return;
+
+  const expInfo = explanationsData[q.id];
+  if (!expInfo || !expInfo.explanations || expInfo.explanations.length === 0) return;
+
+  const exp = expInfo.explanations[0];
+
+  const box = document.getElementById('t-explanation-box');
+  const locEl = document.getElementById('t-explanation-loc');
+  const textEl = document.getElementById('t-explanation-text');
+
+  if (box && locEl && textEl) {
+    locEl.textContent = exp.location;
+    textEl.textContent = exp.text;
+    box.classList.remove('hidden');
+    box.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
+
+  const page = extractPageNumber(exp.location);
+  const searchPhrase = extractSearchPhrase(exp.text);
+
+  togglePdfView(true);
+  loadPdfInIframe(page, searchPhrase);
 }
 
 function pShowHelp() {

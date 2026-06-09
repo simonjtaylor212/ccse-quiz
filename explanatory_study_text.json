@@ -344,7 +344,7 @@
       {
         "location": "Page 7 line 39 to Page 7 line 44, and Page 7 line 49",
         "text": "Lengua | Organismos para la normalización lingüística | Organismos para la difusión y promoción de las lenguas y las culturas\nCastellano o español | Real Academia Española (RAE) | Instituto Cervantes",
-        "search_phrase": "Lengua"
+        "search_phrase": "Organismos para la difusión y promoción de las lenguas y las culturas"
       }
     ]
   },
@@ -353,7 +353,7 @@
       {
         "location": "Page 7 line 39 to Page 7 line 44, and Page 7 line 47 to Page 7 line 48",
         "text": "Lengua | Organismos para la normalización lingüística | Organismos para la difusión y promoción de las lenguas y las culturas\nCastellano o español | Real Academia Española (RAE) | Instituto Cervantes",
-        "search_phrase": "Lengua"
+        "search_phrase": "Organismos para la normalización lingüística"
       }
     ]
   },
@@ -1433,7 +1433,7 @@
       {
         "location": "Page 42 line 15 to Page 42 line 20",
         "text": "Comunidad Valenciana: Alicante, Castellón de la Plana, Valencia. Capital de la comunidad autónoma: Valencia.",
-        "search_phrase": "Comunidad"
+        "search_phrase": "Comunidad Valenciana"
       }
     ]
   },
@@ -1469,7 +1469,7 @@
       {
         "location": "Page 41 line 55 to Page 41 line 61",
         "text": "Castilla-La Mancha: Albacete, Ciudad Real, Cuenca, Guadalajara, Toledo. Capital de la comunidad autónoma: Toledo.",
-        "search_phrase": "Castilla-La"
+        "search_phrase": "Guadalajara"
       }
     ]
   },

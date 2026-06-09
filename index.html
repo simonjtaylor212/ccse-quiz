@@ -426,6 +426,38 @@
     Cargando preguntas&hellip;
   </div>
 
+  <!-- WELCOME SCREEN -->
+  <div id="welcome-screen" class="hidden" style="text-align: center; padding: 40px 20px;">
+    <h2 style="font-size: 20px; color: #2c3e50; line-height: 1.5;">¿Deseas practicar preguntas sin restricciones o empezar un examen?</h2>
+    <div style="display: flex; gap: 15px; justify-content: center; margin-top: 30px; flex-wrap: wrap;">
+      <button class="btn btn-primary" onclick="showPracticeOptions()">Practicar</button>
+      <button class="btn btn-secondary" onclick="setMode('test')">Empezar un examen</button>
+    </div>
+  </div>
+
+  <!-- PRACTICE OPTIONS SCREEN -->
+  <div id="practice-options-screen" class="hidden" style="padding: 20px; text-align: center;">
+    <h2 style="font-size: 20px; color: #2c3e50; margin-bottom: 25px;">Opciones de práctica</h2>
+
+    <div style="display: flex; flex-direction: column; gap: 15px; max-width: 400px; margin: 0 auto;">
+      <button class="btn btn-secondary" onclick="startPractice('unrestricted')">Preguntas aleatorias</button>
+      <button class="btn btn-secondary" onclick="toggleSectionSelection('random')">Preguntas aleatorias por temas (1-5)</button>
+      <button class="btn btn-secondary" onclick="toggleSectionSelection('consecutive')">Preguntas consecutivas por temas (1-5)</button>
+    </div>
+
+    <div id="section-selection" class="hidden" style="margin-top: 25px; max-width: 400px; margin-left: auto; margin-right: auto; background: #f8f9fa; padding: 20px; border-radius: 12px; border: 1px solid #e2e8f0;">
+      <h3 style="font-size: 16px; margin-bottom: 15px; color: #2c3e50;">Selecciona los temas:</h3>
+      <div style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 20px; text-align: left; color: #334155; font-size: 14px;">
+        <label><input type="checkbox" value="1" class="section-checkbox"> Tema 1: Gobierno, legislación y participación ciudadana</label>
+        <label><input type="checkbox" value="2" class="section-checkbox"> Tema 2: Derechos y deberes fundamentales</label>
+        <label><input type="checkbox" value="3" class="section-checkbox"> Tema 3: Organización territorial de España</label>
+        <label><input type="checkbox" value="4" class="section-checkbox"> Tema 4: Cultura e historia de España</label>
+        <label><input type="checkbox" value="5" class="section-checkbox"> Tema 5: Sociedad española</label>
+      </div>
+      <button class="btn btn-primary" style="width: 100%;" onclick="startSectionPractice()">Comenzar</button>
+    </div>
+  </div>
+
   <!-- PRACTICE MODE -->
   <div id="practice-mode" class="hidden">
     <div class="progress-text">Pregunta <span id="p-current-num">1</span> de <span id="p-total-num">251</span></div>
@@ -572,8 +604,10 @@ let answerLocked = false;
 let CORRECT_ANSWERS = {};
 
 let questions = [];
+let practicePool = []; // the subset of questions currently being practiced
 let pIndex = 0;
 let pProgressionMode = 'next';
+let practiceModeType = 'unrestricted'; // 'unrestricted', 'random_sections', 'consecutive_sections'
 
 // Test state
 let testQuestions = [];
@@ -584,9 +618,75 @@ let wrongAnswers = [];
 
 // UI sections
 function show(id) {
-  ['practice-mode','test-start','test-active','test-results'].forEach(function(s) {
-    document.getElementById(s).classList.toggle('hidden', s !== id);
+  ['welcome-screen','practice-options-screen','practice-mode','test-start','test-active','test-results'].forEach(function(s) {
+    const el = document.getElementById(s);
+    if (el) el.classList.toggle('hidden', s !== id);
   });
+}
+
+function showPracticeOptions() {
+  document.getElementById('section-selection').classList.add('hidden');
+  document.querySelectorAll('.section-checkbox').forEach(cb => cb.checked = false);
+  show('practice-options-screen');
+}
+
+function toggleSectionSelection(modeType) {
+  document.getElementById('section-selection').classList.remove('hidden');
+  practiceModeType = modeType === 'random' ? 'random_sections' : 'consecutive_sections';
+}
+
+function startSectionPractice() {
+  const selectedSections = Array.from(document.querySelectorAll('.section-checkbox:checked')).map(cb => parseInt(cb.value));
+  if (selectedSections.length === 0) {
+    alert("Por favor, selecciona al menos un tema.");
+    return;
+  }
+
+  // Filter questions based on selected prefixes (1xxx, 2xxx, etc.)
+  practicePool = questions.filter(q => {
+    const prefix = Math.floor(q.id / 1000);
+    return selectedSections.includes(prefix);
+  });
+
+  if (practicePool.length === 0) {
+    alert("No se encontraron preguntas para los temas seleccionados.");
+    return;
+  }
+
+  startPractice(practiceModeType);
+}
+
+function startPractice(mode, initialGlobalIndex = -1) {
+  practiceModeType = mode;
+
+  if (mode === 'unrestricted') {
+    practicePool = [...questions];
+  }
+
+  show('practice-mode');
+  document.getElementById('tab-practice').textContent = '⚙️ Reiniciar ajustes de práctica';
+
+  document.getElementById('p-total-num').textContent = practicePool.length;
+  document.getElementById('p-stat-total').textContent = 'Total: ' + practicePool.length;
+
+  populateQuestionSelect();
+
+  if (mode === 'consecutive_sections') {
+    setProgressionMode('next');
+  } else if (mode === 'unrestricted' || mode === 'random_sections') {
+    setProgressionMode('random');
+  }
+
+  pIndex = 0;
+  if (initialGlobalIndex !== -1) {
+    const targetQ = questions[initialGlobalIndex];
+    const poolIdx = practicePool.findIndex(q => q.id === targetQ.id);
+    if (poolIdx !== -1) {
+      pIndex = poolIdx;
+    }
+  }
+
+  pRender(practicePool[pIndex]);
 }
 
 async function loadQuestions() {
@@ -621,26 +721,21 @@ async function loadQuestions() {
 
     document.getElementById('loading').style.display = 'none';
     document.getElementById('tab-practice').classList.add('active');
-    show('practice-mode');
-    document.getElementById('p-total-num').textContent = questions.length;
-    document.getElementById('p-stat-total').textContent = 'Total: ' + questions.length;
     
-    populateQuestionSelect();
-    setProgressionMode('next');
-
     // Parse URL for specific question ID
     const urlParams = new URLSearchParams(window.location.search);
     const qParam = urlParams.get('q');
-    pIndex = 0;
     if (qParam) {
       const parsedId = parseInt(qParam, 10);
       const foundIdx = questions.findIndex(q => q.id === parsedId);
       if (foundIdx !== -1) {
-        pIndex = foundIdx;
+        startPractice('unrestricted', foundIdx);
+      } else {
+        show('welcome-screen');
       }
+    } else {
+      show('welcome-screen');
     }
-
-    pRender(questions[pIndex]);
 
     // Restore PDF visibility preference
     const savedPdfVisible = localStorage.getItem('ccse_pdf_visible');
@@ -660,15 +755,29 @@ function setMode(mode) {
   document.getElementById('tab-test').classList.toggle('active', mode === 'test');
 
   if (mode === 'practice') {
-    show('practice-mode');
-    if (questions && questions[pIndex]) {
-      // Re-add URL parameters for current practice question
-      const newUrl = new URL(window.location);
-      newUrl.searchParams.set('y', '2026');
-      newUrl.searchParams.set('q', questions[pIndex].id);
-      window.history.replaceState({}, '', newUrl);
+    // If the user clicks the practice tab while in practice mode, prompt to reset
+    if (!document.getElementById('practice-mode').classList.contains('hidden') ||
+        !document.getElementById('practice-options-screen').classList.contains('hidden')) {
+      if (window.confirm("¿Deseas reiniciar los ajustes de práctica?")) {
+        document.getElementById('tab-practice').textContent = '📖 Practicar';
+        show('welcome-screen');
+      }
+      return;
+    }
+
+    if (practicePool && practicePool.length > 0) {
+      show('practice-mode');
+      if (practicePool[pIndex]) {
+        const newUrl = new URL(window.location);
+        newUrl.searchParams.set('y', '2026');
+        newUrl.searchParams.set('q', practicePool[pIndex].id);
+        window.history.replaceState({}, '', newUrl);
+      }
+    } else {
+      show('welcome-screen');
     }
   } else {
+    document.getElementById('tab-practice').textContent = '📖 Practicar';
     // Clear URL parameters when in test mode
     const newUrl = new URL(window.location);
     newUrl.searchParams.delete('y');
@@ -712,7 +821,7 @@ function populateQuestionSelect() {
   const select = document.getElementById('p-select-question');
   if (!select) return;
   select.innerHTML = '';
-  questions.forEach(function(q, idx) {
+  practicePool.forEach(function(q, idx) {
     const opt = document.createElement('option');
     opt.value = idx;
     const textSnippet = q.question.length > 55 ? q.question.substring(0, 52) + '...' : q.question;
@@ -724,9 +833,9 @@ function populateQuestionSelect() {
 function pSelectQuestionChanged() {
   const select = document.getElementById('p-select-question');
   const idx = parseInt(select.value, 10);
-  if (isNaN(idx) || idx < 0 || idx >= questions.length) return;
+  if (isNaN(idx) || idx < 0 || idx >= practicePool.length) return;
   pIndex = idx;
-  pRender(questions[pIndex]);
+  pRender(practicePool[pIndex]);
 }
 
 function setProgressionMode(mode) {
@@ -814,14 +923,14 @@ function pNext() {
   if (pProgressionMode === 'random') {
     pRandom();
   } else {
-    pIndex = (pIndex + 1) % questions.length;
-    pRender(questions[pIndex]);
+    pIndex = (pIndex + 1) % practicePool.length;
+    pRender(practicePool[pIndex]);
   }
 }
 
 function pRandom() {
-  pIndex = Math.floor(Math.random() * questions.length);
-  pRender(questions[pIndex]);
+  pIndex = Math.floor(Math.random() * practicePool.length);
+  pRender(practicePool[pIndex]);
 }
 
 function shuffleArray(arr) {
@@ -1152,7 +1261,7 @@ function tShowHelp() {
 }
 
 function pShowHelp() {
-  const q = questions[pIndex];
+  const q = practicePool[pIndex];
   if (!q) return;
   
   const expInfo = explanationsData[q.id];

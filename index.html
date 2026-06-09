@@ -684,6 +684,10 @@ function startPractice(mode, initialGlobalIndex = -1) {
     if (poolIdx !== -1) {
       pIndex = poolIdx;
     }
+  } else if (mode === 'unrestricted' || mode === 'random_sections') {
+    if (practicePool.length > 0) {
+      pIndex = Math.floor(Math.random() * practicePool.length);
+    }
   }
 
   pRender(practicePool[pIndex]);

@@ -3,7 +3,8 @@
     "explanations": [
       {
         "location": "Page 6 line 16 to Page 6 line 17",
-        "text": "El Reino de España es un Estado social y democrático de Derecho con la forma política de monarquía parlamentaria ."
+        "text": "El Reino de España es un Estado social y democrático de Derecho con la forma política de monarquía parlamentaria .",
+        "search_phrase": "El Reino de España es un"
       },
       {
         "location": "Page 6 line 31 to Page 6 line 36",
@@ -15,7 +16,8 @@
     "explanations": [
       {
         "location": "Page 6 line 5 to Page 6 line 6",
-        "text": "La Constitución es la “ley de leyes” o ley fundamental de España"
+        "text": "La Constitución es la “ley de leyes” o ley fundamental de España",
+        "search_phrase": "La Constitución es la “ley de"
       }
     ]
   },
@@ -23,7 +25,8 @@
     "explanations": [
       {
         "location": "Page 6 line 19 to Page 6 line 21",
-        "text": "En España, la soberanía nacional corresponde al pueblo español y de él derivan todos los poderes del Estado."
+        "text": "En España, la soberanía nacional corresponde al pueblo español y de él derivan todos los poderes del Estado.",
+        "search_phrase": "En España, la soberanía nacional corresponde"
       }
     ]
   },
@@ -31,7 +34,8 @@
     "explanations": [
       {
         "location": "Page 11 line 28 to Page 11 line 36",
-        "text": "Organismos españoles [...] Existen también otros organismos públicos dependientes de diferentes ministerios: [...] el Instituto de las Mujeres, el Instituto Nacional de Estadística (INE), etc."
+        "text": "Organismos españoles [...] Existen también otros organismos públicos dependientes de diferentes ministerios: [...] el Instituto de las Mujeres, el Instituto Nacional de Estadística (INE), etc.",
+        "search_phrase": "Organismos españoles Existen también otros organismos"
       }
     ]
   },
@@ -39,7 +43,8 @@
     "explanations": [
       {
         "location": "Page 15 line 39 to Page 15 line 42",
-        "text": "Los trámites en línea están disponibles en cualquier momento, no solo en horario de oficina, por lo que el ciudadano no necesita desplazarse ni hacer colas. Además, el ciudadano puede consultar en línea cómo va su expediente en cualquier momento."
+        "text": "Los trámites en línea están disponibles en cualquier momento, no solo en horario de oficina, por lo que el ciudadano no necesita desplazarse ni hacer colas. Además, el ciudadano puede consultar en línea cómo va su expediente en cualquier momento.",
+        "search_phrase": "Los trámites en línea están disponibles"
       }
     ]
   },
@@ -47,7 +52,8 @@
     "explanations": [
       {
         "location": "Page 7 line 7 to Page 7 line 8",
-        "text": "En la Constitución se indica que el castellano es la  lengua oficial de España ."
+        "text": "En la Constitución se indica que el castellano es la  lengua oficial de España .",
+        "search_phrase": "En la Constitución se"
       }
     ]
   },
@@ -55,7 +61,8 @@
     "explanations": [
       {
         "location": "Page 11 line 21 to Page 11 line 23",
-        "text": "De ámbito autonómico: Ertzaintza en el País Vasco, Mossos d’Esquadra en Cataluña, Policía Foral de Navarra, Cuerpo General de la Policía de Canarias."
+        "text": "De ámbito autonómico: Ertzaintza en el País Vasco, Mossos d’Esquadra en Cataluña, Policía Foral de Navarra, Cuerpo General de la Policía de Canarias.",
+        "search_phrase": "De ámbito autonómico: Ertzaintza en"
       }
     ]
   },
@@ -63,7 +70,8 @@
     "explanations": [
       {
         "location": "Page 11 line 7 to Page 11 line 9",
-        "text": "De ámbito nacional: Fuerzas y Cuerpos de Seguridad del Estado como Cuerpo Nacional de Policía y Guardia Civil. El mando superior corresponde al ministro del Interior."
+        "text": "De ámbito nacional: Fuerzas y Cuerpos de Seguridad del Estado como Cuerpo Nacional de Policía y Guardia Civil. El mando superior corresponde al ministro del Interior.",
+        "search_phrase": "De ámbito nacional: Fuerzas y Cuerpos"
       }
     ]
   },
@@ -71,7 +79,8 @@
     "explanations": [
       {
         "location": "Page 9 line 7 to Page 9 line 9",
-        "text": "En la Constitución se establece la separación de los poderes ejecutivo, legislativo y judicial , lo que garantiza el funcionamiento de las instituciones españolas."
+        "text": "En la Constitución se establece la separación de los poderes ejecutivo, legislativo y judicial , lo que garantiza el funcionamiento de las instituciones españolas.",
+        "search_phrase": "En la Constitución se establece la"
       }
     ]
   },
@@ -79,7 +88,8 @@
     "explanations": [
       {
         "location": "Page 6 line 26 to Page 7 line 6",
-        "text": "La bandera de España tiene tres franjas (roja, amarilla y roja). Cada comunidad autónoma tiene su propia bandera y debe utilizarla junto a la española en sus edificios públicos y en sus actos oficiales."
+        "text": "La bandera de España tiene tres franjas (roja, amarilla y roja). Cada comunidad autónoma tiene su propia bandera y debe utilizarla junto a la española en sus edificios públicos y en sus actos oficiales.",
+        "search_phrase": "La bandera de España tiene tres"
       }
     ]
   },
@@ -87,7 +97,8 @@
     "explanations": [
       {
         "location": "Page 8 line 3 to Page 8 line 5",
-        "text": "El rey de España es el jefe del Estado, tiene la máxima representación. Su papel consiste en actuar como mediador y garantizar el buen funcionamiento de las instituciones."
+        "text": "El rey de España es el jefe del Estado, tiene la máxima representación. Su papel consiste en actuar como mediador y garantizar el buen funcionamiento de las instituciones.",
+        "search_phrase": "El rey de España es el"
       }
     ]
   },
@@ -95,7 +106,8 @@
     "explanations": [
       {
         "location": "Page 12 line 33 to Page 13 line 33",
-        "text": "La ley institucional básica de cada comunidad es el Estatuto de Autonomía, en el que se establece: [...] Las competencias asumidas dentro del marco establecido en la Constitución y las bases para el traspaso de los servicios correspondientes a la comunidad. Entre las más significativas se encuentran la sanidad y la educación."
+        "text": "La ley institucional básica de cada comunidad es el Estatuto de Autonomía, en el que se establece: [...] Las competencias asumidas dentro del marco establecido en la Constitución y las bases para el traspaso de los servicios correspondientes a la comunidad. Entre las más significativas se encuentran la sanidad y la educación.",
+        "search_phrase": "La ley institucional básica de cada"
       }
     ]
   },
@@ -103,7 +115,8 @@
     "explanations": [
       {
         "location": "Page 59 line 20 to Page 59 line 27",
-        "text": "Las primeras elecciones democráticas en España tras la dictadura de Franco se celebraron el 15 de junio de 1977. Las ganó el partido Unión de Centro Democrático (UCD), cuyo líder era Adolfo Suárez, que ya era presidente del Gobierno y continuó en el cargo tras los comicios."
+        "text": "Las primeras elecciones democráticas en España tras la dictadura de Franco se celebraron el 15 de junio de 1977. Las ganó el partido Unión de Centro Democrático (UCD), cuyo líder era Adolfo Suárez, que ya era presidente del Gobierno y continuó en el cargo tras los comicios.",
+        "search_phrase": "Las primeras elecciones democráticas en España"
       },
       {
         "location": "Page 17 line 40 to Page 17 line 42",
@@ -115,7 +128,8 @@
     "explanations": [
       {
         "location": "Page 10 line 24 to Page 10 line 25",
-        "text": "El Tribunal Constitucional interpreta la Constitución española. Es independiente de los poderes del Estado."
+        "text": "El Tribunal Constitucional interpreta la Constitución española. Es independiente de los poderes del Estado.",
+        "search_phrase": "El Tribunal Constitucional interpreta la Constitución"
       }
     ]
   },
@@ -123,7 +137,8 @@
     "explanations": [
       {
         "location": "Page 8 line 3 to Page 8 line 5",
-        "text": "El rey de España es el jefe del Estado, tiene la máxima representación. Su papel consiste en actuar como mediador y garantizar el buen funcionamiento de las instituciones."
+        "text": "El rey de España es el jefe del Estado, tiene la máxima representación. Su papel consiste en actuar como mediador y garantizar el buen funcionamiento de las instituciones.",
+        "search_phrase": "El rey de España es el"
       }
     ]
   },
@@ -131,7 +146,8 @@
     "explanations": [
       {
         "location": "Page 9 line 38 to Page 9 line 39",
-        "text": "Por su parte, el Senado es la cámara de representación territorial de España."
+        "text": "Por su parte, el Senado es la cámara de representación territorial de España.",
+        "search_phrase": "Por su parte, el Senado es"
       }
     ]
   },
@@ -139,7 +155,8 @@
     "explanations": [
       {
         "location": "Page 15 line 34 to Page 15 line 37",
-        "text": "identificación segura como el DNI electrónico, el certificado digital o la plataforma Cl@ve. Todos ellos sirven como firma electrónica que tiene el mismo valor que una firma en papel, pero válida para internet."
+        "text": "identificación segura como el DNI electrónico, el certificado digital o la plataforma Cl@ve. Todos ellos sirven como firma electrónica que tiene el mismo valor que una firma en papel, pero válida para internet.",
+        "search_phrase": "identificación segura como el DNI electrónico,"
       }
     ]
   },
@@ -147,7 +164,8 @@
     "explanations": [
       {
         "location": "Page 6 line 3 to Page 6 line 4",
-        "text": "La Constitución española fue aprobada en referéndum por los españoles el 6 de diciembre de 1978."
+        "text": "La Constitución española fue aprobada en referéndum por los españoles el 6 de diciembre de 1978.",
+        "search_phrase": "La Constitución española fue aprobada en"
       }
     ]
   },
@@ -155,7 +173,8 @@
     "explanations": [
       {
         "location": "Page 12 line 33 to Page 12 line 34",
-        "text": "La ley institucional básica de cada comunidad es el Estatuto de Autonomía, en el que se establece:"
+        "text": "La ley institucional básica de cada comunidad es el Estatuto de Autonomía, en el que se establece:",
+        "search_phrase": "La ley institucional básica de cada"
       }
     ]
   },
@@ -163,7 +182,8 @@
     "explanations": [
       {
         "location": "Page 14 line 13 to Page 14 line 16",
-        "text": "Entre las competencias de los ayuntamientos se encuentran la protección de su patrimonio histórico, medio ambiente, urbanismo, suministro de agua e iluminación, actividades e instalaciones culturales y deportivas, etc."
+        "text": "Entre las competencias de los ayuntamientos se encuentran la protección de su patrimonio histórico, medio ambiente, urbanismo, suministro de agua e iluminación, actividades e instalaciones culturales y deportivas, etc.",
+        "search_phrase": "Entre las competencias de los ayuntamientos"
       }
     ]
   },
@@ -171,7 +191,8 @@
     "explanations": [
       {
         "location": "Page 9 line 11 to Page 9 line 12",
-        "text": "El Gobierno dirige la política interior y exterior de España, la administración civil y militar, y la defensa del Estado."
+        "text": "El Gobierno dirige la política interior y exterior de España, la administración civil y militar, y la defensa del Estado.",
+        "search_phrase": "El Gobierno dirige la política interior"
       }
     ]
   },
@@ -179,7 +200,8 @@
     "explanations": [
       {
         "location": "Page 14 line 3 to Page 14 line 5",
-        "text": "de la provincia es la Diputación, excepto en Canarias e Islas Baleares. En Canarias los órganos de gobierno son los cabildos y en Baleares son los consejos insulares."
+        "text": "de la provincia es la Diputación, excepto en Canarias e Islas Baleares. En Canarias los órganos de gobierno son los cabildos y en Baleares son los consejos insulares.",
+        "search_phrase": "de la provincia es la Diputación,"
       }
     ]
   },
@@ -187,7 +209,8 @@
     "explanations": [
       {
         "location": "Page 15 line 12 to Page 15 line 15",
-        "text": "Las diez ciudades de España con mayor población son, por este orden: Madrid, Barcelona, Valencia, Sevilla, Zaragoza, Málaga, Murcia, Palma de Mallorca, Las Palmas de Gran Canaria y Alicante."
+        "text": "Las diez ciudades de España con mayor población son, por este orden: Madrid, Barcelona, Valencia, Sevilla, Zaragoza, Málaga, Murcia, Palma de Mallorca, Las Palmas de Gran Canaria y Alicante.",
+        "search_phrase": "Las diez ciudades de España con"
       }
     ]
   },
@@ -195,7 +218,8 @@
     "explanations": [
       {
         "location": "Page 9 line 21 to Page 9 line 23",
-        "text": "Las Cortes Generales (nombre oficial del Parlamento español) representan al pueblo español y están formadas por dos cámaras: el Congreso de los Diputados y el Senado."
+        "text": "Las Cortes Generales (nombre oficial del Parlamento español) representan al pueblo español y están formadas por dos cámaras: el Congreso de los Diputados y el Senado.",
+        "search_phrase": "Las Cortes Generales (nombre oficial del"
       }
     ]
   },
@@ -203,7 +227,8 @@
     "explanations": [
       {
         "location": "Page 9 line 20 to Page 9 line 23",
-        "text": "Poder Legislativo\nLas Cortes Generales (nombre oficial del Parlamento español) representan al pueblo español y están formadas por dos cámaras: el Congreso de los Diputados y el Senado."
+        "text": "Poder Legislativo\nLas Cortes Generales (nombre oficial del Parlamento español) representan al pueblo español y están formadas por dos cámaras: el Congreso de los Diputados y el Senado.",
+        "search_phrase": "Poder Legislativo Las Cortes Generales (nombre"
       }
     ]
   },
@@ -211,7 +236,8 @@
     "explanations": [
       {
         "location": "Page 10 line 9 to Page 10 line 11",
-        "text": "hablamos de proyecto de ley (cuando la propone el Gobierno) o una proposición de ley (la propone el Congreso, el Senado, una comunidad autónoma o un mínimo de 500 000 ciudadanos)."
+        "text": "hablamos de proyecto de ley (cuando la propone el Gobierno) o una proposición de ley (la propone el Congreso, el Senado, una comunidad autónoma o un mínimo de 500 000 ciudadanos).",
+        "search_phrase": "hablamos de proyecto de ley (cuando"
       }
     ]
   },
@@ -219,7 +245,8 @@
     "explanations": [
       {
         "location": "Page 12 line 30",
-        "text": "Son 17 las comunidades y 2 las ciudades autónomas de España."
+        "text": "Son 17 las comunidades y 2 las ciudades autónomas de España.",
+        "search_phrase": "Son 17 las comunidades y 2"
       }
     ]
   },
@@ -227,7 +254,8 @@
     "explanations": [
       {
         "location": "Page 6 line 26",
-        "text": "La bandera de España tiene tres franjas (roja, amarilla y roja)."
+        "text": "La bandera de España tiene tres franjas (roja, amarilla y roja).",
+        "search_phrase": "La bandera de España tiene tres"
       }
     ]
   },
@@ -235,7 +263,8 @@
     "explanations": [
       {
         "location": "Page 9 line 14 to Page 9 line 16",
-        "text": "El Gobierno tiene su sede en Madrid, y está formado por el presidente, los vicepresidentes (en su caso) y los ministros."
+        "text": "El Gobierno tiene su sede en Madrid, y está formado por el presidente, los vicepresidentes (en su caso) y los ministros.",
+        "search_phrase": "El Gobierno tiene su sede en"
       }
     ]
   },
@@ -243,7 +272,8 @@
     "explanations": [
       {
         "location": "Page 8 line 28 to Page 8 line 29",
-        "text": "La bandera de la Unión Europea es azul con 12 estrellas amarillas en círculo."
+        "text": "La bandera de la Unión Europea es azul con 12 estrellas amarillas en círculo.",
+        "search_phrase": "La bandera de la Unión Europea"
       },
       {
         "location": "Page 8 line 40 to Page 8 line 43",
@@ -255,7 +285,8 @@
     "explanations": [
       {
         "location": "Page 14 line 9 to Page 14 line 12",
-        "text": "el ayuntamiento, formado por el alcalde y los concejales, que se encargan de gestionar los servicios públicos de la ciudad o del pueblo y que son elegidos por los habitantes de la localidad en las elecciones municipales."
+        "text": "el ayuntamiento, formado por el alcalde y los concejales, que se encargan de gestionar los servicios públicos de la ciudad o del pueblo y que son elegidos por los habitantes de la localidad en las elecciones municipales.",
+        "search_phrase": "el ayuntamiento, formado por el alcalde"
       },
       {
         "location": "Page 16 line 14",
@@ -267,7 +298,8 @@
     "explanations": [
       {
         "location": "Page 7 line 15 to Page 7 line 18",
-        "text": "Además del castellano o español, se hablan otras lenguas oficiales en las siguientes comunidades autónomas: Galicia (gallego), Navarra y País Vasco (vasco o euskera)..."
+        "text": "Además del castellano o español, se hablan otras lenguas oficiales en las siguientes comunidades autónomas: Galicia (gallego), Navarra y País Vasco (vasco o euskera)...",
+        "search_phrase": "Además del castellano o español, se"
       }
     ]
   },
@@ -275,7 +307,8 @@
     "explanations": [
       {
         "location": "Page 7 line 7 to Page 7 line 9",
-        "text": "En la Constitución se indica que el castellano es la lengua oficial de España . Todos los españoles tienen el derecho de usarla y el deber de conocerla."
+        "text": "En la Constitución se indica que el castellano es la lengua oficial de España . Todos los españoles tienen el derecho de usarla y el deber de conocerla.",
+        "search_phrase": "En la Constitución se indica que"
       }
     ]
   },
@@ -283,7 +316,8 @@
     "explanations": [
       {
         "location": "Page 7 line 15 to Page 7 line 18",
-        "text": "Además del castellano o español, se hablan otras lenguas oficiales en las siguientes comunidades autónomas: [...] Cataluña (catalán y aranés)..."
+        "text": "Además del castellano o español, se hablan otras lenguas oficiales en las siguientes comunidades autónomas: [...] Cataluña (catalán y aranés)...",
+        "search_phrase": "Además del castellano o español, se"
       }
     ]
   },
@@ -291,7 +325,8 @@
     "explanations": [
       {
         "location": "Page 13 line 34 to Page 13 line 39",
-        "text": "Las instituciones de las comunidades autónomas son: la asamblea legislativa (o parlamento autonómico), elegida por votación popular entre todos sus habitantes en las elecciones autonómicas; el consejo de gobierno, con funciones ejecutivas; y el presidente, que además de su función ejecutiva, representa a la comunidad autónoma."
+        "text": "Las instituciones de las comunidades autónomas son: la asamblea legislativa (o parlamento autonómico), elegida por votación popular entre todos sus habitantes en las elecciones autonómicas; el consejo de gobierno, con funciones ejecutivas; y el presidente, que además de su función ejecutiva, representa a la comunidad autónoma.",
+        "search_phrase": "Las instituciones de las comunidades autónomas"
       }
     ]
   },
@@ -299,7 +334,8 @@
     "explanations": [
       {
         "location": "Page 7 line 15 to Page 7 line 18",
-        "text": "Además del castellano o español, se hablan otras lenguas oficiales en las siguientes comunidades autónomas: Galicia (gallego)..."
+        "text": "Además del castellano o español, se hablan otras lenguas oficiales en las siguientes comunidades autónomas: Galicia (gallego)...",
+        "search_phrase": "Además del castellano o español, se"
       }
     ]
   },
@@ -307,7 +343,8 @@
     "explanations": [
       {
         "location": "Page 7 line 39 to Page 7 line 44, and Page 7 line 49",
-        "text": "Lengua | Organismos para la normalización lingüística | Organismos para la difusión y promoción de las lenguas y las culturas\nCastellano o español | Real Academia Española (RAE) | Instituto Cervantes"
+        "text": "Lengua | Organismos para la normalización lingüística | Organismos para la difusión y promoción de las lenguas y las culturas\nCastellano o español | Real Academia Española (RAE) | Instituto Cervantes",
+        "search_phrase": "Lengua"
       }
     ]
   },
@@ -315,7 +352,8 @@
     "explanations": [
       {
         "location": "Page 7 line 39 to Page 7 line 44, and Page 7 line 47 to Page 7 line 48",
-        "text": "Lengua | Organismos para la normalización lingüística | Organismos para la difusión y promoción de las lenguas y las culturas\nCastellano o español | Real Academia Española (RAE) | Instituto Cervantes"
+        "text": "Lengua | Organismos para la normalización lingüística | Organismos para la difusión y promoción de las lenguas y las culturas\nCastellano o español | Real Academia Española (RAE) | Instituto Cervantes",
+        "search_phrase": "Lengua"
       }
     ]
   },
@@ -323,7 +361,8 @@
     "explanations": [
       {
         "location": "Page 9 line 15 to Page 9 line 17",
-        "text": "El presidente del Gobierno tiene su residencia oficial en el Palacio de la Moncloa."
+        "text": "El presidente del Gobierno tiene su residencia oficial en el Palacio de la Moncloa.",
+        "search_phrase": "El presidente del Gobierno tiene su"
       }
     ]
   },
@@ -331,7 +370,8 @@
     "explanations": [
       {
         "location": "Page 10 line 31 to Page 10 line 37",
-        "text": "Las Fuerzas Armadas [...] están compuestas por el Ejército de Tierra, el Ejército del Aire y la Armada."
+        "text": "Las Fuerzas Armadas [...] están compuestas por el Ejército de Tierra, el Ejército del Aire y la Armada.",
+        "search_phrase": "Las Fuerzas Armadas"
       }
     ]
   },
@@ -339,7 +379,8 @@
     "explanations": [
       {
         "location": "Page 9 line 14 to Page 9 line 16",
-        "text": "El Gobierno tiene su sede en Madrid, y está formado por el presidente, los vicepresidentes (en su caso) y los ministros."
+        "text": "El Gobierno tiene su sede en Madrid, y está formado por el presidente, los vicepresidentes (en su caso) y los ministros.",
+        "search_phrase": "El Gobierno tiene su sede en"
       }
     ]
   },
@@ -347,7 +388,8 @@
     "explanations": [
       {
         "location": "Page 6 line 16 to Page 6 line 17",
-        "text": "El Reino de España es un Estado social y democrático de Derecho con la forma política de monarquía parlamentaria ."
+        "text": "El Reino de España es un Estado social y democrático de Derecho con la forma política de monarquía parlamentaria .",
+        "search_phrase": "El Reino de España es un"
       }
     ]
   },
@@ -355,7 +397,8 @@
     "explanations": [
       {
         "location": "Page 17 line 40, and Page 17 line 47, Page 17 line 52",
-        "text": "Relación de presidentes de Gobierno y sus partidos políticos:\n- 1996-2004 José María Aznar Partido Popular (PP)\n- 2011-2018 Mariano Rajoy Partido Popular (PP)"
+        "text": "Relación de presidentes de Gobierno y sus partidos políticos:\n- 1996-2004 José María Aznar Partido Popular (PP)\n- 2011-2018 Mariano Rajoy Partido Popular (PP)",
+        "search_phrase": "Relación de presidentes de Gobierno y"
       }
     ]
   },
@@ -363,7 +406,8 @@
     "explanations": [
       {
         "location": "Page 8 line 12 to Page 8 line 13",
-        "text": "La Corona de España es hereditaria, y el heredero o heredera de la Corona tiene el título de Príncipe o Princesa de Asturias."
+        "text": "La Corona de España es hereditaria, y el heredero o heredera de la Corona tiene el título de Príncipe o Princesa de Asturias.",
+        "search_phrase": "La Corona de España es hereditaria,"
       }
     ]
   },
@@ -371,7 +415,8 @@
     "explanations": [
       {
         "location": "Page 8 line 16 to Page 8 line 19",
-        "text": "Juan Carlos I fue rey de España desde el 22 de noviembre de 1975 hasta el 18 de junio de 2014. Durante su reinado, apoyó e impulsó el proceso hacia la democracia"
+        "text": "Juan Carlos I fue rey de España desde el 22 de noviembre de 1975 hasta el 18 de junio de 2014. Durante su reinado, apoyó e impulsó el proceso hacia la democracia",
+        "search_phrase": "Juan Carlos I fue rey de"
       }
     ]
   },
@@ -379,7 +424,8 @@
     "explanations": [
       {
         "location": "Page 6 line 3 to Page 6 line 4",
-        "text": "La Constitución española fue aprobada en referéndum por los españoles el 6 de diciembre de 1978."
+        "text": "La Constitución española fue aprobada en referéndum por los españoles el 6 de diciembre de 1978.",
+        "search_phrase": "La Constitución española fue aprobada en"
       }
     ]
   },
@@ -387,7 +433,8 @@
     "explanations": [
       {
         "location": "Page 6 line 27",
-        "text": "Cada comunidad autónoma tiene su propia bandera"
+        "text": "Cada comunidad autónoma tiene su propia bandera",
+        "search_phrase": "Cada comunidad autónoma tiene su propia"
       }
     ]
   },
@@ -395,7 +442,8 @@
     "explanations": [
       {
         "location": "Page 11 line 38 to Page 11 line 40",
-        "text": "El Defensor del Pueblo garantiza el respeto de los derechos fundamentales y se hace eco de las quejas de los ciudadanos por el mal funcionamiento de las administraciones."
+        "text": "El Defensor del Pueblo garantiza el respeto de los derechos fundamentales y se hace eco de las quejas de los ciudadanos por el mal funcionamiento de las administraciones.",
+        "search_phrase": "El Defensor del Pueblo garantiza el"
       }
     ]
   },
@@ -403,7 +451,8 @@
     "explanations": [
       {
         "location": "Page 10 line 10 to Page 10 line 11",
-        "text": "una proposición de ley (la propone el Congreso, el Senado, una comunidad autónoma o un mínimo de 500 000 ciudadanos)."
+        "text": "una proposición de ley (la propone el Congreso, el Senado, una comunidad autónoma o un mínimo de 500 000 ciudadanos).",
+        "search_phrase": "una proposición de ley (la propone"
       }
     ]
   },
@@ -411,7 +460,8 @@
     "explanations": [
       {
         "location": "Page 8 line 30 to Page 8 line 34",
-        "text": "España también forma parte de otras organizaciones internacionales, como la Organización de las Naciones Unidas (ONU); el Consejo de Europa (CE); la Organización del Tratado del Atlántico Norte (OTAN); al Fondo Monetario Internacional (FMI) y al Banco Mundial."
+        "text": "España también forma parte de otras organizaciones internacionales, como la Organización de las Naciones Unidas (ONU); el Consejo de Europa (CE); la Organización del Tratado del Atlántico Norte (OTAN); al Fondo Monetario Internacional (FMI) y al Banco Mundial.",
+        "search_phrase": "España también forma parte de otras"
       }
     ]
   },
@@ -419,7 +469,8 @@
     "explanations": [
       {
         "location": "Page 12 line 20 to Page 12 line 22",
-        "text": "Se distinguen tres niveles de organización: central, autonómica y local (en este nivel se incluyen las provincias y los municipios)."
+        "text": "Se distinguen tres niveles de organización: central, autonómica y local (en este nivel se incluyen las provincias y los municipios).",
+        "search_phrase": "Se distinguen tres niveles de"
       }
     ]
   },
@@ -427,7 +478,8 @@
     "explanations": [
       {
         "location": "Page 9 line 20 to Page 9 line 23",
-        "text": "Poder Legislativo\nLas Cortes Generales (nombre oficial del Parlamento español) representan al pueblo español y están formadas por dos cámaras: el Congreso de los Diputados y el Senado."
+        "text": "Poder Legislativo\nLas Cortes Generales (nombre oficial del Parlamento español) representan al pueblo español y están formadas por dos cámaras: el Congreso de los Diputados y el Senado.",
+        "search_phrase": "Poder Legislativo Las Cortes Generales (nombre"
       }
     ]
   },
@@ -435,7 +487,8 @@
     "explanations": [
       {
         "location": "Page 8 line 14 to Page 8 line 15",
-        "text": "El rey tiene su residencia oficial en el Palacio Real, pero vive en el Palacio de la Zarzuela."
+        "text": "El rey tiene su residencia oficial en el Palacio Real, pero vive en el Palacio de la Zarzuela.",
+        "search_phrase": "El rey tiene su residencia oficial"
       }
     ]
   },
@@ -443,7 +496,8 @@
     "explanations": [
       {
         "location": "Page 9 line 21 to Page 9 line 23",
-        "text": "Las Cortes Generales (nombre oficial del Parlamento español) representan al pueblo español y están formadas por dos cámaras: el Congreso de los Diputados y el Senado."
+        "text": "Las Cortes Generales (nombre oficial del Parlamento español) representan al pueblo español y están formadas por dos cámaras: el Congreso de los Diputados y el Senado.",
+        "search_phrase": "Las Cortes Generales (nombre oficial del"
       }
     ]
   },
@@ -451,7 +505,8 @@
     "explanations": [
       {
         "location": "Page 11 line 28 to Page 11 line 36",
-        "text": "Organismos españoles [...] Existen también otros organismos públicos dependientes de diferentes ministerios: la Dirección General de Tráfico (DGT), el Instituto de Comercio Exterior de España (ICEX), el Banco de España, el Instituto Cervantes, el Instituto de las Mujeres, el Instituto Nacional de Estadística (INE), etc."
+        "text": "Organismos españoles [...] Existen también otros organismos públicos dependientes de diferentes ministerios: la Dirección General de Tráfico (DGT), el Instituto de Comercio Exterior de España (ICEX), el Banco de España, el Instituto Cervantes, el Instituto de las Mujeres, el Instituto Nacional de Estadística (INE), etc.",
+        "search_phrase": "Organismos españoles"
       }
     ]
   },
@@ -459,7 +514,8 @@
     "explanations": [
       {
         "location": "Page 8 line 11",
-        "text": "En España se permite reinar tanto a hombres como a mujeres."
+        "text": "En España se permite reinar tanto a hombres como a mujeres.",
+        "search_phrase": "En España se permite reinar tanto"
       }
     ]
   },
@@ -467,7 +523,8 @@
     "explanations": [
       {
         "location": "Page 12 line 6 to Page 12 line 10",
-        "text": "El Tribunal de Cuentas controla las finanzas y presupuesto de las administraciones, así como la contabilidad de los partidos políticos. El Defensor del Pueblo y el Tribunal de Cuentas dependen de las Cortes Generales."
+        "text": "El Tribunal de Cuentas controla las finanzas y presupuesto de las administraciones, así como la contabilidad de los partidos políticos. El Defensor del Pueblo y el Tribunal de Cuentas dependen de las Cortes Generales.",
+        "search_phrase": "El Tribunal de Cuentas controla las"
       }
     ]
   },
@@ -475,7 +532,8 @@
     "explanations": [
       {
         "location": "Page 9 line 27 to Page 9 line 28",
-        "text": "El presidente del Congreso de los Diputados es la tercera autoridad del Estado español."
+        "text": "El presidente del Congreso de los Diputados es la tercera autoridad del Estado español.",
+        "search_phrase": "El presidente del Congreso de los"
       }
     ]
   },
@@ -483,7 +541,8 @@
     "explanations": [
       {
         "location": "Page 7 line 14 to Page 7 line 18",
-        "text": "Además del castellano o español, se hablan otras lenguas oficiales en las siguientes comunidades autónomas: [...] Islas Baleares (catalán)"
+        "text": "Además del castellano o español, se hablan otras lenguas oficiales en las siguientes comunidades autónomas: [...] Islas Baleares (catalán)",
+        "search_phrase": "Además del castellano o español, se"
       }
     ]
   },
@@ -491,7 +550,8 @@
     "explanations": [
       {
         "location": "Page 6 line 18 to Page 6 line 19",
-        "text": "Tiene como valores superiores la libertad, la justicia, la igualdad y el pluralismo político."
+        "text": "Tiene como valores superiores la libertad, la justicia, la igualdad y el pluralismo político.",
+        "search_phrase": "Tiene como valores superiores la libertad,"
       }
     ]
   },
@@ -499,7 +559,8 @@
     "explanations": [
       {
         "location": "Page 10 line 12 to Page 10 line 14",
-        "text": "Las leyes, una vez aprobadas, necesitan desarrollarse con reglamentos u órdenes ministeriales , a través de normas del Gobierno o los ministerios competentes."
+        "text": "Las leyes, una vez aprobadas, necesitan desarrollarse con reglamentos u órdenes ministeriales , a través de normas del Gobierno o los ministerios competentes.",
+        "search_phrase": "Las leyes, una vez aprobadas, necesitan"
       }
     ]
   },
@@ -507,7 +568,8 @@
     "explanations": [
       {
         "location": "Page 15 line 7 to Page 15 line 8",
-        "text": "con una población en 2025 de más de 49 millones de habitantes."
+        "text": "con una población en 2025 de más de 49 millones de habitantes.",
+        "search_phrase": "con una población en 2025 de"
       }
     ]
   },
@@ -515,7 +577,8 @@
     "explanations": [
       {
         "location": "Page 11 line 28 to Page 11 line 30",
-        "text": "Organismos españoles\nSon órganos consultivos del Gobierno el Consejo de Estado y el Consejo Económico y Social."
+        "text": "Organismos españoles\nSon órganos consultivos del Gobierno el Consejo de Estado y el Consejo Económico y Social.",
+        "search_phrase": "Organismos españoles Son órganos consultivos del"
       }
     ]
   },
@@ -523,7 +586,8 @@
     "explanations": [
       {
         "location": "Page 9 line 10 to Page 9 line 12",
-        "text": "Poder Ejecutivo\nEl Gobierno dirige la política interior y exterior de España, la administración civil y militar, y la defensa del Estado."
+        "text": "Poder Ejecutivo\nEl Gobierno dirige la política interior y exterior de España, la administración civil y militar, y la defensa del Estado.",
+        "search_phrase": "Poder Ejecutivo El Gobierno dirige la"
       }
     ]
   },
@@ -531,7 +595,8 @@
     "explanations": [
       {
         "location": "Page 12 line 9 to Page 12 line 10",
-        "text": "El Defensor del Pueblo y el Tribunal de Cuentas dependen de las Cortes Generales."
+        "text": "El Defensor del Pueblo y el Tribunal de Cuentas dependen de las Cortes Generales.",
+        "search_phrase": "El Defensor del Pueblo y el"
       }
     ]
   },
@@ -539,7 +604,8 @@
     "explanations": [
       {
         "location": "Page 7 line 61 to Page 7 line 66",
-        "text": "Vasco o euskera | Real Academia de la Lengua Vasca -Euskaltzaindia | Instituto Vasco Etxepare"
+        "text": "Vasco o euskera | Real Academia de la Lengua Vasca -Euskaltzaindia | Instituto Vasco Etxepare",
+        "search_phrase": "Vasco o euskera"
       }
     ]
   },
@@ -547,7 +613,8 @@
     "explanations": [
       {
         "location": "Page 15 line 12 to Page 15 line 15",
-        "text": "Las diez ciudades de España con mayor población son, por este orden: Madrid, Barcelona, Valencia, Sevilla, Zaragoza, Málaga, Murcia, Palma de Mallorca, Las Palmas de Gran Canaria y Alicante."
+        "text": "Las diez ciudades de España con mayor población son, por este orden: Madrid, Barcelona, Valencia, Sevilla, Zaragoza, Málaga, Murcia, Palma de Mallorca, Las Palmas de Gran Canaria y Alicante.",
+        "search_phrase": "Las diez ciudades de España con"
       }
     ]
   },
@@ -555,7 +622,8 @@
     "explanations": [
       {
         "location": "Page 15 line 34 to Page 15 line 37",
-        "text": "Todos ellos sirven como firma electrónica que tiene el mismo valor que una firma en papel, pero válida para internet."
+        "text": "Todos ellos sirven como firma electrónica que tiene el mismo valor que una firma en papel, pero válida para internet.",
+        "search_phrase": "Todos ellos sirven como firma electrónica"
       }
     ]
   },
@@ -563,7 +631,8 @@
     "explanations": [
       {
         "location": "Page 8 line 20",
-        "text": "El 19 junio del año 2014, fue proclamado rey su hijo, Felipe VI."
+        "text": "El 19 junio del año 2014, fue proclamado rey su hijo, Felipe VI.",
+        "search_phrase": "El 19 junio del año 2014,"
       }
     ]
   },
@@ -571,7 +640,8 @@
     "explanations": [
       {
         "location": "Page 10 line 21 to Page 10 line 23",
-        "text": "El Consejo General del Poder Judicial (CGPJ) es el órgano de gobierno de los jueces y magistrados."
+        "text": "El Consejo General del Poder Judicial (CGPJ) es el órgano de gobierno de los jueces y magistrados.",
+        "search_phrase": "El Consejo General del Poder Judicial"
       }
     ]
   },
@@ -579,7 +649,8 @@
     "explanations": [
       {
         "location": "Page 9 line 24 to Page 9 line 26",
-        "text": "Las funciones principales de las Cortes Generales son elaborar, debatir y aprobar las leyes y los Presupuestos generales del Estado y controlar la acción del Gobierno."
+        "text": "Las funciones principales de las Cortes Generales son elaborar, debatir y aprobar las leyes y los Presupuestos generales del Estado y controlar la acción del Gobierno.",
+        "search_phrase": "Las funciones principales de las Cortes"
       }
     ]
   },
@@ -587,7 +658,8 @@
     "explanations": [
       {
         "location": "Page 6 line 5 to Page 6 line 7",
-        "text": "La Constitución es la “ley de leyes” o ley fundamental de España, a partir de la cual se establece el ordenamiento de todo el sistema jurídico español."
+        "text": "La Constitución es la “ley de leyes” o ley fundamental de España, a partir de la cual se establece el ordenamiento de todo el sistema jurídico español.",
+        "search_phrase": "La Constitución es la"
       }
     ]
   },
@@ -595,7 +667,8 @@
     "explanations": [
       {
         "location": "Page 9 line 21 to Page 9 line 23",
-        "text": "Las Cortes Generales (nombre oficial del Parlamento español) representan al pueblo español y están formadas por dos cámaras: el Congreso de los Diputados y el Senado."
+        "text": "Las Cortes Generales (nombre oficial del Parlamento español) representan al pueblo español y están formadas por dos cámaras: el Congreso de los Diputados y el Senado.",
+        "search_phrase": "Las Cortes Generales (nombre oficial del"
       }
     ]
   },
@@ -603,7 +676,8 @@
     "explanations": [
       {
         "location": "Page 9 line 24 to Page 9 line 26",
-        "text": "Las funciones principales de las Cortes Generales son elaborar, debatir y aprobar las leyes y los Presupuestos generales del Estado"
+        "text": "Las funciones principales de las Cortes Generales son elaborar, debatir y aprobar las leyes y los Presupuestos generales del Estado",
+        "search_phrase": "Las funciones principales de las Cortes"
       }
     ]
   },
@@ -611,7 +685,8 @@
     "explanations": [
       {
         "location": "Page 10 line 31 to Page 10 line 34",
-        "text": "Las Fuerzas Armadas tienen como misión garantizar la autoridad y la independencia de España, defender su integridad territorial, además del orden constitucional."
+        "text": "Las Fuerzas Armadas tienen como misión garantizar la autoridad y la independencia de España, defender su integridad territorial, además del orden constitucional.",
+        "search_phrase": "Las Fuerzas Armadas tienen como misión"
       }
     ]
   },
@@ -619,7 +694,8 @@
     "explanations": [
       {
         "location": "Page 10 line 38 to Page 10 line 39",
-        "text": "Las Fuerzas Armadas, entre otras acciones internacionales, participan en misiones de paz de la ONU desde 1989."
+        "text": "Las Fuerzas Armadas, entre otras acciones internacionales, participan en misiones de paz de la ONU desde 1989.",
+        "search_phrase": "Las Fuerzas Armadas, entre otras acciones"
       }
     ]
   },
@@ -627,7 +703,8 @@
     "explanations": [
       {
         "location": "Page 11 line 18 to Page 11 line 20",
-        "text": "la Guardia Civil tiene como funciones, entre otras, vigilar el tráfico en las vías públicas interurbanas, así como en puertos, aeropuertos, fronteras y costas."
+        "text": "la Guardia Civil tiene como funciones, entre otras, vigilar el tráfico en las vías públicas interurbanas, así como en puertos, aeropuertos, fronteras y costas.",
+        "search_phrase": "la Guardia Civil tiene como funciones,"
       }
     ]
   },
@@ -635,7 +712,8 @@
     "explanations": [
       {
         "location": "Page 11 line 15 to Page 11 line 16",
-        "text": "También controla la entrada y salida del territorio nacional de españoles y extranjeros."
+        "text": "También controla la entrada y salida del territorio nacional de españoles y extranjeros.",
+        "search_phrase": "También controla la entrada y salida"
       }
     ]
   },
@@ -643,7 +721,8 @@
     "explanations": [
       {
         "location": "Page 17 line 40, and Page 17 line 47",
-        "text": "Relación de presidentes de Gobierno y sus partidos políticos:\n- 1996-2004 José María Aznar Partido Popular (PP)"
+        "text": "Relación de presidentes de Gobierno y sus partidos políticos:\n- 1996-2004 José María Aznar Partido Popular (PP)",
+        "search_phrase": "Relación de presidentes de Gobierno y"
       }
     ]
   },
@@ -651,7 +730,8 @@
     "explanations": [
       {
         "location": "Page 11 line 21 to Page 11 line 23",
-        "text": "De ámbito autonómico: Ertzaintza en el País Vasco, Mossos d’Esquadra en Cataluña, Policía Foral de Navarra, Cuerpo General de la Policía de Canarias."
+        "text": "De ámbito autonómico: Ertzaintza en el País Vasco, Mossos d’Esquadra en Cataluña, Policía Foral de Navarra, Cuerpo General de la Policía de Canarias.",
+        "search_phrase": "De ámbito autonómico: Ertzaintza en el"
       }
     ]
   },
@@ -659,7 +739,8 @@
     "explanations": [
       {
         "location": "Page 11 line 21 to Page 11 line 23",
-        "text": "De ámbito autonómico: Ertzaintza en el País Vasco, Mossos d’Esquadra en Cataluña, Policía Foral de Navarra, Cuerpo General de la Policía de Canarias."
+        "text": "De ámbito autonómico: Ertzaintza en el País Vasco, Mossos d’Esquadra en Cataluña, Policía Foral de Navarra, Cuerpo General de la Policía de Canarias.",
+        "search_phrase": "De ámbito autonómico: Ertzaintza en el"
       }
     ]
   },
@@ -667,7 +748,8 @@
     "explanations": [
       {
         "location": "Page 8 line 20",
-        "text": "El 19 junio del año 2014, fue proclamado rey su hijo, Felipe VI."
+        "text": "El 19 junio del año 2014, fue proclamado rey su hijo, Felipe VI.",
+        "search_phrase": "El 19 junio del año 2014,"
       }
     ]
   },
@@ -675,7 +757,8 @@
     "explanations": [
       {
         "location": "Page 11 line 24 to Page 11 line 27",
-        "text": "De ámbito local: Policía local. Entre las funciones de la Policía local están la protección de las instituciones y autoridades locales, la regulación del tráfico en pueblos y ciudades y la prestación de auxilio en caso de accidente."
+        "text": "De ámbito local: Policía local. Entre las funciones de la Policía local están la protección de las instituciones y autoridades locales, la regulación del tráfico en pueblos y ciudades y la prestación de auxilio en caso de accidente.",
+        "search_phrase": "De ámbito local: Policía local. Entre"
       }
     ]
   },
@@ -683,7 +766,8 @@
     "explanations": [
       {
         "location": "Page 11 line 43 to Page 11 line 44",
-        "text": "Cualquier ciudadano puede presentar una queja al Defensor del Pueblo y solicitar su intervención,"
+        "text": "Cualquier ciudadano puede presentar una queja al Defensor del Pueblo y solicitar su intervención,",
+        "search_phrase": "Cualquier ciudadano puede presentar una queja"
       }
     ]
   },
@@ -691,7 +775,8 @@
     "explanations": [
       {
         "location": "Page 15 line 19 to Page 15 line 20",
-        "text": "La Constitución establece que la base del sistema político es el derecho al voto de todos los españoles"
+        "text": "La Constitución establece que la base del sistema político es el derecho al voto de todos los españoles",
+        "search_phrase": "La Constitución establece que la base"
       }
     ]
   },
@@ -699,7 +784,8 @@
     "explanations": [
       {
         "location": "Page 11 line 18 to Page 11 line 20",
-        "text": "la Guardia Civil tiene como funciones, entre otras, vigilar el tráfico en las vías públicas interurbanas"
+        "text": "la Guardia Civil tiene como funciones, entre otras, vigilar el tráfico en las vías públicas interurbanas",
+        "search_phrase": "la Guardia Civil tiene como funciones,"
       }
     ]
   },
@@ -707,7 +793,8 @@
     "explanations": [
       {
         "location": "Page 12 line 11 to Page 12 line 13",
-        "text": "La Agencia Tributaria, que depende del Ministerio de Hacienda y Función Pública, es la encargada de la recaudación de impuestos que contribuyen al sostenimiento de los gastos públicos."
+        "text": "La Agencia Tributaria, que depende del Ministerio de Hacienda y Función Pública, es la encargada de la recaudación de impuestos que contribuyen al sostenimiento de los gastos públicos.",
+        "search_phrase": "La Agencia Tributaria, que depende del"
       }
     ]
   },
@@ -715,7 +802,8 @@
     "explanations": [
       {
         "location": "Page 14 line 17 to Page 14 line 19",
-        "text": "El Gobierno y las comunidades autónomas cuentan con diversos medios para comunicarse con los ciudadanos, entre ellos, el Boletín Oficial del Estado (BOE)"
+        "text": "El Gobierno y las comunidades autónomas cuentan con diversos medios para comunicarse con los ciudadanos, entre ellos, el Boletín Oficial del Estado (BOE)",
+        "search_phrase": "El Gobierno y las comunidades autónomas"
       }
     ]
   },
@@ -723,7 +811,8 @@
     "explanations": [
       {
         "location": "Page 14 line 3 to Page 14 line 5",
-        "text": "de la provincia es la Diputación, excepto en Canarias e Islas Baleares. En Canarias los órganos de gobierno son los cabildos y en Baleares son los consejos insulares."
+        "text": "de la provincia es la Diputación, excepto en Canarias e Islas Baleares. En Canarias los órganos de gobierno son los cabildos y en Baleares son los consejos insulares.",
+        "search_phrase": "de la provincia es la Diputación,"
       }
     ]
   },
@@ -731,7 +820,8 @@
     "explanations": [
       {
         "location": "Page 14 line 38 to Page 14 line 39",
-        "text": "realizarse trámites: presentar documentos, pagar impuestos, consultar expedientes, etc."
+        "text": "realizarse trámites: presentar documentos, pagar impuestos, consultar expedientes, etc.",
+        "search_phrase": "realizarse trámites: presentar documentos, pagar impuestos,"
       }
     ]
   },
@@ -739,7 +829,8 @@
     "explanations": [
       {
         "location": "Page 14 line 24 to Page 14 line 25",
-        "text": "060 (teléfono de información de la Administración General del Estado)"
+        "text": "060 (teléfono de información de la Administración General del Estado)",
+        "search_phrase": "060 (teléfono de información de la"
       }
     ]
   },
@@ -747,7 +838,8 @@
     "explanations": [
       {
         "location": "Page 12 line 17 to Page 12 line 18",
-        "text": "En la Constitución de 1978 se establece que España se organiza a partir de ese momento en comunidades autónomas, provincias y municipios."
+        "text": "En la Constitución de 1978 se establece que España se organiza a partir de ese momento en comunidades autónomas, provincias y municipios.",
+        "search_phrase": "En la Constitución de 1978 se"
       }
     ]
   },
@@ -755,7 +847,8 @@
     "explanations": [
       {
         "location": "Page 17 line 11 to Page 17 line 14",
-        "text": "Existen diversas organizaciones como los partidos políticos (artículo 6), los sindicatos (artículo 7) y las organizaciones empresariales"
+        "text": "Existen diversas organizaciones como los partidos políticos (artículo 6), los sindicatos (artículo 7) y las organizaciones empresariales",
+        "search_phrase": "Existen"
       }
     ]
   },
@@ -763,7 +856,8 @@
     "explanations": [
       {
         "location": "Page 9 line 35 to Page 9 line 37",
-        "text": "En el Congreso de los Diputados también tiene lugar la investidura del presidente del Gobierno, a propuesta del rey,"
+        "text": "En el Congreso de los Diputados también tiene lugar la investidura del presidente del Gobierno, a propuesta del rey,",
+        "search_phrase": "En el Congreso de los Diputados"
       }
     ]
   },
@@ -771,7 +865,8 @@
     "explanations": [
       {
         "location": "Page 10 line 31 to Page 10 line 35",
-        "text": "Las Fuerzas Armadas [...] Su máxima autoridad es el rey, aunque la dirección corresponde al Ministerio de Defensa."
+        "text": "Las Fuerzas Armadas [...] Su máxima autoridad es el rey, aunque la dirección corresponde al Ministerio de Defensa.",
+        "search_phrase": "Las Fuerzas Armadas"
       }
     ]
   },
@@ -779,7 +874,8 @@
     "explanations": [
       {
         "location": "Page 13 line 40 to Page 13 line 42",
-        "text": "El representante del Estado en una comunidad autónoma es el delegado del Gobierno, que coordina y supervisa la acción de la Administración del Estado en el territorio autonómico,"
+        "text": "El representante del Estado en una comunidad autónoma es el delegado del Gobierno, que coordina y supervisa la acción de la Administración del Estado en el territorio autonómico,",
+        "search_phrase": "El representante del Estado en una"
       }
     ]
   },
@@ -787,7 +883,8 @@
     "explanations": [
       {
         "location": "Page 13 line 46 to Page 13 line 47",
-        "text": "Provincias\nExisten 50 provincias en España, a las que hay que sumar las dos ciudades autónomas de Ceuta y Melilla."
+        "text": "Provincias\nExisten 50 provincias en España, a las que hay que sumar las dos ciudades autónomas de Ceuta y Melilla.",
+        "search_phrase": "Provincias Existen 50 provincias en España,"
       }
     ]
   },
@@ -795,7 +892,8 @@
     "explanations": [
       {
         "location": "Page 7 line 11 to Page 7 line 13",
-        "text": "En España la enseñanza de las lenguas cooficiales es competencia de las comunidades autónomas."
+        "text": "En España la enseñanza de las lenguas cooficiales es competencia de las comunidades autónomas.",
+        "search_phrase": "En España la enseñanza de las"
       }
     ]
   },
@@ -803,7 +901,8 @@
     "explanations": [
       {
         "location": "Page 9 line 10 to Page 9 line 11",
-        "text": "Poder Ejecutivo\nEl Gobierno dirige la política interior y exterior de España"
+        "text": "Poder Ejecutivo\nEl Gobierno dirige la política interior y exterior de España",
+        "search_phrase": "Poder Ejecutivo El Gobierno dirige la"
       }
     ]
   },
@@ -811,7 +910,8 @@
     "explanations": [
       {
         "location": "Page 9 line 21 to Page 9 line 23",
-        "text": "Las Cortes Generales (nombre oficial del Parlamento español) representan al pueblo español y están formadas por dos cámaras: el Congreso de los Diputados y el Senado."
+        "text": "Las Cortes Generales (nombre oficial del Parlamento español) representan al pueblo español y están formadas por dos cámaras: el Congreso de los Diputados y el Senado.",
+        "search_phrase": "Las Cortes Generales (nombre oficial del"
       }
     ]
   },
@@ -819,7 +919,8 @@
     "explanations": [
       {
         "location": "Page 14 line 13 to Page 14 line 16",
-        "text": "Entre las competencias de los ayuntamientos se encuentran la protección de su patrimonio histórico, medio ambiente, urbanismo, suministro de agua e iluminación, actividades e instalaciones culturales y deportivas, etc."
+        "text": "Entre las competencias de los ayuntamientos se encuentran la protección de su patrimonio histórico, medio ambiente, urbanismo, suministro de agua e iluminación, actividades e instalaciones culturales y deportivas, etc.",
+        "search_phrase": "Entre las competencias de los ayuntamientos"
       }
     ]
   },
@@ -827,7 +928,8 @@
     "explanations": [
       {
         "location": "Page 12 line 26 to Page 12 line 28",
-        "text": "El Estado posee competencias exclusivas sobre materias como nacionalidad, extranjería, inmigración, relaciones internacionales y administración de justicia."
+        "text": "El Estado posee competencias exclusivas sobre materias como nacionalidad, extranjería, inmigración, relaciones internacionales y administración de justicia.",
+        "search_phrase": "El Estado posee competencias exclusivas sobre"
       }
     ]
   },
@@ -835,7 +937,8 @@
     "explanations": [
       {
         "location": "Page 17 line 5 to Page 17 line 7",
-        "text": "Desde que se aprobó la Constitución española en 1978 hasta 2023, ha habido 7 presidentes de Gobierno, pertenecientes a 3 partidos, como se observa en la Tabla 3."
+        "text": "Desde que se aprobó la Constitución española en 1978 hasta 2023, ha habido 7 presidentes de Gobierno, pertenecientes a 3 partidos, como se observa en la Tabla 3.",
+        "search_phrase": "Desde que se aprobó la Constitución"
       }
     ]
   },
@@ -843,7 +946,8 @@
     "explanations": [
       {
         "location": "Page 12 line 26 to Page 12 line 28",
-        "text": "El Estado posee competencias exclusivas sobre materias como nacionalidad, extranjería, inmigración, relaciones internacionales y administración de justicia."
+        "text": "El Estado posee competencias exclusivas sobre materias como nacionalidad, extranjería, inmigración, relaciones internacionales y administración de justicia.",
+        "search_phrase": "El Estado posee competencias exclusivas sobre"
       }
     ]
   },
@@ -851,7 +955,8 @@
     "explanations": [
       {
         "location": "Page 14 line 9 to Page 14 line 12",
-        "text": "el ayuntamiento, formado por el alcalde y los concejales, que se encargan de gestionar los servicios públicos de la ciudad o del pueblo y que son elegidos por los habitantes de la localidad en las elecciones municipales."
+        "text": "el ayuntamiento, formado por el alcalde y los concejales, que se encargan de gestionar los servicios públicos de la ciudad o del pueblo y que son elegidos por los habitantes de la localidad en las elecciones municipales.",
+        "search_phrase": "el ayuntamiento, formado por el alcalde"
       }
     ]
   },
@@ -859,7 +964,8 @@
     "explanations": [
       {
         "location": "Page 13 line 34 to Page 13 line 39",
-        "text": "Las instituciones de las comunidades autónomas son: la asamblea legislativa (o parlamento autonómico), elegida por votación popular entre todos sus habitantes en las elecciones autonómicas; el consejo de gobierno, con funciones ejecutivas; y el presidente, que además de su función ejecutiva, representa a la comunidad autónoma."
+        "text": "Las instituciones de las comunidades autónomas son: la asamblea legislativa (o parlamento autonómico), elegida por votación popular entre todos sus habitantes en las elecciones autonómicas; el consejo de gobierno, con funciones ejecutivas; y el presidente, que además de su función ejecutiva, representa a la comunidad autónoma.",
+        "search_phrase": "Las instituciones de las comunidades autónomas"
       }
     ]
   },
@@ -867,7 +973,8 @@
     "explanations": [
       {
         "location": "Page 14 line 8 to Page 14 line 9",
-        "text": "Existen 8132 municipios en España. El órgano de gobierno es el ayuntamiento, formado por el alcalde y los concejales, que se encargan de gestionar los servicios públicos de la ciudad o del pueblo..."
+        "text": "Existen 8132 municipios en España. El órgano de gobierno es el ayuntamiento, formado por el alcalde y los concejales, que se encargan de gestionar los servicios públicos de la ciudad o del pueblo...",
+        "search_phrase": "Existen 8132 municipios en España. El"
       }
     ]
   },
@@ -875,7 +982,8 @@
     "explanations": [
       {
         "location": "Page 14 line 3",
-        "text": "de la provincia es la Diputación, excepto en Canarias e Islas Baleares."
+        "text": "de la provincia es la Diputación, excepto en Canarias e Islas Baleares.",
+        "search_phrase": "de la provincia es la Diputación,"
       }
     ]
   },
@@ -883,7 +991,8 @@
     "explanations": [
       {
         "location": "Page 9 line 10 to Page 9 line 13",
-        "text": "Poder Ejecutivo\nEl Gobierno dirige la política interior y exterior de España, la administración civil y militar, y la defensa del Estado. Es el órgano superior del poder ejecutivo."
+        "text": "Poder Ejecutivo\nEl Gobierno dirige la política interior y exterior de España, la administración civil y militar, y la defensa del Estado. Es el órgano superior del poder ejecutivo.",
+        "search_phrase": "Poder Ejecutivo El Gobierno dirige la"
       }
     ]
   },
@@ -891,7 +1000,8 @@
     "explanations": [
       {
         "location": "Page 7 line 14",
-        "text": "Además del castellano o español, se hablan otras lenguas..."
+        "text": "Además del castellano o español, se hablan otras lenguas...",
+        "search_phrase": "Además del castellano o español, se"
       }
     ]
   },
@@ -899,7 +1009,8 @@
     "explanations": [
       {
         "location": "Page 16 line 15 to Page 16 line 18",
-        "text": "Además, cada cinco años se celebran (como en el resto de la UE) las elecciones europeas, en las que se elige a los eurodiputados españoles en el Parlamento Europeo."
+        "text": "Además, cada cinco años se celebran (como en el resto de la UE) las elecciones europeas, en las que se elige a los eurodiputados españoles en el Parlamento Europeo.",
+        "search_phrase": "Además, cada cinco años se celebran"
       }
     ]
   },
@@ -907,7 +1018,8 @@
     "explanations": [
       {
         "location": "Page 16 line 3 to Page 16 line 5",
-        "text": "sufragio universal, libre, igual, directo y secreto, en el que son electores y elegibles todos los españoles mayores de 18 años."
+        "text": "sufragio universal, libre, igual, directo y secreto, en el que son electores y elegibles todos los españoles mayores de 18 años.",
+        "search_phrase": "sufragio universal, libre, igual, directo y"
       }
     ]
   },
@@ -915,7 +1027,8 @@
     "explanations": [
       {
         "location": "Page 16 line 5 to Page 16 line 8",
-        "text": "En las elecciones municipales también se permite el voto de los ciudadanos residentes en España procedentes de la Unión Europea y de algunos países con los que España tiene firmados acuerdos."
+        "text": "En las elecciones municipales también se permite el voto de los ciudadanos residentes en España procedentes de la Unión Europea y de algunos países con los que España tiene firmados acuerdos.",
+        "search_phrase": "En las elecciones municipales también se"
       }
     ]
   },
@@ -923,7 +1036,8 @@
     "explanations": [
       {
         "location": "Page 12 line 6 to Page 12 line 8",
-        "text": "El Tribunal de Cuentas controla las finanzas y presupuesto de las administraciones, así como la contabilidad de los partidos políticos."
+        "text": "El Tribunal de Cuentas controla las finanzas y presupuesto de las administraciones, así como la contabilidad de los partidos políticos.",
+        "search_phrase": "El Tribunal de Cuentas controla las"
       }
     ]
   },
@@ -931,7 +1045,8 @@
     "explanations": [
       {
         "location": "Page 16 line 11 to Page 16 line 12",
-        "text": "generales, para elegir a los diputados y senadores del Congreso y del Senado, respectivamente;"
+        "text": "generales, para elegir a los diputados y senadores del Congreso y del Senado, respectivamente;",
+        "search_phrase": "generales, para elegir a los diputados"
       }
     ]
   },
@@ -939,7 +1054,8 @@
     "explanations": [
       {
         "location": "Page 9 line 29 to Page 9 line 30",
-        "text": "El Congreso de los Diputados está compuesto por 350 diputados, que se eligen por provincias."
+        "text": "El Congreso de los Diputados está compuesto por 350 diputados, que se eligen por provincias.",
+        "search_phrase": "El Congreso de los Diputados está"
       }
     ]
   },
@@ -947,7 +1063,8 @@
     "explanations": [
       {
         "location": "Page 12 line 20 to Page 12 line 22",
-        "text": "Se distinguen tres niveles de organización: central, autonómica y local (en este nivel se incluyen las provincias y los municipios)."
+        "text": "Se distinguen tres niveles de organización: central, autonómica y local (en este nivel se incluyen las provincias y los municipios).",
+        "search_phrase": "Se distinguen tres niveles de"
       }
     ]
   },
@@ -955,7 +1072,8 @@
     "explanations": [
       {
         "location": "Page 16 Table 2",
-        "text": "Número de habitantes por comunidades autónomas:\nAndalucía: 8 631 862"
+        "text": "Número de habitantes por comunidades autónomas:\nAndalucía: 8 631 862",
+        "search_phrase": "Número de habitantes por comunidades"
       }
     ]
   },
@@ -963,7 +1081,8 @@
     "explanations": [
       {
         "location": "Page 17 line 13 to Page 17 line 15",
-        "text": "los sindicatos «organizaciones que defienden y promueven los intereses de los trabajadores» (artículos 7 y 28)"
+        "text": "los sindicatos «organizaciones que defienden y promueven los intereses de los trabajadores» (artículos 7 y 28)",
+        "search_phrase": "los sindicatos"
       }
     ]
   },
@@ -971,7 +1090,8 @@
     "explanations": [
       {
         "location": "Page 9 line 35 to Page 9 line 37",
-        "text": "En el Congreso de los Diputados también tiene lugar la investidura del presidente del Gobierno, a propuesta del rey,"
+        "text": "En el Congreso de los Diputados también tiene lugar la investidura del presidente del Gobierno, a propuesta del rey,",
+        "search_phrase": "En el Congreso de los Diputados"
       }
     ]
   },
@@ -979,7 +1099,8 @@
     "explanations": [
       {
         "location": "Page 29 line 13 to Page 29 line 14",
-        "text": "No hay ninguna religión oficial en España, por eso España es un Estado aconfesional."
+        "text": "No hay ninguna religión oficial en España, por eso España es un Estado aconfesional.",
+        "search_phrase": "No hay ninguna religión oficial en"
       }
     ]
   },
@@ -987,7 +1108,8 @@
     "explanations": [
       {
         "location": "Page 30 line 12 to Page 30 line 14",
-        "text": "Tienen derecho al voto todos los españoles mayores de 18 años y a quienes no se les haya quitado este derecho por sentencia judicial."
+        "text": "Tienen derecho al voto todos los españoles mayores de 18 años y a quienes no se les haya quitado este derecho por sentencia judicial.",
+        "search_phrase": "Tienen derecho al voto todos los"
       }
     ]
   },
@@ -995,7 +1117,8 @@
     "explanations": [
       {
         "location": "Page 29 line 5 to Page 29 line 7",
-        "text": "Todos tienen derecho a la vida y a la integridad física y moral. Se elimina la pena de muerte y se prohíbe la tortura."
+        "text": "Todos tienen derecho a la vida y a la integridad física y moral. Se elimina la pena de muerte y se prohíbe la tortura.",
+        "search_phrase": "Todos tienen derecho a la vida"
       }
     ]
   },
@@ -1003,7 +1126,8 @@
     "explanations": [
       {
         "location": "Page 28 line 11 to Page 28 line 16",
-        "text": "Artículo 6\nLos partidos políticos expresan el pluralismo político de acuerdo con la voluntad popular y son instrumento para la participación política. Su creación es libre dentro del respeto a la Constitución y a la ley. Su estructura y funcionamiento deberán ser democráticos."
+        "text": "Artículo 6\nLos partidos políticos expresan el pluralismo político de acuerdo con la voluntad popular y son instrumento para la participación política. Su creación es libre dentro del respeto a la Constitución y a la ley. Su estructura y funcionamiento deberán ser democráticos.",
+        "search_phrase": "Artículo 6 Los partidos políticos expresan"
       }
     ]
   },
@@ -1011,7 +1135,8 @@
     "explanations": [
       {
         "location": "Page 29 line 11 to Page 29 line 12",
-        "text": "Nadie puede ser obligado a decir cuáles son sus ideas políticas o religiosas."
+        "text": "Nadie puede ser obligado a decir cuáles son sus ideas políticas o religiosas.",
+        "search_phrase": "Nadie puede ser obligado a decir"
       }
     ]
   },
@@ -1019,7 +1144,8 @@
     "explanations": [
       {
         "location": "Page 29 line 27 to Page 29 line 31",
-        "text": "Artículo 19\nLos españoles tienen el derecho a elegir libremente dónde quieren vivir. Pueden desplazarse libremente por todo el territorio español y entrar y salir sin que pueda limitarse este derecho por motivos políticos o ideológicos."
+        "text": "Artículo 19\nLos españoles tienen el derecho a elegir libremente dónde quieren vivir. Pueden desplazarse libremente por todo el territorio español y entrar y salir sin que pueda limitarse este derecho por motivos políticos o ideológicos.",
+        "search_phrase": "Artículo 19 Los españoles tienen el"
       }
     ]
   },
@@ -1027,7 +1153,8 @@
     "explanations": [
       {
         "location": "Page 30 line 27 to Page 30 line 29",
-        "text": "4. La enseñanza básica es obligatoria y gratuita. Consta de dos etapas: Educación Primaria (de 6 a 12 años) y Educación Secundaria Obligatoria (de 12 a 16 años)."
+        "text": "4. La enseñanza básica es obligatoria y gratuita. Consta de dos etapas: Educación Primaria (de 6 a 12 años) y Educación Secundaria Obligatoria (de 12 a 16 años).",
+        "search_phrase": "4. La enseñanza básica es obligatoria"
       }
     ]
   },
@@ -1035,7 +1162,8 @@
     "explanations": [
       {
         "location": "Page 31 line 46 to Page 31 line 48",
-        "text": "Todos los españoles tienen derecho a disfrutar de una vivienda digna y adecuada."
+        "text": "Todos los españoles tienen derecho a disfrutar de una vivienda digna y adecuada.",
+        "search_phrase": "Todos los españoles tienen derecho a"
       }
     ]
   },
@@ -1043,7 +1171,8 @@
     "explanations": [
       {
         "location": "Page 29 line 18 to Page 29 line 20",
-        "text": "El domicilio es inviolable. Nadie puede entrar sin permiso del titular. La policía solo podrá entrar con una autorización judicial o cuando se esté cometiendo un delito."
+        "text": "El domicilio es inviolable. Nadie puede entrar sin permiso del titular. La policía solo podrá entrar con una autorización judicial o cuando se esté cometiendo un delito.",
+        "search_phrase": "El domicilio es inviolable. Nadie puede"
       }
     ]
   },
@@ -1051,7 +1180,8 @@
     "explanations": [
       {
         "location": "Page 29 line 21 to Page 29 line 23",
-        "text": "Se garantiza el secreto de las comunicaciones y, en especial, de las postales, telegráficas y telefónicas, excepto si hay resolución judicial."
+        "text": "Se garantiza el secreto de las comunicaciones y, en especial, de las postales, telegráficas y telefónicas, excepto si hay resolución judicial.",
+        "search_phrase": "Se garantiza el secreto de las"
       }
     ]
   },
@@ -1059,7 +1189,8 @@
     "explanations": [
       {
         "location": "Page 30 line 5 to Page 30 line 6",
-        "text": "Artículo 22\n1. Se reconoce el derecho de asociación."
+        "text": "Artículo 22\n1. Se reconoce el derecho de asociación.",
+        "search_phrase": "Artículo 22 1. Se reconoce el"
       }
     ]
   },
@@ -1067,7 +1198,8 @@
     "explanations": [
       {
         "location": "Page 29 line 33 to Page 29 line 39",
-        "text": "Se reconocen y protegen los derechos: [...] c. A que los profesores puedan impartir sus enseñanzas con libertad."
+        "text": "Se reconocen y protegen los derechos: [...] c. A que los profesores puedan impartir sus enseñanzas con libertad.",
+        "search_phrase": "Se reconocen y protegen los derechos:"
       }
     ]
   },
@@ -1075,7 +1207,8 @@
     "explanations": [
       {
         "location": "Page 28 line 5 to Page 28 line 7",
-        "text": "En la Constitución de 1978 se recogen los derechos fundamentales, deberes y libertades de los españoles, dentro y fuera de España, y de los residentes extranjeros."
+        "text": "En la Constitución de 1978 se recogen los derechos fundamentales, deberes y libertades de los españoles, dentro y fuera de España, y de los residentes extranjeros.",
+        "search_phrase": "En la Constitución de 1978 se"
       }
     ]
   },
@@ -1083,7 +1216,8 @@
     "explanations": [
       {
         "location": "Page 32 line 29 to Page 32 line 31",
-        "text": "Artículo 118\nHay que cumplir las sentencias de los jueces y tribunales, así como colaborar con ellos cuando se lo pidan."
+        "text": "Artículo 118\nHay que cumplir las sentencias de los jueces y tribunales, así como colaborar con ellos cuando se lo pidan.",
+        "search_phrase": "Artículo 118 Hay que cumplir las"
       }
     ]
   },
@@ -1091,7 +1225,8 @@
     "explanations": [
       {
         "location": "Page 29 line 24 to Page 29 line 26",
-        "text": "La ley limita el uso de la informática para garantizar el honor y la intimidad. También se limita el acceso de terceras personas a datos de carácter personal"
+        "text": "La ley limita el uso de la informática para garantizar el honor y la intimidad. También se limita el acceso de terceras personas a datos de carácter personal",
+        "search_phrase": "La ley limita el uso de"
       }
     ]
   },
@@ -1099,7 +1234,8 @@
     "explanations": [
       {
         "location": "Page 29 line 40 to Page 29 line 46",
-        "text": "d. A comunicar o recibir libremente información verdadera por cualquier medio de difusión (libertad de prensa). 2. Todas estas libertades no tendrán ningún tipo de censura, su único límite es el respeto a los derechos reconocidos a los españoles y, especialmente, el derecho al honor, a la intimidad..."
+        "text": "d. A comunicar o recibir libremente información verdadera por cualquier medio de difusión (libertad de prensa). 2. Todas estas libertades no tendrán ningún tipo de censura, su único límite es el respeto a los derechos reconocidos a los españoles y, especialmente, el derecho al honor, a la intimidad...",
+        "search_phrase": "d. A comunicar o recibir libremente"
       }
     ]
   },
@@ -1107,7 +1243,8 @@
     "explanations": [
       {
         "location": "Page 31 line 26 to Page 31 line 28",
-        "text": "La ley regulará las formas de matrimonio, la edad y capacidad para contraerlo, los derechos y deberes de los cónyuges, las causas de separación y divorcio y sus efectos."
+        "text": "La ley regulará las formas de matrimonio, la edad y capacidad para contraerlo, los derechos y deberes de los cónyuges, las causas de separación y divorcio y sus efectos.",
+        "search_phrase": "La ley regulará las formas de"
       }
     ]
   },
@@ -1115,7 +1252,8 @@
     "explanations": [
       {
         "location": "Page 31 line 35 to Page 31 line 41",
-        "text": "Todos los ciudadanos tendrán acceso a un sistema de Seguridad Social público, que les garantizará atención en situaciones de necesidad, especialmente para los que no tienen trabajo. Art. 43: Los poderes públicos deben proteger la salud y promover la educación sanitaria..."
+        "text": "Todos los ciudadanos tendrán acceso a un sistema de Seguridad Social público, que les garantizará atención en situaciones de necesidad, especialmente para los que no tienen trabajo. Art. 43: Los poderes públicos deben proteger la salud y promover la educación sanitaria...",
+        "search_phrase": "Todos los ciudadanos tendrán acceso a"
       }
     ]
   },
@@ -1123,7 +1261,8 @@
     "explanations": [
       {
         "location": "Page 28 line 25 to Page 28 line 28",
-        "text": "Artículo 14\nLos españoles son iguales ante la ley y no podrá existir discriminación por su nacimiento, raza, sexo, religión o cualquier otra condición o circunstancia personal o social."
+        "text": "Artículo 14\nLos españoles son iguales ante la ley y no podrá existir discriminación por su nacimiento, raza, sexo, religión o cualquier otra condición o circunstancia personal o social.",
+        "search_phrase": "Artículo 14 Los españoles son iguales"
       }
     ]
   },
@@ -1131,7 +1270,8 @@
     "explanations": [
       {
         "location": "Page 30 line 27 to Page 30 line 29",
-        "text": "4. La enseñanza básica es obligatoria y gratuita. Consta de dos etapas: Educación Primaria (de 6 a 12 años) y Educación Secundaria Obligatoria (de 12 a 16 años)."
+        "text": "4. La enseñanza básica es obligatoria y gratuita. Consta de dos etapas: Educación Primaria (de 6 a 12 años) y Educación Secundaria Obligatoria (de 12 a 16 años).",
+        "search_phrase": "4. La enseñanza básica es obligatoria"
       }
     ]
   },
@@ -1139,7 +1279,8 @@
     "explanations": [
       {
         "location": "Page 29 line 13 to Page 29 line 14",
-        "text": "No hay ninguna religión oficial en España, por eso España es un Estado aconfesional."
+        "text": "No hay ninguna religión oficial en España, por eso España es un Estado aconfesional.",
+        "search_phrase": "No hay ninguna religión oficial en"
       }
     ]
   },
@@ -1147,7 +1288,8 @@
     "explanations": [
       {
         "location": "Page 31 line 40 to Page 31 line 41",
-        "text": "Los poderes públicos deben proteger la salud y promover la educación sanitaria, la educación física y el deporte."
+        "text": "Los poderes públicos deben proteger la salud y promover la educación sanitaria, la educación física y el deporte.",
+        "search_phrase": "Los poderes públicos deben proteger la"
       }
     ]
   },
@@ -1155,7 +1297,8 @@
     "explanations": [
       {
         "location": "Page 30 line 27 to Page 30 line 29",
-        "text": "4. La enseñanza básica es obligatoria y gratuita. Consta de dos etapas: Educación Primaria (de 6 a 12 años) y Educación Secundaria Obligatoria (de 12 a 16 años)."
+        "text": "4. La enseñanza básica es obligatoria y gratuita. Consta de dos etapas: Educación Primaria (de 6 a 12 años) y Educación Secundaria Obligatoria (de 12 a 16 años).",
+        "search_phrase": "4. La enseñanza básica es obligatoria"
       }
     ]
   },
@@ -1163,7 +1306,8 @@
     "explanations": [
       {
         "location": "Page 30 line 6",
-        "text": "1. Se reconoce el derecho de asociación."
+        "text": "1. Se reconoce el derecho de asociación.",
+        "search_phrase": "1. Se reconoce el derecho de"
       }
     ]
   },
@@ -1171,7 +1315,8 @@
     "explanations": [
       {
         "location": "Page 17 line 18 to Page 17 line 20",
-        "text": "Los sindicatos en España tienen gran importancia. Los más representativos participan tanto en negociaciones con empresarios y gobiernos..."
+        "text": "Los sindicatos en España tienen gran importancia. Los más representativos participan tanto en negociaciones con empresarios y gobiernos...",
+        "search_phrase": "Los sindicatos en España tienen gran"
       }
     ]
   },
@@ -1179,7 +1324,8 @@
     "explanations": [
       {
         "location": "Page 30 line 33 to Page 30 line 35",
-        "text": "2. Se reconoce el derecho a la huelga de los trabajadores para defender sus intereses..."
+        "text": "2. Se reconoce el derecho a la huelga de los trabajadores para defender sus intereses...",
+        "search_phrase": "2. Se reconoce el derecho a"
       }
     ]
   },
@@ -1187,7 +1333,8 @@
     "explanations": [
       {
         "location": "Page 29 line 9 to Page 29 line 10",
-        "text": "Se garantiza la libertad ideológica y religiosa de los individuos y las comunidades."
+        "text": "Se garantiza la libertad ideológica y religiosa de los individuos y las comunidades.",
+        "search_phrase": "Se garantiza la libertad ideológica y"
       }
     ]
   },
@@ -1195,7 +1342,8 @@
     "explanations": [
       {
         "location": "Page 31 line 35 to Page 31 line 38",
-        "text": "Todos los ciudadanos tendrán acceso a un sistema de Seguridad Social público, que les garantizará atención en situaciones de necesidad, especialmente para los que no tienen trabajo."
+        "text": "Todos los ciudadanos tendrán acceso a un sistema de Seguridad Social público, que les garantizará atención en situaciones de necesidad, especialmente para los que no tienen trabajo.",
+        "search_phrase": "Todos los ciudadanos tendrán acceso a"
       }
     ]
   },
@@ -1203,7 +1351,8 @@
     "explanations": [
       {
         "location": "Page 31 line 43 to Page 31 line 45",
-        "text": "Todos tienen derecho a disfrutar de un medio ambiente adecuado para el desarrollo de la persona, así como el deber de conservarlo."
+        "text": "Todos tienen derecho a disfrutar de un medio ambiente adecuado para el desarrollo de la persona, así como el deber de conservarlo.",
+        "search_phrase": "Todos tienen derecho a disfrutar de"
       }
     ]
   },
@@ -1211,7 +1360,8 @@
     "explanations": [
       {
         "location": "Page 31 line 40 to Page 31 line 41",
-        "text": "Los poderes públicos deben proteger la salud y promover la educación sanitaria, la educación física y el deporte."
+        "text": "Los poderes públicos deben proteger la salud y promover la educación sanitaria, la educación física y el deporte.",
+        "search_phrase": "Los poderes públicos deben proteger la"
       }
     ]
   },
@@ -1219,7 +1369,8 @@
     "explanations": [
       {
         "location": "Page 30 line 27 to Page 30 line 29",
-        "text": "4. La enseñanza básica es obligatoria y gratuita. Consta de dos etapas: Educación Primaria (de 6 a 12 años) y Educación Secundaria Obligatoria (de 12 a 16 años)."
+        "text": "4. La enseñanza básica es obligatoria y gratuita. Consta de dos etapas: Educación Primaria (de 6 a 12 años) y Educación Secundaria Obligatoria (de 12 a 16 años).",
+        "search_phrase": "4. La enseñanza básica es obligatoria"
       }
     ]
   },
@@ -1227,7 +1378,8 @@
     "explanations": [
       {
         "location": "Page 28 line 25 to Page 28 line 28",
-        "text": "Artículo 14\nLos españoles son iguales ante la ley y no podrá existir discriminación por su nacimiento, raza, sexo, religión o cualquier otra condición o circunstancia personal o social."
+        "text": "Artículo 14\nLos españoles son iguales ante la ley y no podrá existir discriminación por su nacimiento, raza, sexo, religión o cualquier otra condición o circunstancia personal o social.",
+        "search_phrase": "Artículo 14 Los españoles son iguales"
       }
     ]
   },
@@ -1235,7 +1387,8 @@
     "explanations": [
       {
         "location": "Page 29 line 28 to Page 29 line 30",
-        "text": "Los españoles tienen el derecho a elegir libremente dónde quieren vivir. Pueden desplazarse libremente por todo el territorio español..."
+        "text": "Los españoles tienen el derecho a elegir libremente dónde quieren vivir. Pueden desplazarse libremente por todo el territorio español...",
+        "search_phrase": "Los españoles tienen el derecho a"
       }
     ]
   },
@@ -1243,7 +1396,8 @@
     "explanations": [
       {
         "location": "Page 32 line 26 to Page 32 line 28",
-        "text": "La justicia surge del pueblo y la administran jueces y magistrados de forma independiente y responsable."
+        "text": "La justicia surge del pueblo y la administran jueces y magistrados de forma independiente y responsable.",
+        "search_phrase": "La justicia surge del pueblo y"
       }
     ]
   },
@@ -1251,7 +1405,8 @@
     "explanations": [
       {
         "location": "Page 30 line 39 to Page 30 line 40",
-        "text": "Los ciudadanos deben ayudar en los casos de grave riesgo, catástrofe o calamidad pública."
+        "text": "Los ciudadanos deben ayudar en los casos de grave riesgo, catástrofe o calamidad pública.",
+        "search_phrase": "Los ciudadanos deben ayudar en los"
       }
     ]
   },
@@ -1259,7 +1414,8 @@
     "explanations": [
       {
         "location": "Page 29 line 28 to Page 29 line 29",
-        "text": "Los españoles tienen el derecho a elegir libremente dónde quieren vivir."
+        "text": "Los españoles tienen el derecho a elegir libremente dónde quieren vivir.",
+        "search_phrase": "Los españoles tienen el derecho a"
       }
     ]
   },
@@ -1267,7 +1423,8 @@
     "explanations": [
       {
         "location": "Page 42 line 21 to Page 42 line 22",
-        "text": "Extremadura: Badajoz (capital de provincia: Badajoz) y Cáceres (capital de provincia: Cáceres)."
+        "text": "Extremadura: Badajoz (capital de provincia: Badajoz) y Cáceres (capital de provincia: Cáceres).",
+        "search_phrase": "Badajoz"
       }
     ]
   },
@@ -1275,7 +1432,8 @@
     "explanations": [
       {
         "location": "Page 42 line 15 to Page 42 line 20",
-        "text": "Comunidad Valenciana: Alicante, Castellón de la Plana, Valencia. Capital de la comunidad autónoma: Valencia."
+        "text": "Comunidad Valenciana: Alicante, Castellón de la Plana, Valencia. Capital de la comunidad autónoma: Valencia.",
+        "search_phrase": "Comunidad"
       }
     ]
   },
@@ -1283,7 +1441,8 @@
     "explanations": [
       {
         "location": "Page 37 line 14",
-        "text": "las islas Baleares, en el mar Mediterráneo;"
+        "text": "las islas Baleares, en el mar Mediterráneo;",
+        "search_phrase": "las islas Baleares, en el mar"
       }
     ]
   },
@@ -1291,7 +1450,8 @@
     "explanations": [
       {
         "location": "Page 37 line 23 to Page 37 line 26",
-        "text": "Meseta: es una extensa llanura situada en el centro de la península ibérica, con una altura media de más de 600 m sobre el nivel del mar, dividida por una cordillera que la atraviesa de lado a lado y que es el Sistema Central."
+        "text": "Meseta: es una extensa llanura situada en el centro de la península ibérica, con una altura media de más de 600 m sobre el nivel del mar, dividida por una cordillera que la atraviesa de lado a lado y que es el Sistema Central.",
+        "search_phrase": "Meseta: es una extensa llanura situada"
       }
     ]
   },
@@ -1299,7 +1459,8 @@
     "explanations": [
       {
         "location": "Page 39 line 10 to Page 39 line 12",
-        "text": "Los parques nacionales de España son, en la actualidad: [...] Ordesa y Monte Perdido (Aragón)"
+        "text": "Los parques nacionales de España son, en la actualidad: [...] Ordesa y Monte Perdido (Aragón)",
+        "search_phrase": "Los parques nacionales de España son,"
       }
     ]
   },
@@ -1307,7 +1468,8 @@
     "explanations": [
       {
         "location": "Page 41 line 55 to Page 41 line 61",
-        "text": "Castilla-La Mancha: Albacete, Ciudad Real, Cuenca, Guadalajara, Toledo. Capital de la comunidad autónoma: Toledo."
+        "text": "Castilla-La Mancha: Albacete, Ciudad Real, Cuenca, Guadalajara, Toledo. Capital de la comunidad autónoma: Toledo.",
+        "search_phrase": "Castilla-La"
       }
     ]
   },
@@ -1315,7 +1477,8 @@
     "explanations": [
       {
         "location": "Page 42 line 23 to Page 42 line 24",
-        "text": "Galicia: La Coruña, Lugo, Orense, Pontevedra. Capital de la comunidad autónoma: Santiago de Compostela."
+        "text": "Galicia: La Coruña, Lugo, Orense, Pontevedra. Capital de la comunidad autónoma: Santiago de Compostela.",
+        "search_phrase": "La"
       }
     ]
   },
@@ -1323,7 +1486,8 @@
     "explanations": [
       {
         "location": "Page 41 line 26",
-        "text": "Andalucía: Almería (capital de provincia: Almería) [...] Capital de la comunidad autónoma: Sevilla."
+        "text": "Andalucía: Almería (capital de provincia: Almería) [...] Capital de la comunidad autónoma: Sevilla.",
+        "search_phrase": "Almería"
       }
     ]
   },
@@ -1331,7 +1495,8 @@
     "explanations": [
       {
         "location": "Page 42 line 23 to Page 42 line 24",
-        "text": "Galicia: La Coruña, Lugo, Orense, Pontevedra. Capital de la comunidad autónoma: Santiago de Compostela."
+        "text": "Galicia: La Coruña, Lugo, Orense, Pontevedra. Capital de la comunidad autónoma: Santiago de Compostela.",
+        "search_phrase": "La"
       }
     ]
   },
@@ -1339,7 +1504,8 @@
     "explanations": [
       {
         "location": "Page 37 line 19 to Page 37 line 22",
-        "text": "Ríos: los ríos más importantes de España que desembocan en el océano Atlántico son: Miño, Duero, Tajo, Guadiana y Guadalquivir. En el mar Mediterráneo desembocan los ríos Ebro, Júcar, Segura y Turia."
+        "text": "Ríos: los ríos más importantes de España que desembocan en el océano Atlántico son: Miño, Duero, Tajo, Guadiana y Guadalquivir. En el mar Mediterráneo desembocan los ríos Ebro, Júcar, Segura y Turia.",
+        "search_phrase": "Ríos: los ríos más importantes de"
       }
     ]
   },
@@ -1347,7 +1513,8 @@
     "explanations": [
       {
         "location": "Page 37 line 27 to Page 37 line 29",
-        "text": "Montañas: las principales montañas de la península ibérica, de norte a sur, son los Pirineos, donde se sitúa el tercer monte más alto de España, el Aneto;"
+        "text": "Montañas: las principales montañas de la península ibérica, de norte a sur, son los Pirineos, donde se sitúa el tercer monte más alto de España, el Aneto;",
+        "search_phrase": "Montañas: las principales montañas de la"
       }
     ]
   },
@@ -1355,7 +1522,8 @@
     "explanations": [
       {
         "location": "Page 42 line 38 to Page 42 line 41",
-        "text": "País Vasco: Álava (capital de provincia: Vitoria). Sede de las administraciones: Vitoria."
+        "text": "País Vasco: Álava (capital de provincia: Vitoria). Sede de las administraciones: Vitoria.",
+        "search_phrase": "País"
       }
     ]
   },
@@ -1363,7 +1531,8 @@
     "explanations": [
       {
         "location": "Page 40 line 23 to Page 40 line 26",
-        "text": "División territorial de España\nEn el mapa político de España, se puede observar la división de España en comunidades autónomas, divididas en provincias, y ciudades autónomas."
+        "text": "División territorial de España\nEn el mapa político de España, se puede observar la división de España en comunidades autónomas, divididas en provincias, y ciudades autónomas.",
+        "search_phrase": "División territorial de España En el"
       }
     ]
   },
@@ -1371,7 +1540,8 @@
     "explanations": [
       {
         "location": "Page 39 line 10 to Page 39 line 13",
-        "text": "Los parques nacionales de España son, en la actualidad: [...] Aigüestortes y Estany de Sant Maurici (Cataluña)"
+        "text": "Los parques nacionales de España son, en la actualidad: [...] Aigüestortes y Estany de Sant Maurici (Cataluña)",
+        "search_phrase": "Los parques nacionales de España son,"
       }
     ]
   },
@@ -1379,7 +1549,8 @@
     "explanations": [
       {
         "location": "Page 37 line 16 to Page 37 line 17",
-        "text": "las ciudades de Ceuta y Melilla, situadas en la costa norte de África."
+        "text": "las ciudades de Ceuta y Melilla, situadas en la costa norte de África.",
+        "search_phrase": "las ciudades de Ceuta y Melilla,"
       }
     ]
   },
@@ -1387,7 +1558,8 @@
     "explanations": [
       {
         "location": "Page 40 line 16 to Page 40 line 19",
-        "text": "Clima continental: es el de las comunidades del centro de la península ibérica. Las temperaturas son extremas con inviernos fríos, veranos muy calurosos, lluvias moderadas y, a veces, nieva."
+        "text": "Clima continental: es el de las comunidades del centro de la península ibérica. Las temperaturas son extremas con inviernos fríos, veranos muy calurosos, lluvias moderadas y, a veces, nieva.",
+        "search_phrase": "Clima continental: es el de las"
       }
     ]
   },
@@ -1395,7 +1567,8 @@
     "explanations": [
       {
         "location": "Page 37 line 19 to Page 37 line 22",
-        "text": "Ríos: los ríos más importantes de España que desembocan en el océano Atlántico son: Miño, Duero, Tajo, Guadiana y Guadalquivir."
+        "text": "Ríos: los ríos más importantes de España que desembocan en el océano Atlántico son: Miño, Duero, Tajo, Guadiana y Guadalquivir.",
+        "search_phrase": "Ríos: los ríos más importantes de"
       }
     ]
   },
@@ -1403,7 +1576,8 @@
     "explanations": [
       {
         "location": "Page 41 line 62 to Page 41 line 68",
-        "text": "Castilla y León: Ávila, Burgos (capital de provincia: Burgos) [...]"
+        "text": "Castilla y León: Ávila, Burgos (capital de provincia: Burgos) [...]",
+        "search_phrase": "Castilla y"
       }
     ]
   },
@@ -1411,7 +1585,8 @@
     "explanations": [
       {
         "location": "Page 41 line 34 to Page 41 line 36",
-        "text": "Aragón: Huesca (capital de provincia: Huesca), Teruel, Zaragoza. Capital de la comunidad autónoma: Zaragoza."
+        "text": "Aragón: Huesca (capital de provincia: Huesca), Teruel, Zaragoza. Capital de la comunidad autónoma: Zaragoza.",
+        "search_phrase": "Huesca"
       }
     ]
   },
@@ -1419,7 +1594,8 @@
     "explanations": [
       {
         "location": "Page 40 line 20 to Page 40 line 22",
-        "text": "Clima subtropical: es el de las islas Canarias. Tiene temperaturas suaves todo el año, con una media de 22 °C."
+        "text": "Clima subtropical: es el de las islas Canarias. Tiene temperaturas suaves todo el año, con una media de 22 °C.",
+        "search_phrase": "Clima subtropical: es el de las"
       }
     ]
   },
@@ -1427,7 +1603,8 @@
     "explanations": [
       {
         "location": "Page 37 line 19 to Page 37 line 22",
-        "text": "Ríos: los ríos más importantes de España que desembocan [...] En el mar Mediterráneo desembocan los ríos Ebro, Júcar, Segura y Turia."
+        "text": "Ríos: los ríos más importantes de España que desembocan [...] En el mar Mediterráneo desembocan los ríos Ebro, Júcar, Segura y Turia.",
+        "search_phrase": "Ríos: los ríos más importantes de"
       }
     ]
   },
@@ -1435,7 +1612,8 @@
     "explanations": [
       {
         "location": "Page 37 line 8 to Page 37 line 9",
-        "text": "Es uno de los países más montañosos de Europa, con una altitud media de 650 metros sobre el nivel del mar."
+        "text": "Es uno de los países más montañosos de Europa, con una altitud media de 650 metros sobre el nivel del mar.",
+        "search_phrase": "Es uno de los países más"
       }
     ]
   },
@@ -1443,7 +1621,8 @@
     "explanations": [
       {
         "location": "Page 39 line 10 to Page 39 line 14",
-        "text": "Los parques nacionales de España son, en la actualidad: [...] Monfragüe (Extremadura)"
+        "text": "Los parques nacionales de España son, en la actualidad: [...] Monfragüe (Extremadura)",
+        "search_phrase": "Los parques nacionales de España son,"
       },
       {
         "location": "Page 42 line 21 to Page 42 line 22",
@@ -1455,7 +1634,8 @@
     "explanations": [
       {
         "location": "Page 42 line 21 to Page 42 line 22",
-        "text": "Extremadura: Badajoz, Cáceres. Capital de la comunidad autónoma: Mérida."
+        "text": "Extremadura: Badajoz, Cáceres. Capital de la comunidad autónoma: Mérida.",
+        "search_phrase": "Extremadura Badajoz"
       }
     ]
   },
@@ -1463,7 +1643,8 @@
     "explanations": [
       {
         "location": "Page 46 line 11 to Page 46 line 14",
-        "text": "Su obra, El ingenioso hidalgo don Quijote de La Mancha, es considerada la primera novela moderna y sus personajes principales, don Quijote y Sancho Panza, son conocidos en todo el mundo."
+        "text": "Su obra, El ingenioso hidalgo don Quijote de La Mancha, es considerada la primera novela moderna y sus personajes principales, don Quijote y Sancho Panza, son conocidos en todo el mundo.",
+        "search_phrase": "Su obra, El ingenioso hidalgo don"
       }
     ]
   },
@@ -1471,7 +1652,8 @@
     "explanations": [
       {
         "location": "Page 49 line 33 to Page 49 line 35",
-        "text": "Cantantes líricos: Montserrat Caballé y Ainhoa Arteta, sopranos; Alfredo Kraus y Josep Carreras, tenores españoles de fama internacional."
+        "text": "Cantantes líricos: Montserrat Caballé y Ainhoa Arteta, sopranos; Alfredo Kraus y Josep Carreras, tenores españoles de fama internacional.",
+        "search_phrase": "Cantantes líricos: Montserrat Caballé y Ainhoa"
       },
       {
         "location": "Page 48 line 27 to Page 48 line 29",
@@ -1487,7 +1669,8 @@
     "explanations": [
       {
         "location": "Page 47 line 22 to Page 47 line 24",
-        "text": "La Generación del 27 supuso un auge lírico y teatral, con Federico García Lorca como figura central, autor de La casa de Bernarda Alba"
+        "text": "La Generación del 27 supuso un auge lírico y teatral, con Federico García Lorca como figura central, autor de La casa de Bernarda Alba",
+        "search_phrase": "La Generación del 27 supuso un"
       }
     ]
   },
@@ -1495,7 +1678,8 @@
     "explanations": [
       {
         "location": "Page 47 line 27 to Page 47 line 31",
-        "text": "Tras la Guerra Civil, en la etapa de la posguerra, destacaron novelistas como Camilo José Cela, con La colmena; Carmen Laforet, con Nada; Ana María Matute, con Los hijos muertos ; y Miguel Delibes , con El camino."
+        "text": "Tras la Guerra Civil, en la etapa de la posguerra, destacaron novelistas como Camilo José Cela, con La colmena; Carmen Laforet, con Nada; Ana María Matute, con Los hijos muertos ; y Miguel Delibes , con El camino.",
+        "search_phrase": "Tras la Guerra Civil, en la"
       }
     ]
   },
@@ -1503,7 +1687,8 @@
     "explanations": [
       {
         "location": "Page 49 line 31 to Page 49 line 31",
-        "text": "Compositores: Manuel de Falla con El amor brujo ."
+        "text": "Compositores: Manuel de Falla con El amor brujo .",
+        "search_phrase": "Compositores: Manuel de Falla con El"
       }
     ]
   },
@@ -1511,7 +1696,8 @@
     "explanations": [
       {
         "location": "Page 62 line 28 to Page 62 line 38",
-        "text": "Noche de San Juan: Se celebra la noche del 23 al 24 de junio en toda España. Tradiciones: encender hogueras con objetos antiguos (madera, papel…) y saltar por encima para demostrar valor y habilidad, y recibir lo nuevo que está por venir."
+        "text": "Noche de San Juan: Se celebra la noche del 23 al 24 de junio en toda España. Tradiciones: encender hogueras con objetos antiguos (madera, papel…) y saltar por encima para demostrar valor y habilidad, y recibir lo nuevo que está por venir.",
+        "search_phrase": "Noche de San"
       }
     ]
   },
@@ -1519,7 +1705,8 @@
     "explanations": [
       {
         "location": "Page 61 line 5 to Page 61 line 7",
-        "text": "Los instrumentos musicales típicos del folclore español son: la guitarra, las castañuelas, la gaita, la dulzaina, el acordeón, el txistu y el tamboril."
+        "text": "Los instrumentos musicales típicos del folclore español son: la guitarra, las castañuelas, la gaita, la dulzaina, el acordeón, el txistu y el tamboril.",
+        "search_phrase": "Los instrumentos musicales típicos del folclore"
       },
       {
         "location": "Page 49 line 45 to Page 49 line 46",
@@ -1531,7 +1718,8 @@
     "explanations": [
       {
         "location": "Page 50 line 61 to Page 50 line 64",
-        "text": "FIGURA 35.  Cartel de promoción de la película La Librería de la directora de cine Isabel Coixet"
+        "text": "FIGURA 35.  Cartel de promoción de la película La Librería de la directora de cine Isabel Coixet",
+        "search_phrase": "FIGURA 35. Cartel de promoción de"
       },
       {
         "location": "Page 50 line 11 to Page 50 line 14",
@@ -1543,7 +1731,8 @@
     "explanations": [
       {
         "location": "Page 49 line 5 to Page 49 line 8",
-        "text": "Rosalía, una de las cantantes españolas más famosas de la actualidad."
+        "text": "Rosalía, una de las cantantes españolas más famosas de la actualidad.",
+        "search_phrase": "Rosalía, una de las cantantes españolas"
       }
     ]
   },
@@ -1551,7 +1740,8 @@
     "explanations": [
       {
         "location": "Page 51 line 13 to Page 51 line 17",
-        "text": "En 1984 España incorporó los primeros cinco bienes a la lista de Patrimonio de la Humanidad: [...] La Mezquita de Córdoba (siglos VIII-XIII)."
+        "text": "En 1984 España incorporó los primeros cinco bienes a la lista de Patrimonio de la Humanidad: [...] La Mezquita de Córdoba (siglos VIII-XIII).",
+        "search_phrase": "En 1984 España incorporó los primeros"
       }
     ]
   },
@@ -1559,7 +1749,8 @@
     "explanations": [
       {
         "location": "Page 51 line 13 to Page 51 line 15",
-        "text": "En 1984 España incorporó los primeros cinco bienes a la lista de Patrimonio de la Humanidad: [...] La Alhambra y el Generalife (Granada, siglos X-XIV)."
+        "text": "En 1984 España incorporó los primeros cinco bienes a la lista de Patrimonio de la Humanidad: [...] La Alhambra y el Generalife (Granada, siglos X-XIV).",
+        "search_phrase": "En 1984 España incorporó los primeros"
       }
     ]
   },
@@ -1567,7 +1758,8 @@
     "explanations": [
       {
         "location": "Page 49 line 59 to Page 49 line 61",
-        "text": "Pilar Miró destacó tanto por su mirada crítica como por su papel en la modernización del cine nacional."
+        "text": "Pilar Miró destacó tanto por su mirada crítica como por su papel en la modernización del cine nacional.",
+        "search_phrase": "Pilar Miró destacó tanto por su"
       }
     ]
   },
@@ -1575,7 +1767,8 @@
     "explanations": [
       {
         "location": "Page 48 line 36 to Page 48 line 38",
-        "text": "En el ensayo narrativo, Irene Vallejo sorprendió con El infinito en un junco , donde cuenta la historia del libro y de la lectura, convirtiéndose en un fenómeno cultural."
+        "text": "En el ensayo narrativo, Irene Vallejo sorprendió con El infinito en un junco , donde cuenta la historia del libro y de la lectura, convirtiéndose en un fenómeno cultural.",
+        "search_phrase": "En el ensayo narrativo, Irene Vallejo"
       }
     ]
   },
@@ -1583,7 +1776,8 @@
     "explanations": [
       {
         "location": "Page 56 line 19 to Page 56 line 23",
-        "text": "Actualmente, el Consejo Superior de Investigaciones Científicas (CSIC), la mayor institución pública dedicada a la investigación en España y la cuarta de Europa, tiene como objetivo principal desarrollar y promover investigaciones para conseguir el progreso científico y tecnológico."
+        "text": "Actualmente, el Consejo Superior de Investigaciones Científicas (CSIC), la mayor institución pública dedicada a la investigación en España y la cuarta de Europa, tiene como objetivo principal desarrollar y promover investigaciones para conseguir el progreso científico y tecnológico.",
+        "search_phrase": "Actualmente, el Consejo Superior de Investigaciones"
       }
     ]
   },
@@ -1591,7 +1785,8 @@
     "explanations": [
       {
         "location": "Page 49 line 45 to Page 49 line 46",
-        "text": "Flamenco: Lola Flores la faraona, cantaora; Camarón de la Isla, cantaor; Paco de Lucía , compositor y guitarrista;"
+        "text": "Flamenco: Lola Flores la faraona, cantaora; Camarón de la Isla, cantaor; Paco de Lucía , compositor y guitarrista;",
+        "search_phrase": "Flamenco: Lola Flores la faraona, cantaora;"
       }
     ]
   },
@@ -1599,7 +1794,8 @@
     "explanations": [
       {
         "location": "Page 61 line 12 to Page 61 line 19",
-        "text": "Navidades: Se celebran entre el 24 de diciembre y el 6 de enero. [...] Tradiciones: cenar en familia la noche del 24 de diciembre, conocida como Nochebuena;"
+        "text": "Navidades: Se celebran entre el 24 de diciembre y el 6 de enero. [...] Tradiciones: cenar en familia la noche del 24 de diciembre, conocida como Nochebuena;",
+        "search_phrase": "Se celebran"
       }
     ]
   },
@@ -1607,7 +1803,8 @@
     "explanations": [
       {
         "location": "Page 74 line 34 to Page 74 line 42",
-        "text": "Comidas y bebidas: La gastronomía de España es muy rica y variada. [...] España cuenta con grandes cocineros, entre otros, los catalanes Ferran Adrià, Carme Ruscalleda y los hermanos Roca , los vascos Juan Mari Arzak , Pedro Subijana y Martin Berasategui, el asturiano José Andrés, y los madrileños David Muñoz y Paco Roncero."
+        "text": "Comidas y bebidas: La gastronomía de España es muy rica y variada. [...] España cuenta con grandes cocineros, entre otros, los catalanes Ferran Adrià, Carme Ruscalleda y los hermanos Roca , los vascos Juan Mari Arzak , Pedro Subijana y Martin Berasategui, el asturiano José Andrés, y los madrileños David Muñoz y Paco Roncero.",
+        "search_phrase": "Comidas y"
       }
     ]
   },
@@ -1615,7 +1812,8 @@
     "explanations": [
       {
         "location": "Page 47 line 19 to Page 47 line 22",
-        "text": "La Generación de 1914 con autores como José Ortega y Gasset, con su filosofía, y Clara Campoamor , defensora de los derechos de la mujer, representó una forma de entender la realidad más europea."
+        "text": "La Generación de 1914 con autores como José Ortega y Gasset, con su filosofía, y Clara Campoamor , defensora de los derechos de la mujer, representó una forma de entender la realidad más europea.",
+        "search_phrase": "La Generación de 1914 con autores"
       }
     ]
   },
@@ -1623,7 +1821,8 @@
     "explanations": [
       {
         "location": "Page 61 line 12 to Page 61 line 28",
-        "text": "Navidades: Se celebran entre el 24 de diciembre y el 6 de enero. [...] Música: villancicos."
+        "text": "Navidades: Se celebran entre el 24 de diciembre y el 6 de enero. [...] Música: villancicos.",
+        "search_phrase": "Se celebran"
       }
     ]
   },
@@ -1631,7 +1830,8 @@
     "explanations": [
       {
         "location": "Page 65 line 11 to Page 65 line 14",
-        "text": "DEPORTES: En España tienen mucha importancia los campeonatos de Liga y de Copa del Rey de fútbol y baloncesto, la Vuelta ciclista a España..."
+        "text": "DEPORTES: En España tienen mucha importancia los campeonatos de Liga y de Copa del Rey de fútbol y baloncesto, la Vuelta ciclista a España...",
+        "search_phrase": "En España"
       }
     ]
   },
@@ -1639,7 +1839,8 @@
     "explanations": [
       {
         "location": "Page 47 line 22 to Page 47 line 27",
-        "text": "La Generación del 27 supuso un auge lírico y teatral, con Federico García Lorca como figura central, autor de La casa de Bernarda Alba , acompañado de poetas y pensadores como Rafael Alberti , M.ª Teresa León, María Zambrano, Miguel Hernández , Rosa Chacel y Vicente Aleixandre (premio Nobel de Literatura)."
+        "text": "La Generación del 27 supuso un auge lírico y teatral, con Federico García Lorca como figura central, autor de La casa de Bernarda Alba , acompañado de poetas y pensadores como Rafael Alberti , M.ª Teresa León, María Zambrano, Miguel Hernández , Rosa Chacel y Vicente Aleixandre (premio Nobel de Literatura).",
+        "search_phrase": "La Generación del 27 supuso un"
       }
     ]
   },
@@ -1647,7 +1848,8 @@
     "explanations": [
       {
         "location": "Page 62 line 39 to Page 62 line 45",
-        "text": "Sanfermines: Se celebran en julio, con motivo de las fiestas de San Fermín, en Pamplona (Comunidad de Navarra)."
+        "text": "Sanfermines: Se celebran en julio, con motivo de las fiestas de San Fermín, en Pamplona (Comunidad de Navarra).",
+        "search_phrase": "Se celebran"
       }
     ]
   },
@@ -1655,7 +1857,8 @@
     "explanations": [
       {
         "location": "Page 65 line 25 to Page 65 line 35",
-        "text": "El deporte paralímpico en España empezó a crecer a mediados del siglo XX [...] En París 2024, varios españoles destacaron: Teresa Perales, leyenda de la natación, sumó otra medalla [...] y Daniel Molina fue campeón en PTS3."
+        "text": "El deporte paralímpico en España empezó a crecer a mediados del siglo XX [...] En París 2024, varios españoles destacaron: Teresa Perales, leyenda de la natación, sumó otra medalla [...] y Daniel Molina fue campeón en PTS3.",
+        "search_phrase": "El deporte paralímpico en España empezó"
       }
     ]
   },
@@ -1663,7 +1866,8 @@
     "explanations": [
       {
         "location": "Page 61 line 12 to Page 61 line 21",
-        "text": "Navidades: Se celebran entre el 24 de diciembre y el 6 de enero. [...] Tradiciones: [...] tomar las 12 uvas la noche del 31 de diciembre, conocida como Nochevieja;"
+        "text": "Navidades: Se celebran entre el 24 de diciembre y el 6 de enero. [...] Tradiciones: [...] tomar las 12 uvas la noche del 31 de diciembre, conocida como Nochevieja;",
+        "search_phrase": "Se celebran"
       }
     ]
   },
@@ -1671,7 +1875,8 @@
     "explanations": [
       {
         "location": "Page 55 line 14 to Page 55 line 18",
-        "text": "La verbena, Maruja Mallo (1902-1995), Museo Reina Sofía, Madrid"
+        "text": "La verbena, Maruja Mallo (1902-1995), Museo Reina Sofía, Madrid",
+        "search_phrase": "La"
       }
     ]
   },
@@ -1679,7 +1884,8 @@
     "explanations": [
       {
         "location": "Page 54 line 12 to Page 54 line 16",
-        "text": "Guernica, Pablo Picasso (1881-1973), Museo Reina Sofía, Madrid"
+        "text": "Guernica, Pablo Picasso (1881-1973), Museo Reina Sofía, Madrid",
+        "search_phrase": "Pablo Picasso"
       }
     ]
   },
@@ -1687,7 +1893,8 @@
     "explanations": [
       {
         "location": "Page 47 line 32 to Page 47 line 36",
-        "text": "Además, no puede olvidarse la riqueza de las otras lenguas de España, donde también surgieron obras de gran valor universal: [...] en catalán, Mercè Rodoreda con La plaça del Diamant ."
+        "text": "Además, no puede olvidarse la riqueza de las otras lenguas de España, donde también surgieron obras de gran valor universal: [...] en catalán, Mercè Rodoreda con La plaça del Diamant .",
+        "search_phrase": "Además, no puede olvidarse la riqueza"
       }
     ]
   },
@@ -1695,7 +1902,8 @@
     "explanations": [
       {
         "location": "Page 57 line 21 to Page 57 line 25",
-        "text": "Alfonso X convierte a Toledo en referente de la cultura medieval. Toledo es conocida como la ciudad de las tres culturas: la judía, la musulmana y la cristiana."
+        "text": "Alfonso X convierte a Toledo en referente de la cultura medieval. Toledo es conocida como la ciudad de las tres culturas: la judía, la musulmana y la cristiana.",
+        "search_phrase": "Alfonso X convierte a Toledo en"
       }
     ]
   },
@@ -1703,7 +1911,8 @@
     "explanations": [
       {
         "location": "Page 76 line 10 to Page 76 line 16",
-        "text": "Las principales fiestas de España son: [...] 6 de diciembre o Día de la Constitución española;"
+        "text": "Las principales fiestas de España son: [...] 6 de diciembre o Día de la Constitución española;",
+        "search_phrase": "Las principales fiestas de España son:"
       },
       {
         "location": "Page 59 line 31 to Page 59 line 35",
@@ -1715,7 +1924,8 @@
     "explanations": [
       {
         "location": "Page 56 line 5 to Page 56 line 8",
-        "text": "En la Edad Media, España vivió un gran momento de esplendor científico gracias a Al-Ándalus. Ciudades como Córdoba se convirtieron en centros de cultura donde se estudiaban medicina, filosofía, matemáticas y astronomía."
+        "text": "En la Edad Media, España vivió un gran momento de esplendor científico gracias a Al-Ándalus. Ciudades como Córdoba se convirtieron en centros de cultura donde se estudiaban medicina, filosofía, matemáticas y astronomía.",
+        "search_phrase": "En la Edad Media, España vivió"
       }
     ]
   },
@@ -1723,7 +1933,8 @@
     "explanations": [
       {
         "location": "Page 52 line 17 to Page 52 line 20",
-        "text": "Además de los museos nacionales del Prado y Reina Sofía, hay otros muy conocidos internacionalmente: el Museo Picasso, en Barcelona; el Museo Thyssen-Bornemisza, en Madrid, y el Museo Guggenheim de Bilbao."
+        "text": "Además de los museos nacionales del Prado y Reina Sofía, hay otros muy conocidos internacionalmente: el Museo Picasso, en Barcelona; el Museo Thyssen-Bornemisza, en Madrid, y el Museo Guggenheim de Bilbao.",
+        "search_phrase": "Además de los museos nacionales del"
       }
     ]
   },
@@ -1731,7 +1942,8 @@
     "explanations": [
       {
         "location": "Page 63 line 15 to Page 63 line 17",
-        "text": "El Premio Cervantes, equivalente al Premio Nobel de las letras hispanas, premia la obra literaria completa en español de un escritor español o hispanoamericano."
+        "text": "El Premio Cervantes, equivalente al Premio Nobel de las letras hispanas, premia la obra literaria completa en español de un escritor español o hispanoamericano.",
+        "search_phrase": "El Premio Cervantes, equivalente al Premio"
       }
     ]
   },
@@ -1739,7 +1951,8 @@
     "explanations": [
       {
         "location": "Page 63 line 28 to Page 63 line 31",
-        "text": "Los Premios Goya, concedidos por la Academia de las Artes y las Ciencias Cinematográficas de España, premian a los mejores profesionales de cada una de las especialidades técnicas y creativas del cine."
+        "text": "Los Premios Goya, concedidos por la Academia de las Artes y las Ciencias Cinematográficas de España, premian a los mejores profesionales de cada una de las especialidades técnicas y creativas del cine.",
+        "search_phrase": "Los Premios Goya, concedidos por la"
       }
     ]
   },
@@ -1747,7 +1960,8 @@
     "explanations": [
       {
         "location": "Page 63 line 10 to Page 63 line 13",
-        "text": "Los Premios Princesa de Asturias, concedidos anualmente por la Fundación Princesa de Asturias para promover valores científicos, culturales y humanísticos a nivel internacional."
+        "text": "Los Premios Princesa de Asturias, concedidos anualmente por la Fundación Princesa de Asturias para promover valores científicos, culturales y humanísticos a nivel internacional.",
+        "search_phrase": "Los Premios Princesa de Asturias, concedidos"
       }
     ]
   },
@@ -1755,7 +1969,8 @@
     "explanations": [
       {
         "location": "Page 65 line 11 to Page 65 line 14",
-        "text": "DEPORTES: En España tienen mucha importancia los campeonatos de Liga y de Copa del Rey de fútbol y baloncesto, la Vuelta ciclista a España..."
+        "text": "DEPORTES: En España tienen mucha importancia los campeonatos de Liga y de Copa del Rey de fútbol y baloncesto, la Vuelta ciclista a España...",
+        "search_phrase": "En España"
       }
     ]
   },
@@ -1763,7 +1978,8 @@
     "explanations": [
       {
         "location": "Page 65 line 17 to Page 65 line 19",
-        "text": "Algunos de los deportistas más destacados internacionalmente son: Rafael Nadal y Carlos Alcaraz (tenis); Pau y Marc Gasol (baloncesto); Carlos Sainz (automovilismo)"
+        "text": "Algunos de los deportistas más destacados internacionalmente son: Rafael Nadal y Carlos Alcaraz (tenis); Pau y Marc Gasol (baloncesto); Carlos Sainz (automovilismo)",
+        "search_phrase": "Algunos de los deportistas más destacados"
       }
     ]
   },
@@ -1771,7 +1987,8 @@
     "explanations": [
       {
         "location": "Page 71 line 35 to Page 71 line 36",
-        "text": "Los extranjeros que quieran residir en España deben realizar los trámites necesarios para obtener la tarjeta de residencia  (TIE)."
+        "text": "Los extranjeros que quieran residir en España deben realizar los trámites necesarios para obtener la tarjeta de residencia  (TIE).",
+        "search_phrase": "Los extranjeros que quieran residir en"
       }
     ]
   },
@@ -1779,7 +1996,8 @@
     "explanations": [
       {
         "location": "Page 71 line 22 to Page 71 line 23",
-        "text": "El certificado de empadronamiento. Muestra el lugar de residencia."
+        "text": "El certificado de empadronamiento. Muestra el lugar de residencia.",
+        "search_phrase": "El certificado de empadronamiento. Muestra el"
       }
     ]
   },
@@ -1787,7 +2005,8 @@
     "explanations": [
       {
         "location": "Page 70 line 32 to Page 70 line 35",
-        "text": "Desde el 1 de mayo de 2021, el libro de familia convive con el registro electrónico individual,"
+        "text": "Desde el 1 de mayo de 2021, el libro de familia convive con el registro electrónico individual,",
+        "search_phrase": "Desde el 1 de mayo de"
       }
     ]
   },
@@ -1795,7 +2014,8 @@
     "explanations": [
       {
         "location": "Page 71 line 15 to Page 71 line 17",
-        "text": "El carné o permiso de conducir. Sirve para conducir legalmente por España y lo pueden conseguir las personas mayores de 18 años."
+        "text": "El carné o permiso de conducir. Sirve para conducir legalmente por España y lo pueden conseguir las personas mayores de 18 años.",
+        "search_phrase": "El carné o permiso de conducir."
       }
     ]
   },
@@ -1803,7 +2023,8 @@
     "explanations": [
       {
         "location": "Page 71 line 20 to Page 71 line 21",
-        "text": "El organismo responsable de examinar y expedir el documento es la Dirección General de Tráfico (DGT)."
+        "text": "El organismo responsable de examinar y expedir el documento es la Dirección General de Tráfico (DGT).",
+        "search_phrase": "El organismo responsable de examinar y"
       }
     ]
   },
@@ -1811,7 +2032,8 @@
     "explanations": [
       {
         "location": "Page 71 line 17 to Page 71 line 18",
-        "text": "Para obtenerlo hay que aprobar un examen teórico y uno práctico,"
+        "text": "Para obtenerlo hay que aprobar un examen teórico y uno práctico,",
+        "search_phrase": "Para obtenerlo hay que aprobar un"
       }
     ]
   },
@@ -1819,7 +2041,8 @@
     "explanations": [
       {
         "location": "Page 70 line 17 to Page 70 line 21",
-        "text": "El libro de familia. Es el documento que se obtenía al tener (o adoptar) un hijo o al casarse, y en él aparecía la información de los padres y de sus hijos (o solo de la pareja); los trámites se realizaban en el Registro Civil."
+        "text": "El libro de familia. Es el documento que se obtenía al tener (o adoptar) un hijo o al casarse, y en él aparecía la información de los padres y de sus hijos (o solo de la pareja); los trámites se realizaban en el Registro Civil.",
+        "search_phrase": "El libro de familia. Es el"
       }
     ]
   },
@@ -1827,7 +2050,8 @@
     "explanations": [
       {
         "location": "Page 83 line 51 to Page 83 line 52",
-        "text": "Cadenas autonómicas de televisión pública: Canal Sur (Andalucía),"
+        "text": "Cadenas autonómicas de televisión pública: Canal Sur (Andalucía),",
+        "search_phrase": "Cadenas autonómicas de televisión pública: Canal"
       }
     ]
   },
@@ -1835,7 +2059,8 @@
     "explanations": [
       {
         "location": "Page 72 line 32 to Page 72 line 33",
-        "text": "Permisos laborales por nacimiento (o adopción) y cuidado del menor (19 semanas para la madre y 19 para el padre),"
+        "text": "Permisos laborales por nacimiento (o adopción) y cuidado del menor (19 semanas para la madre y 19 para el padre),",
+        "search_phrase": "Permisos laborales por nacimiento (o adopción)"
       }
     ]
   },
@@ -1843,7 +2068,8 @@
     "explanations": [
       {
         "location": "Page 87 line 28 to Page 87 line 29",
-        "text": "Control de alcoholemia (límite de 0,5 g/l en sangre) y de otras sustancias."
+        "text": "Control de alcoholemia (límite de 0,5 g/l en sangre) y de otras sustancias.",
+        "search_phrase": "Control de alcoholemia (límite de 0,5"
       }
     ]
   },
@@ -1851,7 +2077,8 @@
     "explanations": [
       {
         "location": "Page 73 line 23 to Page 73 line 24",
-        "text": "El tipo de residencia más habitual es el piso en un edificio de viviendas."
+        "text": "El tipo de residencia más habitual es el piso en un edificio de viviendas.",
+        "search_phrase": "El tipo de residencia más habitual"
       }
     ]
   },
@@ -1859,7 +2086,8 @@
     "explanations": [
       {
         "location": "Page 75 line 35 to Page 75 line 36",
-        "text": "Andalucía y Castilla-La Mancha, para el aceite de oliva;"
+        "text": "Andalucía y Castilla-La Mancha, para el aceite de oliva;",
+        "search_phrase": "Andalucía y Castilla-La Mancha, para el"
       }
     ]
   },
@@ -1867,7 +2095,8 @@
     "explanations": [
       {
         "location": "Page 87 line 32 to Page 87 line 33",
-        "text": "hacer las revisiones necesarias (Inspección Técnica de Vehículos, ITV),"
+        "text": "hacer las revisiones necesarias (Inspección Técnica de Vehículos, ITV),",
+        "search_phrase": "hacer las revisiones necesarias (Inspección Técnica"
       }
     ]
   },
@@ -1875,7 +2104,8 @@
     "explanations": [
       {
         "location": "Page 75 line 37 to Page 75 line 40",
-        "text": "El aperitivo, que se toma en bares o restaurantes antes de comer, tiene una gran importancia en la gastronomía española. Se llama de forma diferente según tamaño, presentación u origen: tapa, banderilla, pincho, ración…"
+        "text": "El aperitivo, que se toma en bares o restaurantes antes de comer, tiene una gran importancia en la gastronomía española. Se llama de forma diferente según tamaño, presentación u origen: tapa, banderilla, pincho, ración…",
+        "search_phrase": "El aperitivo, que se toma en"
       }
     ]
   },
@@ -1883,7 +2113,8 @@
     "explanations": [
       {
         "location": "Page 71 line 12 to Page 71 line 14",
-        "text": "La tarjeta sanitaria. Es la que identifica a una persona para ser atendida en la sanidad pública española. Se tramita en el centro de salud que corresponde al domicilio."
+        "text": "La tarjeta sanitaria. Es la que identifica a una persona para ser atendida en la sanidad pública española. Se tramita en el centro de salud que corresponde al domicilio.",
+        "search_phrase": "La tarjeta sanitaria. Es la que"
       }
     ]
   },
@@ -1891,7 +2122,8 @@
     "explanations": [
       {
         "location": "Page 72 line 24 to Page 72 line 25",
-        "text": "Las familias numerosas son las que tienen tres hijos o más."
+        "text": "Las familias numerosas son las que tienen tres hijos o más.",
+        "search_phrase": "Las familias numerosas son las que"
       }
     ]
   },
@@ -1899,7 +2131,8 @@
     "explanations": [
       {
         "location": "Page 72 line 18 to Page 72 line 19",
-        "text": "En España, los matrimonios pueden ser religiosos o civiles. Se permite el matrimonio entre personas del mismo sexo."
+        "text": "En España, los matrimonios pueden ser religiosos o civiles. Se permite el matrimonio entre personas del mismo sexo.",
+        "search_phrase": "En España, los matrimonios pueden ser"
       }
     ]
   },
@@ -1907,7 +2140,8 @@
     "explanations": [
       {
         "location": "Page 74 line 23 to Page 74 line 28",
-        "text": "Estos animales deben registrarse obligatoriamente con un microchip electrónico —sobre todo los perros y los gatos—; vacunarse y llevarse a revisiones veterinarias periódicas, además del seguro de responsabilidad civil por daños a terceros para todos los perros."
+        "text": "Estos animales deben registrarse obligatoriamente con un microchip electrónico —sobre todo los perros y los gatos—; vacunarse y llevarse a revisiones veterinarias periódicas, además del seguro de responsabilidad civil por daños a terceros para todos los perros.",
+        "search_phrase": "Estos animales deben registrarse obligatoriamente con"
       },
       {
         "location": "Page 71 line 61 to Page 71 line 62",
@@ -1919,7 +2153,8 @@
     "explanations": [
       {
         "location": "Page 75 line 23 to Page 75 line 24",
-        "text": "la tortilla de patatas o tortilla española (huevos, patata, cebolla),"
+        "text": "la tortilla de patatas o tortilla española (huevos, patata, cebolla),",
+        "search_phrase": "la tortilla de patatas o tortilla"
       }
     ]
   },
@@ -1927,7 +2162,8 @@
     "explanations": [
       {
         "location": "Page 75 line 24 to Page 75 line 26",
-        "text": "el gazpacho (tomate, pepino, pimiento, ajo, cebolla, etc.) o la sangría (vino, frutas, refrescos, etc.)."
+        "text": "el gazpacho (tomate, pepino, pimiento, ajo, cebolla, etc.) o la sangría (vino, frutas, refrescos, etc.).",
+        "search_phrase": "el gazpacho (tomate, pepino, pimiento, ajo,"
       }
     ]
   },
@@ -1935,7 +2171,8 @@
     "explanations": [
       {
         "location": "Page 83 line 41 to Page 83 line 43",
-        "text": "Canales públicos. Corporación RTVE (Radio Televisión Española): La 1 (generalista), La 2 (cultural), Clan (infantil), 24 horas (noticias) y Teledeporte (deportes)."
+        "text": "Canales públicos. Corporación RTVE (Radio Televisión Española): La 1 (generalista), La 2 (cultural), Clan (infantil), 24 horas (noticias) y Teledeporte (deportes).",
+        "search_phrase": "Canales públicos. Corporación RTVE (Radio Televisión"
       }
     ]
   },
@@ -1943,7 +2180,8 @@
     "explanations": [
       {
         "location": "Page 74 line 12 to Page 74 line 16",
-        "text": "En las comunidades de vecinos hay normas básicas de comportamiento social que se deben respetar, por ejemplo: pagar los gastos de la comunidad; no molestar a los demás vecinos con ruidos, sobre todo a partir de las 22:00 horas;"
+        "text": "En las comunidades de vecinos hay normas básicas de comportamiento social que se deben respetar, por ejemplo: pagar los gastos de la comunidad; no molestar a los demás vecinos con ruidos, sobre todo a partir de las 22:00 horas;",
+        "search_phrase": "En las comunidades de vecinos hay"
       }
     ]
   },
@@ -1951,7 +2189,8 @@
     "explanations": [
       {
         "location": "Page 74 line 43 to Page 75 line 23",
-        "text": "la paella (arroz con verduras, azafrán, pollo, mariscos o carne)"
+        "text": "la paella (arroz con verduras, azafrán, pollo, mariscos o carne)",
+        "search_phrase": "la paella (arroz con verduras,"
       }
     ]
   },
@@ -1959,7 +2198,8 @@
     "explanations": [
       {
         "location": "Page 75 line 34 to Page 75 line 36",
-        "text": "Principado de Asturias, para la sidra; Cataluña, para los cavas;"
+        "text": "Principado de Asturias, para la sidra; Cataluña, para los cavas;",
+        "search_phrase": "Principado de Asturias, para la sidra;"
       }
     ]
   },
@@ -1967,7 +2207,8 @@
     "explanations": [
       {
         "location": "Page 70 line 4 to Page 70 line 9",
-        "text": "Generalmente, el primero es el primer apellido del padre y el segundo, el primer apellido de la madre, aunque los padres pueden decidir invertir el orden, de modo que el apellido de la madre sea el primero."
+        "text": "Generalmente, el primero es el primer apellido del padre y el segundo, el primer apellido de la madre, aunque los padres pueden decidir invertir el orden, de modo que el apellido de la madre sea el primero.",
+        "search_phrase": "Generalmente, el primero es el primer"
       }
     ]
   },
@@ -1975,7 +2216,8 @@
     "explanations": [
       {
         "location": "Page 76 line 10 to Page 76 line 14",
-        "text": "Las principales fiestas de España son: [...] 12 de octubre o Fiesta Nacional de España;"
+        "text": "Las principales fiestas de España son: [...] 12 de octubre o Fiesta Nacional de España;",
+        "search_phrase": "Las principales fiestas de España son:"
       }
     ]
   },
@@ -1983,7 +2225,8 @@
     "explanations": [
       {
         "location": "Page 76 line 30 to Page 76 line 33",
-        "text": "la mayoría de las tiendas tiene un horario aproximado de 10:00 a 20:00 horas, [...] los domingos suelen estar cerradas."
+        "text": "la mayoría de las tiendas tiene un horario aproximado de 10:00 a 20:00 horas, [...] los domingos suelen estar cerradas.",
+        "search_phrase": "la mayoría de las tiendas tiene"
       }
     ]
   },
@@ -1991,7 +2234,8 @@
     "explanations": [
       {
         "location": "Page 72 line 14 to Page 72 line 15",
-        "text": "Comisaría de policía (depende del Ministerio del Interior). DNI, TIE y pasaporte. De forma presencial."
+        "text": "Comisaría de policía (depende del Ministerio del Interior). DNI, TIE y pasaporte. De forma presencial.",
+        "search_phrase": "Comisaría de policía (depende del Ministerio"
       }
     ]
   },
@@ -1999,7 +2243,8 @@
     "explanations": [
       {
         "location": "Page 81 line 41 to Page 82 line 3",
-        "text": "El Ministerio de Igualdad se encarga de luchar contra la discriminación y la violencia de género."
+        "text": "El Ministerio de Igualdad se encarga de luchar contra la discriminación y la violencia de género.",
+        "search_phrase": "El Ministerio de Igualdad se encarga"
       }
     ]
   },
@@ -2007,7 +2252,8 @@
     "explanations": [
       {
         "location": "Page 75 line 34 to Page 75 line 36",
-        "text": "Principado de Asturias, para la sidra; Cataluña, para los cavas;"
+        "text": "Principado de Asturias, para la sidra; Cataluña, para los cavas;",
+        "search_phrase": "Principado de Asturias, para la sidra;"
       }
     ]
   },
@@ -2015,7 +2261,8 @@
     "explanations": [
       {
         "location": "Page 71 line 12 to Page 71 line 14",
-        "text": "La tarjeta sanitaria. Es la que identifica a una persona para ser atendida en la sanidad pública española. Se tramita en el centro de salud que corresponde al domicilio."
+        "text": "La tarjeta sanitaria. Es la que identifica a una persona para ser atendida en la sanidad pública española. Se tramita en el centro de salud que corresponde al domicilio.",
+        "search_phrase": "La tarjeta sanitaria. Es la que"
       }
     ]
   },
@@ -2023,7 +2270,8 @@
     "explanations": [
       {
         "location": "Page 76 line 27 to Page 76 line 29",
-        "text": "El horario de España es GMT/UTC + 1 hora en invierno o + 2 horas en verano, excepto en Canarias, que es una hora menos."
+        "text": "El horario de España es GMT/UTC + 1 hora en invierno o + 2 horas en verano, excepto en Canarias, que es una hora menos.",
+        "search_phrase": "El horario de España es GMT/UTC"
       }
     ]
   },
@@ -2031,7 +2279,8 @@
     "explanations": [
       {
         "location": "Page 78 line 10 to Page 78 line 12",
-        "text": "Los titulados en Bachillerato también deberán realizar una Prueba de Acceso a la Universidad (PAU)."
+        "text": "Los titulados en Bachillerato también deberán realizar una Prueba de Acceso a la Universidad (PAU).",
+        "search_phrase": "Los titulados en Bachillerato también deberán"
       }
     ]
   },
@@ -2039,7 +2288,8 @@
     "explanations": [
       {
         "location": "Page 90 line 11 to Page 90 line 13",
-        "text": "España importa petróleo y derivados, componentes del automóvil, textiles, confección, etc.;"
+        "text": "España importa petróleo y derivados, componentes del automóvil, textiles, confección, etc.;",
+        "search_phrase": "España importa petróleo y derivados, componentes"
       }
     ]
   },
@@ -2047,7 +2297,8 @@
     "explanations": [
       {
         "location": "Page 91 line 19 to Page 91 line 30",
-        "text": "Respecto a la política fiscal o de pago de impuestos, en España se distinguen: Impuestos directos: se aplican sobre la posesión de un patrimonio y la obtención de una renta, como el Impuesto sobre la Renta de las Personas Físicas (IRPF) [...] Impuestos indirectos: se aplican al consumo o por actos de transmisión como el IVA"
+        "text": "Respecto a la política fiscal o de pago de impuestos, en España se distinguen: Impuestos directos: se aplican sobre la posesión de un patrimonio y la obtención de una renta, como el Impuesto sobre la Renta de las Personas Físicas (IRPF) [...] Impuestos indirectos: se aplican al consumo o por actos de transmisión como el IVA",
+        "search_phrase": "Respecto a la política fiscal o"
       }
     ]
   }

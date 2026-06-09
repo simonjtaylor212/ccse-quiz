@@ -1,0 +1,3 @@
+127.0.0.1 - - [09/Jun/2026 00:53:57] "GET /index.html?y=2026&q=1023 HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2026 00:53:57] "GET /allqs.json HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2026 00:53:57] "GET /explanatory_study_text.json HTTP/1.1" 200 -

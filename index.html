@@ -642,7 +642,19 @@ async function loadQuestions() {
     
     populateQuestionSelect();
     setProgressionMode('next');
+
+    // Parse URL for specific question ID
+    const urlParams = new URLSearchParams(window.location.search);
+    const qParam = urlParams.get('q');
     pIndex = 0;
+    if (qParam) {
+      const parsedId = parseInt(qParam, 10);
+      const foundIdx = questions.findIndex(q => q.id === parsedId);
+      if (foundIdx !== -1) {
+        pIndex = foundIdx;
+      }
+    }
+
     pRender(questions[pIndex]);
 
     // Restore PDF visibility preference
@@ -664,7 +676,20 @@ function setMode(mode) {
 
   if (mode === 'practice') {
     show('practice-mode');
+    if (questions && questions[pIndex]) {
+      // Re-add URL parameters for current practice question
+      const newUrl = new URL(window.location);
+      newUrl.searchParams.set('y', '2026');
+      newUrl.searchParams.set('q', questions[pIndex].id);
+      window.history.replaceState({}, '', newUrl);
+    }
   } else {
+    // Clear URL parameters when in test mode
+    const newUrl = new URL(window.location);
+    newUrl.searchParams.delete('y');
+    newUrl.searchParams.delete('q');
+    window.history.replaceState({}, '', newUrl);
+
     // Reset all test state
     testQuestions = [];
     testIndex = 0;
@@ -729,6 +754,12 @@ function pRender(q) {
   answerLocked = false;
   document.getElementById('p-result').className = 'result-box';
   document.getElementById('p-result').style.display = 'none';
+
+  // Update URL for sharing
+  const newUrl = new URL(window.location);
+  newUrl.searchParams.set('y', '2026');
+  newUrl.searchParams.set('q', q.id);
+  window.history.replaceState({}, '', newUrl);
 
   // Hide explanation panel for the new question
   const explanationBox = document.getElementById('p-explanation-box');

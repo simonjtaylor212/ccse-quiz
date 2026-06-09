@@ -1478,7 +1478,7 @@
       {
         "location": "Page 42 line 23 to Page 42 line 24",
         "text": "Galicia: La Coruña, Lugo, Orense, Pontevedra. Capital de la comunidad autónoma: Santiago de Compostela.",
-        "search_phrase": "La"
+        "search_phrase": "Santiago de Compostela"
       }
     ]
   },
@@ -1496,7 +1496,7 @@
       {
         "location": "Page 42 line 23 to Page 42 line 24",
         "text": "Galicia: La Coruña, Lugo, Orense, Pontevedra. Capital de la comunidad autónoma: Santiago de Compostela.",
-        "search_phrase": "La"
+        "search_phrase": "Galicia"
       }
     ]
   },

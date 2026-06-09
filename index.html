@@ -1113,7 +1113,7 @@ function tShowHelp() {
   }
 
   const page = extractPageNumber(exp.location);
-  const searchPhrase = extractSearchPhrase(exp.text);
+  const searchPhrase = exp.search_phrase || extractSearchPhrase(exp.text);
 
   togglePdfView(true);
   loadPdfInIframe(page, searchPhrase);
@@ -1140,7 +1140,7 @@ function pShowHelp() {
   }
   
   const page = extractPageNumber(exp.location);
-  const searchPhrase = extractSearchPhrase(exp.text);
+  const searchPhrase = exp.search_phrase || extractSearchPhrase(exp.text);
   
   togglePdfView(true);
   loadPdfInIframe(page, searchPhrase);

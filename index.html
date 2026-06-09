@@ -1034,10 +1034,26 @@ function showReview() {
       const q = item.question;
       const div = document.createElement('div');
       div.className = 'review-item';
+
+      let helpHtml = '';
+      if (explanationsData && explanationsData[q.id]) {
+        helpHtml = `
+          <div style="margin-top: 10px;">
+            <button class="btn btn-warning" style="padding: 6px 12px; font-size: 13px; min-width: auto;" onclick="rShowHelp(${q.id}, this)">💡 Ayúdame</button>
+          </div>
+          <div class="explanation-box hidden" style="margin-top: 10px;">
+            <div class="explanation-title">💡 Explicación del Manual</div>
+            <div class="explanation-loc"></div>
+            <div class="explanation-text"></div>
+          </div>
+        `;
+      }
+
       div.innerHTML =
         '<div class="r-question">' + q.question + '</div>' +
         '<div class="r-answer wrong">&#10060; Tu respuesta: <strong>' + item.selected.toUpperCase() + '.</strong> ' + (q.options[item.selected] || '') + '</div>' +
-        '<div class="r-answer right">&#9989; Correcta: <strong>' + item.correct.toUpperCase() + '.</strong> ' + q.options[item.correct] + '</div>';
+        '<div class="r-answer right">&#9989; Correcta: <strong>' + item.correct.toUpperCase() + '.</strong> ' + q.options[item.correct] + '</div>' +
+        helpHtml;
       list.appendChild(div);
     });
     section.classList.remove('hidden');
@@ -1173,6 +1189,36 @@ function pShowHelp() {
   const page = extractPageNumber(exp.location);
   const searchPhrase = exp.search_phrase || extractSearchPhrase(exp.text);
   
+  togglePdfView(true);
+  loadPdfInIframe(page, searchPhrase);
+}
+
+function rShowHelp(qId, btnElement) {
+  const expInfo = explanationsData[qId];
+  if (!expInfo || !expInfo.explanations || expInfo.explanations.length === 0) return;
+
+  const exp = expInfo.explanations[0];
+
+  // Find the explanation box within the same review item
+  const reviewItem = btnElement.closest('.review-item');
+  if (!reviewItem) return;
+
+  const box = reviewItem.querySelector('.explanation-box');
+  const locEl = reviewItem.querySelector('.explanation-loc');
+  const textEl = reviewItem.querySelector('.explanation-text');
+
+  if (box && locEl && textEl) {
+    locEl.textContent = exp.location;
+    textEl.textContent = exp.text;
+    box.classList.remove('hidden');
+    // Hide the help button since explanation is now visible
+    btnElement.parentNode.classList.add('hidden');
+    box.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
+
+  const page = extractPageNumber(exp.location);
+  const searchPhrase = extractSearchPhrase(exp.text);
+
   togglePdfView(true);
   loadPdfInIframe(page, searchPhrase);
 }

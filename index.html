@@ -69,7 +69,11 @@
     margin-bottom: 8px;
     border-left: 4px solid #3498db;
   }
-  .question-number { font-size: 13px; color: #3498db; font-weight: 600; margin-bottom: 8px; }
+  .question-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+  .question-number { font-size: 13px; color: #3498db; font-weight: 600; }
+  .bookmark-btn { background: transparent; border: none; cursor: pointer; font-size: 20px; color: #cbd5e1; transition: color 0.2s; outline: none; }
+  .bookmark-btn:hover { color: #94a3b8; }
+  .bookmark-btn.active { color: #f59e0b; }
   .question-text { font-size: 18px; line-height: 1.5; color: #2c3e50; font-weight: 500; }
   .options { display: flex; flex-direction: column; gap: 10px; margin-top: 20px; }
   .option-btn {
@@ -443,6 +447,7 @@
       <button class="btn btn-secondary" onclick="startPractice('unrestricted')">Preguntas aleatorias</button>
       <button class="btn btn-secondary" onclick="toggleSectionSelection('random')">Preguntas aleatorias por temas (1-5)</button>
       <button class="btn btn-secondary" onclick="toggleSectionSelection('consecutive')">Preguntas consecutivas por temas (1-5)</button>
+      <button id="btn-revision-practice" class="btn btn-secondary" onclick="startPractice('revision')" style="border: 2px solid #f39c12;">Lista de revisión (0)</button>
     </div>
 
     <div id="section-selection" class="hidden" style="margin-top: 25px; max-width: 400px; margin-left: auto; margin-right: auto; background: #f8f9fa; padding: 20px; border-radius: 12px; border: 1px solid #e2e8f0;">
@@ -480,7 +485,10 @@
     </div>
 
     <div class="question-card">
-      <div class="question-number" id="p-q-id">ID: &mdash;</div>
+      <div class="question-header">
+        <div class="question-number" id="p-q-id">ID: &mdash;</div>
+        <button id="p-bookmark-btn" class="bookmark-btn" title="Añadir a revisión">&#9734;</button>
+      </div>
       <div class="question-text" id="p-q-text">Cargando&hellip;</div>
     </div>
 
@@ -542,7 +550,10 @@
     <div class="test-score" id="t-score">Aciertos: 0 / 0</div>
 
     <div class="question-card">
-      <div class="question-number" id="t-q-id">ID: &mdash;</div>
+      <div class="question-header">
+        <div class="question-number" id="t-q-id">ID: &mdash;</div>
+        <button id="t-bookmark-btn" class="bookmark-btn" title="Añadir a revisión">&#9734;</button>
+      </div>
       <div class="question-text" id="t-q-text">Cargando&hellip;</div>
     </div>
 
@@ -601,6 +612,41 @@ let explanationsData = {};
 let pdfLoaded = false;
 let answerLocked = false;
 
+let revisionList = JSON.parse(localStorage.getItem('ccse_revision_list') || '[]');
+
+function toggleBookmark(qId, btnId) {
+  const index = revisionList.indexOf(qId);
+  if (index === -1) {
+    revisionList.push(qId);
+  } else {
+    revisionList.splice(index, 1);
+  }
+  localStorage.setItem('ccse_revision_list', JSON.stringify(revisionList));
+  updateRevisionCount();
+  if (btnId) {
+    updateBookmarkUI(qId, btnId);
+  }
+}
+
+function updateRevisionCount() {
+  const btn = document.getElementById('btn-revision-practice');
+  if (btn) {
+    btn.textContent = 'Lista de revisión (' + revisionList.length + ')';
+  }
+}
+
+function updateBookmarkUI(qId, btnId) {
+  const btn = document.getElementById(btnId);
+  if (!btn) return;
+  if (revisionList.includes(qId)) {
+    btn.classList.add('active');
+    btn.innerHTML = '&#9733;'; // Solid star
+  } else {
+    btn.classList.remove('active');
+    btn.innerHTML = '&#9734;'; // Outline star
+  }
+}
+
 let CORRECT_ANSWERS = {};
 
 let questions = [];
@@ -657,10 +703,19 @@ function startSectionPractice() {
 }
 
 function startPractice(mode, initialGlobalIndex = -1) {
+  if (mode === 'revision') {
+    if (revisionList.length === 0) {
+      alert("No hay preguntas en tu lista de revisión.");
+      return;
+    }
+  }
+
   practiceModeType = mode;
 
   if (mode === 'unrestricted') {
     practicePool = [...questions];
+  } else if (mode === 'revision') {
+    practicePool = questions.filter(q => revisionList.includes(q.id));
   }
 
   show('practice-mode');
@@ -746,6 +801,8 @@ async function loadQuestions() {
     if (savedPdfVisible === 'true') {
       togglePdfView(true);
     }
+
+    updateRevisionCount();
   } catch (err) {
     document.getElementById('loading').innerHTML =
       '<p style="color:#e74c3c;">Error: ' + err.message + '</p>' +
@@ -875,6 +932,11 @@ function pRender(q) {
 
   document.getElementById('p-q-id').textContent = 'ID: ' + q.id;
   document.getElementById('p-q-text').textContent = q.question;
+  const pBtn = document.getElementById('p-bookmark-btn');
+  if (pBtn) {
+    pBtn.onclick = function() { toggleBookmark(q.id, 'p-bookmark-btn'); };
+    updateBookmarkUI(q.id, 'p-bookmark-btn');
+  }
   document.getElementById('p-current-num').textContent = pIndex + 1;
   document.getElementById('p-stat-current').textContent = 'Actual: ' + q.id;
 
@@ -1022,6 +1084,11 @@ function tRender() {
   const q = testQuestions[testIndex];
   document.getElementById('t-q-id').textContent = 'ID: ' + q.id;
   document.getElementById('t-q-text').textContent = q.question;
+  const tBtn = document.getElementById('t-bookmark-btn');
+  if (tBtn) {
+    tBtn.onclick = function() { toggleBookmark(q.id, 't-bookmark-btn'); };
+    updateBookmarkUI(q.id, 't-bookmark-btn');
+  }
   document.getElementById('t-current-num').textContent = testIndex + 1;
   document.getElementById('t-score').textContent = 'Aciertos: ' + testScore + ' / ' + testAnswered;
 
@@ -1148,7 +1215,14 @@ function showReview() {
       }
 
       div.innerHTML =
-        '<div class="r-question">' + q.question + '</div>' +
+        '<div style="display:flex; justify-content:space-between; align-items:flex-start;">' +
+          '<div class="r-question">' + q.question + '</div>' +
+          '<button class="bookmark-btn ' + (revisionList.includes(q.id) ? 'active' : '') + '" ' +
+                  'onclick="toggleBookmark(' + q.id + ', this.id)" ' +
+                  'id="r-bookmark-' + q.id + '">' +
+            (revisionList.includes(q.id) ? '&#9733;' : '&#9734;') +
+          '</button>' +
+        '</div>' +
         '<div class="r-answer wrong">&#10060; Tu respuesta: <strong>' + item.selected.toUpperCase() + '.</strong> ' + (q.options[item.selected] || '') + '</div>' +
         '<div class="r-answer right">&#9989; Correcta: <strong>' + item.correct.toUpperCase() + '.</strong> ' + q.options[item.correct] + '</div>' +
         helpHtml;

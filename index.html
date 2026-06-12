@@ -465,7 +465,7 @@
 
   <!-- PRACTICE MODE -->
   <div id="practice-mode" class="hidden">
-    <div class="progress-text">Pregunta <span id="p-current-num">1</span> de <span id="p-total-num">251</span></div>
+    <div class="progress-text">Pregunta <span id="p-current-num">1</span> de <span id="p-total-num">285</span></div>
 
     <!-- Practice Mode Controls -->
     <div class="practice-controls">
@@ -507,7 +507,7 @@
       <button class="btn btn-primary" onclick="pNext()">Siguiente &rarr;</button>
     </div>
     <div class="stats-bar">
-      <span id="p-stat-total">Total: 251</span>
+      <span id="p-stat-total">Total: 285</span>
       <span id="p-stat-current">Actual: &mdash;</span>
     </div>
   </div>
@@ -751,7 +751,7 @@ function startPractice(mode, initialGlobalIndex = -1) {
 async function loadQuestions() {
   try {
     const [qsResp, expResp, ansResp] = await Promise.all([
-      fetch('allqs.json'),
+      fetch('allqs2.json'),
       fetch('explanatory_study_text.json').catch(e => {
         console.warn("Could not load explanations:", e);
         return null;

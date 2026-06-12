@@ -1,6 +1,6 @@
 import json
 
-with open('allqs.json', encoding='utf-8') as f:
+with open('allqs2.json', encoding='utf-8') as f:
     data = json.load(f)
 
 print(f'Total entries: {len(data)}')

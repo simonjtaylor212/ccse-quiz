@@ -24,7 +24,7 @@ if __name__ == "__main__":
     server = http.server.HTTPServer(("0.0.0.0", PORT), Handler)
     print(f"\n  CCSE Quiz Server running at:")
     print(f"  -> http://localhost:{PORT}/index.html")
-    print(f"  -> http://localhost:{PORT}/allqs.json")
+    print(f"  -> http://localhost:{PORT}/allqs2.json")
     print(f"\n  Press Ctrl+C to stop.\n")
     try:
         server.serve_forever()

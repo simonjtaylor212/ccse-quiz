@@ -594,6 +594,141 @@
     }
   },
   {
+    "id": 1067,
+    "question": "¿Cuál de estas ciudades se encuentra entre las 10 más pobladas de España?",
+    "options": {
+      "a": "Cádiz.",
+      "b": "Málaga.",
+      "c": "Albacete."
+    }
+  },
+  {
+    "id": 1068,
+    "question": "¿Quién puede realizar trámites en línea ante la Administración Pública?",
+    "options": {
+      "a": "Jueces y magistrados.",
+      "b": "Cualquier ciudadano.",
+      "c": "Abogados colegiados."
+    }
+  },
+  {
+    "id": 1069,
+    "question": "¿Cómo se llama el rey de España?",
+    "options": {
+      "a": "Juan Carlos I.",
+      "b": "Felipe VI.",
+      "c": "Alfonso XIII."
+    }
+  },
+  {
+    "id": 1070,
+    "question": "¿Cómo se llama el órgano de gobierno de los jueces y magistrados?",
+    "options": {
+      "a": "Tribunal Supremo.",
+      "b": "Consejo General del Poder Judicial.",
+      "c": "Consejo de Estado."
+    }
+  },
+  {
+    "id": 1071,
+    "question": "¿Quién aprueba los presupuestos generales del Estado?",
+    "options": {
+      "a": "Las Cortes Generales.",
+      "b": "El Tribunal de Cuentas.",
+      "c": "El Gobierno de España."
+    }
+  },
+  {
+    "id": 1072,
+    "question": "La Constitución española es...",
+    "options": {
+      "a": "la ley fundamental.",
+      "b": "parte de otra ley.",
+      "c": "una ley secundaria."
+    }
+  },
+  {
+    "id": 1073,
+    "question": "Las Cortes Generales están compuestas por el Senado y...",
+    "options": {
+      "a": "el Congreso de los Diputados.",
+      "b": "el Tribunal Supremo.",
+      "c": "el Consejo de Estado."
+    }
+  },
+  {
+    "id": 1074,
+    "question": "¿Quién elabora las leyes?",
+    "options": {
+      "a": "El poder ejecutivo.",
+      "b": "El poder legislativo.",
+      "c": "El poder judicial."
+    }
+  },
+  {
+    "id": 1075,
+    "question": "La defensa de la integridad territorial de España corresponde a...",
+    "options": {
+      "a": "la Policía Nacional y la Guardia Civil.",
+      "b": "las Fuerzas Armadas.",
+      "c": "la Policía Nacional y las policías autonómicas."
+    }
+  },
+  {
+    "id": 1076,
+    "question": "El Ejército español participa desde 1989 en misiones de paz de la...",
+    "options": {
+      "a": "Organización de Estados Iberoamericanos (OEI).",
+      "b": "Unión Europea Occidental (UEO).",
+      "c": "Organización de las Naciones Unidas (ONU)."
+    }
+  },
+  {
+    "id": 1077,
+    "question": "¿Quién vigila puertos y aeropuertos, fronteras y costas?",
+    "options": {
+      "a": "La Guardia Civil.",
+      "b": "La Policía local.",
+      "c": "La Policía Nacional."
+    }
+  },
+  {
+    "id": 1078,
+    "question": "¿Quién hace el control de pasaportes en las fronteras de España?",
+    "options": {
+      "a": "La Guardia Civil.",
+      "b": "La Policía local.",
+      "c": "La Policía Nacional."
+    }
+  },
+  {
+    "id": 1079,
+    "question": "¿Cuál de los siguientes políticos ha sido presidente del Gobierno en España?",
+    "options": {
+      "a": "Manuel Fraga.",
+      "b": "José María Aznar.",
+      "c": "Yolanda Díaz."
+    }
+  },
+  {
+    "id": 1080,
+    "question": "¿Cómo se llama la policía autonómica de Cataluña?",
+    "options": {
+      "a": "Guardia Civil.",
+      "b": "Ertzaintza.",
+      "c": "Mossos d'Esquadra."
+    }
+  },
+  {
+    "id": 1081,
+    "question": "¿Cómo se llama la policía autonómica del País Vasco?",
+    "options": {
+      "a": "Ertzaintza.",
+      "b": "Guardia Civil.",
+      "c": "Mossos d'Esquadra."
+    }
+  },
+  {
     "id": 1082,
     "question": "¿Desde qué año es rey Felipe VI?",
     "options": {
@@ -1008,7 +1143,6 @@
       "b": "Falso."
     }
   },
-
   {
     "id": 2009,
     "question": "En España la policía puede entrar en cualquier casa sin resolución judicial en cualquier momento.",
@@ -1073,7 +1207,6 @@
       "b": "Falso."
     }
   },
-
   {
     "id": 2017,
     "question": "En España las causas de separación y divorcio están reguladas por la ley.",
@@ -1146,7 +1279,6 @@
       "b": "Falso."
     }
   },
-
   {
     "id": 2026,
     "question": "Los trabajadores tienen derecho a hacer huelga.",

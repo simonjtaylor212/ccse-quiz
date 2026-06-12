@@ -465,7 +465,7 @@
 
   <!-- PRACTICE MODE -->
   <div id="practice-mode" class="hidden">
-    <div class="progress-text">Pregunta <span id="p-current-num">1</span> de <span id="p-total-num">285</span></div>
+    <div class="progress-text">Pregunta <span id="p-current-num">1</span> de <span id="p-total-num">300</span></div>
 
     <!-- Practice Mode Controls -->
     <div class="practice-controls">
@@ -507,7 +507,7 @@
       <button class="btn btn-primary" onclick="pNext()">Siguiente &rarr;</button>
     </div>
     <div class="stats-bar">
-      <span id="p-stat-total">Total: 285</span>
+      <span id="p-stat-total">Total: 300</span>
       <span id="p-stat-current">Actual: &mdash;</span>
     </div>
   </div>
@@ -722,7 +722,11 @@ function startPractice(mode, initialGlobalIndex = -1) {
   document.getElementById('tab-practice').textContent = '⚙️ Reiniciar ajustes de práctica';
 
   document.getElementById('p-total-num').textContent = practicePool.length;
-  document.getElementById('p-stat-total').textContent = 'Total: ' + practicePool.length;
+  // Update p-stat-total dynamically to avoid hardcoding
+  const statTotalEl = document.getElementById('p-stat-total');
+  if (statTotalEl) {
+    statTotalEl.textContent = 'Total: ' + practicePool.length;
+  }
 
   populateQuestionSelect();
 

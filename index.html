@@ -947,13 +947,14 @@ function pRender(q) {
 
   const container = document.getElementById('p-options');
   container.innerHTML = '';
-  const labels = ['a', 'b', 'c'];
+  let labels = ['a', 'b', 'c'];
+  labels = shuffleArray(labels);
   for (const label of labels) {
     const text = q.options[label];
     if (!text) continue;
     const btn = document.createElement('button');
     btn.className = 'option-btn';
-    btn.innerHTML = '<span class="label">' + label.toUpperCase() + '</span><span>' + text + '</span>';
+    btn.innerHTML = '<span>' + text + '</span>';
     btn.dataset.label = label;
     btn.onclick = function() { pSelect(label, q); };
     container.appendChild(btn);
@@ -981,7 +982,7 @@ function pSelect(selected, q) {
     box.innerHTML = '&#9989; <strong>&iexcl;Correcto!</strong> ' + q.options[correct];
   } else {
     box.className = 'result-box incorrect';
-    box.innerHTML = '&#10060; <strong>Incorrecto.</strong> La respuesta correcta es <strong>' + correct.toUpperCase() + ':</strong> ' + q.options[correct];
+    box.innerHTML = '&#10060; <strong>Incorrecto.</strong> La respuesta correcta es: ' + q.options[correct];
   }
 }
 
@@ -1098,13 +1099,14 @@ function tRender() {
 
   const container = document.getElementById('t-options');
   container.innerHTML = '';
-  const labels = ['a', 'b', 'c'];
+  let labels = ['a', 'b', 'c'];
+  labels = shuffleArray(labels);
   for (const label of labels) {
     const text = q.options[label];
     if (!text) continue;
     const btn = document.createElement('button');
     btn.className = 'option-btn';
-    btn.innerHTML = '<span class="label">' + label.toUpperCase() + '</span><span>' + text + '</span>';
+    btn.innerHTML = '<span>' + text + '</span>';
     btn.dataset.label = label;
     btn.onclick = function() { tSelect(label); };
     container.appendChild(btn);
@@ -1136,7 +1138,7 @@ function tSelect(selected) {
   } else {
     wrongAnswers.push({ question: q, selected: selected, correct: correct });
     box.className = 'result-box incorrect';
-    box.innerHTML = '&#10060; <strong>Incorrecto.</strong> La respuesta correcta es <strong>' + correct.toUpperCase() + ':</strong> ' + q.options[correct];
+    box.innerHTML = '&#10060; <strong>Incorrecto.</strong> La respuesta correcta es: ' + q.options[correct];
   }
 
   document.getElementById('t-score').textContent = 'Aciertos: ' + testScore + ' / ' + testAnswered;
@@ -1223,8 +1225,8 @@ function showReview() {
             (revisionList.includes(q.id) ? '&#9733;' : '&#9734;') +
           '</button>' +
         '</div>' +
-        '<div class="r-answer wrong">&#10060; Tu respuesta: <strong>' + item.selected.toUpperCase() + '.</strong> ' + (q.options[item.selected] || '') + '</div>' +
-        '<div class="r-answer right">&#9989; Correcta: <strong>' + item.correct.toUpperCase() + '.</strong> ' + q.options[item.correct] + '</div>' +
+        '<div class="r-answer wrong">&#10060; Tu respuesta: ' + (q.options[item.selected] || '') + '</div>' +
+        '<div class="r-answer right">&#9989; Correcta: ' + q.options[item.correct] + '</div>' +
         helpHtml;
       list.appendChild(div);
     });

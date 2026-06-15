@@ -2291,7 +2291,7 @@
   "5036": {
     "explanations": [
       {
-        "location": "Page 79",
+        "location": "Page 79 line 26 to Page 79 line 43",
         "text": "también se imparten cursos de preparación para el acceso a la universidad para mayores de 25 años.",
         "search_phrase": "también se imparten cursos"
       }
@@ -2300,34 +2300,39 @@
   "5037": {
     "explanations": [
       {
-        "location": "Page 87",
+        "location": "Page 86 line 30 to Page 86 line 32",
+        "text": "En las ciudades hay zonas de recreo y de descanso, como parques, jardines o instalaciones deportivas. En estos lugares de actividades de ocio al aire libre, hay unas normas:",
+        "search_phrase": "En las ciudades hay zonas de recreo"
+      },
+      {
+        "location": "Page 87 line 11 to Page 87 line 11",
         "text": "6. No pisar el césped, ni arrancar flores.",
-        "search_phrase": "6. No pisar el"
+        "search_phrase": "6. No pisar el césped"
       }
     ]
   },
   "5038": {
     "explanations": [
       {
-        "location": "Page 78",
-        "text": "El Bachillerato se compone de dos cursos académicos y se organiza en diferentes modalidades.",
-        "search_phrase": "El Bachillerato se compone"
+        "location": "Page 77 line 26 to Page 77 line 27",
+        "text": "Bachillerato Dura dos cursos académicos. Se cursa entre los 16 y los 18 años.",
+        "search_phrase": "Bachillerato Dura dos cursos académicos"
       }
     ]
   },
   "5039": {
     "explanations": [
       {
-        "location": "Page 85",
-        "text": "Impuestos indirectos: se pagan cuando se compra un producto o se contrata un servicio. El más conocido es el Impuesto sobre el Valor Añadido (IVA).",
-        "search_phrase": "Impuestos indirectos: se pagan"
+        "location": "Page 91 line 31 to Page 91 line 33",
+        "text": "El IVA es un impuesto indirecto y se aplica al consumo.",
+        "search_phrase": "El IVA es un impuesto indirecto"
       }
     ]
   },
   "5040": {
     "explanations": [
       {
-        "location": "Page 71",
+        "location": "Page 71 line 1 to Page 71 line 6",
         "text": "El número de la Seguridad Social. Lo recibe una persona cuando empieza a trabajar y a cotizar en la Seguridad Social.",
         "search_phrase": "El número de la"
       }
@@ -2336,25 +2341,30 @@
   "5041": {
     "explanations": [
       {
-        "location": "Page 79",
-        "text": "Los centros públicos son centros laicos y financiados por la Administración pública. ... son gratuitos.",
+        "location": "Page 79 line 5 to Page 79 line 8",
+        "text": "Los centros públicos son centros laicos y financiados por la Administración pública.",
         "search_phrase": "Los centros públicos son"
+      },
+      {
+        "location": "Page 76 line 35 to Page 76 line 37",
+        "text": "La educación es un derecho de los ciudadanos; es obligatoria y gratuita (excepto libros y materiales educativos) desde los 6 hasta los 16 años",
+        "search_phrase": "La educación es un derecho de"
       }
     ]
   },
   "5042": {
     "explanations": [
       {
-        "location": "Page 83",
-        "text": "puertos marítimos de gran importancia (Algeciras, Valencia, Barcelona, Bilbao, Las Palmas).",
-        "search_phrase": "puertos marítimos de gran"
+        "location": "Page 89 line 17 to Page 89 line 18",
+        "text": "Puertos más importantes: Algeciras, Barcelona, Las Palmas, Bilbao, Valencia y Vigo.",
+        "search_phrase": "Puertos más importantes:"
       }
     ]
   },
   "5043": {
     "explanations": [
       {
-        "location": "Page 79",
+        "location": "Page 79 line 1 to Page 79 line 17",
         "text": "Centros concertados: son centros privados, que reciben subvenciones de la Administración pública.",
         "search_phrase": "Centros concertados: son centros"
       }
@@ -2363,34 +2373,34 @@
   "5044": {
     "explanations": [
       {
-        "location": "Page 90",
-        "text": "España exporta productos principalmente a países de la Unión Europea",
-        "search_phrase": "España exporta productos principalmente"
+        "location": "Page 90 line 11 to Page 90 line 15",
+        "text": "España importa petróleo y derivados, componentes del automóvil, textiles, confección, etc.; y exporta automóviles, frutas y legumbres, vino, aceite, calzado, medicamentos, etc. Estas transacciones se realizan principalmente con países de la Unión Europea.",
+        "search_phrase": "transacciones se realizan principalmente con"
       }
     ]
   },
   "5045": {
     "explanations": [
       {
-        "location": "Page 80",
-        "text": "Las bibliotecas públicas son gratuitas para todos.",
-        "search_phrase": "Las bibliotecas públicas son"
+        "location": "Page 80 line 36 to Page 80 line 38",
+        "text": "Las bibliotecas: de acceso gratuito y donde se pueden consultar o sacar en préstamo libros; con videoteca, sala de ordenadores, conexión wifi, lugar de estudio, etc.",
+        "search_phrase": "Las bibliotecas: de acceso gratuito"
       }
     ]
   },
   "5046": {
     "explanations": [
       {
-        "location": "Page 90",
-        "text": "destaca por la exportación de productos como calzado",
-        "search_phrase": "destaca por la exportación"
+        "location": "Page 90 line 11 to Page 90 line 13",
+        "text": "y exporta automóviles, frutas y legumbres, vino, aceite, calzado, medicamentos, etc.",
+        "search_phrase": "y exporta automóviles, frutas y"
       }
     ]
   },
   "5047": {
     "explanations": [
       {
-        "location": "Page 79",
+        "location": "Page 79 line 24 to Page 79 line 41",
         "text": "Centros de educación de personas adultas (CEPA): para proporcionar a las personas mayores de 18 años la posibilidad de completar estudios (obtener el Título de Graduado en Educación Secundaria Obligatoria)",
         "search_phrase": "Centros de educación de"
       }
@@ -2399,7 +2409,7 @@
   "5048": {
     "explanations": [
       {
-        "location": "Page 79",
+        "location": "Page 79 line 20 to Page 79 line 37",
         "text": "centros de formación profesional: que puede ser básica, de grado medio o superior.",
         "search_phrase": "centros de formación profesional:"
       }
@@ -2408,7 +2418,7 @@
   "5049": {
     "explanations": [
       {
-        "location": "Page 81",
+        "location": "Page 81 line 1 to Page 81 line 11",
         "text": "Centro de salud: para una atención primaria de salud donde médicos de familia, pediatras, enfermeros prestan su servicio.",
         "search_phrase": "Centro de salud: para"
       }
@@ -2417,106 +2427,111 @@
   "5050": {
     "explanations": [
       {
-        "location": "Page 81",
-        "text": "Los ciudadanos también pueden solicitar la tarjeta sanitaria europea... que tiene una validez de dos años.",
-        "search_phrase": "Los ciudadanos también pueden"
+        "location": "Page 81 line 25 to Page 81 line 27",
+        "text": "Los ciudadanos también pueden solicitar la tarjeta sanitaria europea, para utilizar en otros países de la UE, que tiene una validez de dos años.",
+        "search_phrase": "Los ciudadanos también pueden solicitar"
       }
     ]
   },
   "5051": {
     "explanations": [
       {
-        "location": "Page 77",
-        "text": "La cena suele ser más ligera que la comida, entre las 21:00 y las 22:00 h.",
-        "search_phrase": "La cena suele ser"
+        "location": "Page 75 line 41 to Page 75 line 44",
+        "text": "Los horarios de las comidas en España varían según el día de la semana y las costumbres de cada familia, pero, en general, el desayuno es de 7:30 a 8:30, la comida de 14:00 a 15:30 y la cena de 21:00 a 22:00 h.",
+        "search_phrase": "Los horarios de las comidas en"
       }
     ]
   },
   "5052": {
     "explanations": [
       {
-        "location": "Page 82",
-        "text": "El 112 es el teléfono único de emergencias para toda la Unión Europea.",
-        "search_phrase": "El 112 es el"
+        "location": "Page 82 line 29 to Page 82 line 32",
+        "text": "El número de teléfono 112 es gratuito y ofrece ayuda al ciudadano ante cualquier tipo de emergencia (sanitaria, incendio, salvamento o seguridad ciudadana) en la Unión Europea.",
+        "search_phrase": "El número de teléfono 112 es"
       }
     ]
   },
   "5053": {
     "explanations": [
       {
-        "location": "Page 84",
-        "text": "Los periódicos de información general y de difusión nacional con más lectores son El País, El Mundo, ABC, La Vanguardia, La Razón.",
-        "search_phrase": "Los periódicos de información"
+        "location": "Page 83 line 59 to Page 83 line 60",
+        "text": "Medios nacionales: ABC, El Mundo, El País, La Razón, La Vanguardia.",
+        "search_phrase": "Medios nacionales: ABC,"
       }
     ]
   },
   "5054": {
     "explanations": [
       {
-        "location": "Page 86",
-        "text": "En el estanco se compran sellos para las cartas y tabaco.",
-        "search_phrase": "En el estanco se"
+        "location": "Page 86 line 20 to Page 86 line 20",
+        "text": "Correos: es el lugar en el que se realizan envíos postales.",
+        "search_phrase": "Correos: es el lugar"
+      },
+      {
+        "location": "Page 91 line 28 to Page 91 line 30",
+        "text": "como el IVA o los Impuestos Especiales, sobre el alcohol y bebidas alcohólicas, los hidrocarburos, el tabaco o la matriculación de medios de transporte.",
+        "search_phrase": "los hidrocarburos, el tabaco o"
       }
     ]
   },
   "5055": {
     "explanations": [
       {
-        "location": "Page 82",
-        "text": "El teléfono 016 de atención a las víctimas de violencia de género... Funciona las 24 horas del día",
-        "search_phrase": "El teléfono 016 de"
+        "location": "Page 82 line 33 to Page 82 line 36",
+        "text": "El número de teléfono 016 es un servicio gratuito de atención a víctimas de violencia de género. Está disponible las 24 horas del día, los 365 días del año, y no deja rastro",
+        "search_phrase": "El número de teléfono 016 es"
       }
     ]
   },
   "5056": {
     "explanations": [
       {
-        "location": "Page 81",
-        "text": "La Organización Nacional de Ciegos Españoles (ONCE) es una organización que lucha por la integración de las personas con ceguera o deficiencia visual.",
-        "search_phrase": "La Organización Nacional de"
+        "location": "Page 82 line 19 to Page 82 line 23",
+        "text": "La Organización Nacional de Ciegos Españoles (ONCE) trabaja para conseguir la integración de las personas con discapacidad visual y colabora en la atención y defensa de los derechos de las personas con distintos tipos de discapacidad.",
+        "search_phrase": "La Organización Nacional de Ciegos"
       }
     ]
   },
   "5057": {
     "explanations": [
       {
-        "location": "Page 61",
-        "text": "El Camino de Santiago (Patrimonio de la Humanidad)",
-        "search_phrase": "El Camino de Santiago"
+        "location": "Page 52 line 9 to Page 52 line 11",
+        "text": "Otro de los bienes españoles declarado Patrimonio de la Humanidad es el Camino de Santiago, una de las rutas de peregrinación artístico-religiosas europeas más importantes.",
+        "search_phrase": "declarado Patrimonio de la Humanidad es el"
       }
     ]
   },
   "5058": {
     "explanations": [
       {
-        "location": "Page 84",
-        "text": "Canal 24 horas (noticias)",
-        "search_phrase": "Canal 24 horas noticias"
+        "location": "Page 83 line 41 to Page 83 line 43",
+        "text": "Canales públicos. Corporación RTVE (Radio Televisión Española): La 1 (generalista), La 2 (cultural), Clan (infantil), 24 horas (noticias) y Teledeporte (deportes).",
+        "search_phrase": "24 horas (noticias) y"
       }
     ]
   },
   "5059": {
     "explanations": [
       {
-        "location": "Page 82",
-        "text": "El teléfono 016 de atención a las víctimas de violencia de género",
-        "search_phrase": "El teléfono 016 de"
+        "location": "Page 82 line 33 to Page 82 line 34",
+        "text": "El número de teléfono 016 es un servicio gratuito de atención a víctimas de violencia de género.",
+        "search_phrase": "El número de teléfono 016 es"
       }
     ]
   },
   "5060": {
     "explanations": [
       {
-        "location": "Page 87",
-        "text": "red de trenes (de cercanías, y de media y larga distancia).",
-        "search_phrase": "red de trenes de"
+        "location": "Page 87 line 40 to Page 88 line 3",
+        "text": "autobús, tranvía, taxi), que se completa con la red de trenes (de cercanías, y de media y larga distancia).",
+        "search_phrase": "completa con la red de trenes"
       }
     ]
   },
   "5061": {
     "explanations": [
       {
-        "location": "Page 87",
+        "location": "Page 87 line 1 to Page 87 line 10",
         "text": "5. No fumar, en el caso de que el lugar público esté frente a un hospital o centro educativo.",
         "search_phrase": "5. No fumar, en"
       }
@@ -2525,34 +2540,34 @@
   "5062": {
     "explanations": [
       {
-        "location": "Page 78",
-        "text": "FP de grado medio... con la que se obtiene el título de Técnico.",
-        "search_phrase": "FP de grado medio"
+        "location": "Page 77 line 38 to Page 77 line 41",
+        "text": "Ciclos formativos de Grado Medio: tienen una duración de dos cursos académicos y al completarlos se obtiene el título de Técnico,",
+        "search_phrase": "se obtiene el título de Técnico,"
       }
     ]
   },
   "5063": {
     "explanations": [
       {
-        "location": "Page 78",
-        "text": "estudios de doctorado, cuya superación da derecho a la obtención del título de Doctor.",
-        "search_phrase": "estudios de doctorado, cuya"
+        "location": "Page 78 line 32 to Page 78 line 36",
+        "text": "Doctorado: formación avanzada en técnicas de investigación. Se obtiene el título de Doctor tras superar un período de formación e investigación, así como tras la elaboración y presentación de la tesis doctoral.",
+        "search_phrase": "superación da derecho a la obtención del"
       }
     ]
   },
   "5064": {
     "explanations": [
       {
-        "location": "Page 85",
-        "text": "Las farmacias son los únicos establecimientos donde se pueden comprar medicinas con receta médica.",
-        "search_phrase": "Las farmacias son los"
+        "location": "Page 86 line 15 to Page 86 line 19",
+        "text": "Farmacias: donde se venden medicinas con o sin receta médica, algunas con ayuda económica de la Administración pública, y tienen un horario mínimo establecido y un servicio de guardia para atender a los ciudadanos durante las 24 horas del día.",
+        "search_phrase": "Farmacias: donde se venden medicinas con"
       }
     ]
   },
   "5065": {
     "explanations": [
       {
-        "location": "Page 87",
+        "location": "Page 87 line 1 to Page 87 line 11",
         "text": "6. No pisar el césped, ni arrancar flores.",
         "search_phrase": "6. No pisar el"
       }
@@ -2561,7 +2576,7 @@
   "5066": {
     "explanations": [
       {
-        "location": "Page 87",
+        "location": "Page 87 line 15 to Page 87 line 32",
         "text": "tener al día el seguro del coche",
         "search_phrase": "tener al día el"
       }
@@ -2570,16 +2585,16 @@
   "5067": {
     "explanations": [
       {
-        "location": "Page 83",
-        "text": "España tiene grandes aeropuertos, como el de Adolfo Suárez-Madrid Barajas",
-        "search_phrase": "España tiene grandes aeropuertos,"
+        "location": "Page 89 line 13 to Page 89 line 16",
+        "text": "Aeropuertos más importantes: Madrid (Adolfo Suárez Madrid-Barajas), Barcelona (Josep Tarradellas Barcelona-El Prat), Palma de Mallorca (Son Sant Joan) y Málaga (Pablo Picasso).",
+        "search_phrase": "Adolfo Suárez Madrid-Barajas"
       }
     ]
   },
   "5068": {
     "explanations": [
       {
-        "location": "Page 87",
+        "location": "Page 87 line 9 to Page 87 line 26",
         "text": "uso obligatorio del cinturón de seguridad de todos los ocupantes",
         "search_phrase": "uso obligatorio del cinturón"
       }
@@ -2588,7 +2603,7 @@
   "5069": {
     "explanations": [
       {
-        "location": "Page 87",
+        "location": "Page 87 line 6 to Page 87 line 23",
         "text": "el límite en autopista o autovía es de 120 km/h",
         "search_phrase": "el límite en autopista"
       }
@@ -2597,70 +2612,75 @@
   "5070": {
     "explanations": [
       {
-        "location": "Page 88",
-        "text": "Ceder el asiento a las personas mayores, con movilidad reducida, mujeres embarazadas o personas con niños.",
-        "search_phrase": "Ceder el asiento a"
+        "location": "Page 88 line 20 to Page 88 line 21",
+        "text": "Las principales normas de comportamiento en los transportes públicos son:",
+        "search_phrase": "Las principales normas de comportamiento"
+      },
+      {
+        "location": "Page 88 line 29 to Page 88 line 30",
+        "text": "7. Ceder el asiento a las personas mayores, con movilidad reducida o embarazadas.",
+        "search_phrase": "7. Ceder el asiento a"
       }
     ]
   },
   "5071": {
     "explanations": [
       {
-        "location": "Page 88",
-        "text": "En el caso del taxi... una luz verde en la parte superior exterior indica que está libre.",
-        "search_phrase": "En el caso del"
+        "location": "Page 88 line 4 to Page 88 line 7",
+        "text": "El color de los taxis depende de la ciudad, los precios varían de una zona a otra y se pueden tomar en las paradas de taxis o en circulación si tienen una luz verde encendida o el cartel de «Libre».",
+        "search_phrase": "taxis depende de la ciudad"
       }
     ]
   },
   "5072": {
     "explanations": [
       {
-        "location": "Page 88",
-        "text": "Los animales domésticos (perros, gatos, hurones) deben estar identificados con un microchip y tener las vacunas obligatorias",
-        "search_phrase": "Los animales domésticos perros,"
+        "location": "Page 74 line 23 to Page 74 line 26",
+        "text": "Estos animales deben registrarse obligatoriamente con un microchip electrónico —sobre todo los perros y los gatos—; vacunarse y llevarse a revisiones veterinarias periódicas,",
+        "search_phrase": "Estos animales deben registrarse obligatoriamente con"
       }
     ]
   },
   "5073": {
     "explanations": [
       {
-        "location": "Page 71",
-        "text": "necesitan el pasaporte para viajar a otros países.",
-        "search_phrase": "necesitan el pasaporte para"
+        "location": "Page 70 line 14 to Page 70 line 17",
+        "text": "El pasaporte. Es el documento oficial español para poder viajar a países que no pertenecen a la Unión Europea o que no forman parte del espacio Schengen.",
+        "search_phrase": "El pasaporte. Es el documento oficial"
       }
     ]
   },
   "5074": {
     "explanations": [
       {
-        "location": "Page 91",
-        "text": "La edad mínima para trabajar en España es de 16 años",
-        "search_phrase": "La edad mínima para"
+        "location": "Page 90 line 25 to Page 90 line 25",
+        "text": "La edad mínima para trabajar en España es de 16 años .",
+        "search_phrase": "La edad mínima para trabajar en España"
       }
     ]
   },
   "5075": {
     "explanations": [
       {
-        "location": "Page 90",
-        "text": "El sector servicios es el que tiene mayor peso en la economía española",
-        "search_phrase": "El sector servicios es"
+        "location": "Page 89 line 27 to Page 89 line 30",
+        "text": "En primer lugar, se encuentra el sector terciario (servicios), en segundo lugar, se sitúa el sector secundario (industria y construcción) y, en tercer lugar, el primario (agricultura, pesca y ganadería).",
+        "search_phrase": "En primer lugar, se encuentra el"
       }
     ]
   },
   "5076": {
     "explanations": [
       {
-        "location": "Page 90",
-        "text": "España destaca por la innovación en sectores como las energías renovables",
-        "search_phrase": "España destaca por la"
+        "location": "Page 90 line 16 to Page 90 line 19",
+        "text": "España cuenta con una importante posición en innovación, con desarrollos importantes en energías renovables, en biotecnología, en el sector farmacéutico, de transportes y en las pequeñas y medianas industrias tecnológicas.",
+        "search_phrase": "España cuenta con una importante posición en"
       }
     ]
   },
   "5077": {
     "explanations": [
       {
-        "location": "Page 91",
+        "location": "Page 91 line 1 to Page 91 line 12",
         "text": "La ley laboral más importante es el Estatuto de los Trabajadores.",
         "search_phrase": "La ley laboral más"
       }
@@ -2669,25 +2689,25 @@
   "5078": {
     "explanations": [
       {
-        "location": "Page 81",
-        "text": "Existen farmacias de guardia que prestan servicio de urgencia las 24 horas del día.",
-        "search_phrase": "Existen farmacias de guardia"
+        "location": "Page 86 line 17 to Page 86 line 19",
+        "text": "y tienen un horario mínimo establecido y un servicio de guardia para atender a los ciudadanos durante las 24 horas del día.",
+        "search_phrase": "servicio de guardia para atender a los"
       }
     ]
   },
   "5079": {
     "explanations": [
       {
-        "location": "Page 79",
-        "text": "Escuelas infantiles: ... Consta de dos ciclos",
-        "search_phrase": "Escuelas infantiles: Consta de"
+        "location": "Page 79 line 26 to Page 79 line 28",
+        "text": "Escuelas infantiles: es una etapa educativa de carácter voluntario para niñas y niños de 0 a 6 años. Consta de dos ciclos, el primero comprende hasta los 3 años de edad y el segundo, abarca de los 3 a los 6 años.",
+        "search_phrase": "Escuelas infantiles: es una etapa educativa"
       }
     ]
   },
   "5080": {
     "explanations": [
       {
-        "location": "Page 76",
+        "location": "Page 76 line 1 to Page 76 line 4",
         "text": "Calendario escolar: comienza en septiembre",
         "search_phrase": "Calendario escolar: comienza en"
       }
@@ -2696,36 +2716,36 @@
   "5081": {
     "explanations": [
       {
-        "location": "Page 78",
-        "text": "Enseñanza de idiomas en Escuelas Oficiales de Idiomas (EOI), para personas mayores de 16 años",
-        "search_phrase": "Enseñanza de idiomas en"
+        "location": "Page 78 line 51 to Page 78 line 55",
+        "text": "Enseñanza de idiomas en Escuelas Oficiales de Idiomas (EOI): se organizan en los tres niveles correspondientes al Marco Común Europeo de Referencia para las Lenguas y para acceder es requisito tener 16 años o más.",
+        "search_phrase": "Enseñanza de idiomas en Escuelas Oficiales"
       }
     ]
   },
   "5082": {
     "explanations": [
       {
-        "location": "Page 91",
-        "text": "Informe de vida laboral: es un documento que recoge todos los períodos en los que el trabajador ha cotizado en la Seguridad Social.",
-        "search_phrase": "Informe de vida laboral:"
+        "location": "Page 71 line 8 to Page 71 line 11",
+        "text": "El informe de vida laboral. Es un documento que muestra la cotización a la Seguridad Social y toda la trayectoria profesional (las empresas en las que se ha trabajado y las fechas y tipos de los contratos).",
+        "search_phrase": "El informe de vida laboral. Es"
       }
     ]
   },
   "5083": {
     "explanations": [
       {
-        "location": "Page 91",
-        "text": "Convenios colectivos: son los acuerdos... donde se regulan las condiciones de trabajo",
-        "search_phrase": "Convenios colectivos: son los"
+        "location": "Page 91 line 12 to Page 91 line 14",
+        "text": "Los convenios colectivos son acuerdos que se firman entre la empresa y los representantes de los trabajadores (sindicatos) sobre las condiciones laborales.",
+        "search_phrase": "Los convenios colectivos son acuerdos"
       }
     ]
   },
   "5084": {
     "explanations": [
       {
-        "location": "Page 90",
-        "text": "España es una potencia turística mundial.",
-        "search_phrase": "España es una potencia"
+        "location": "Page 90 line 4 to Page 90 line 10",
+        "text": "sectores ferroviario, financiero y textil; y el turismo. Respecto al turismo, el Gobierno informó de que 93,8 millones de turistas internacionales visitaron España en 2023. Según el informe de 2017 de la Organización Mundial de Turismo (OMT), España es el tercer país del mundo en número de turistas extranjeros.",
+        "search_phrase": "sectores ferroviario, financiero y textil; y el"
       }
     ]
   }

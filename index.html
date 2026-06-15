@@ -1331,8 +1331,8 @@ function tShowHelp() {
   const textEl = document.getElementById('t-explanation-text');
 
   if (box && locEl && textEl) {
-    locEl.textContent = exp.location;
-    textEl.textContent = exp.text;
+    locEl.textContent = expInfo.explanations.map(e => e.location).join(' | ');
+    textEl.textContent = expInfo.explanations.map(e => e.text).join('\n\n');
     box.classList.remove('hidden');
     box.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
   }
@@ -1358,8 +1358,8 @@ function pShowHelp() {
   const textEl = document.getElementById('p-explanation-text');
   
   if (box && locEl && textEl) {
-    locEl.textContent = exp.location;
-    textEl.textContent = exp.text;
+    locEl.textContent = expInfo.explanations.map(e => e.location).join(' | ');
+    textEl.textContent = expInfo.explanations.map(e => e.text).join('\n\n');
     box.classList.remove('hidden');
     box.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
   }
@@ -1386,8 +1386,8 @@ function rShowHelp(qId, btnElement) {
   const textEl = reviewItem.querySelector('.explanation-text');
 
   if (box && locEl && textEl) {
-    locEl.textContent = exp.location;
-    textEl.textContent = exp.text;
+    locEl.textContent = expInfo.explanations.map(e => e.location).join(' | ');
+    textEl.textContent = expInfo.explanations.map(e => e.text).join('\n\n');
     box.classList.remove('hidden');
     // Hide the help button since explanation is now visible
     btnElement.parentNode.classList.add('hidden');
@@ -1395,7 +1395,7 @@ function rShowHelp(qId, btnElement) {
   }
 
   const page = extractPageNumber(exp.location);
-  const searchPhrase = extractSearchPhrase(exp.text);
+  const searchPhrase = exp.search_phrase || extractSearchPhrase(exp.text);
 
   togglePdfView(true);
   loadPdfInIframe(page, searchPhrase);
